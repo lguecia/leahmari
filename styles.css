@@ -1,0 +1,607 @@
+body {
+    background: white;
+    color: gray;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0px auto;
+    border: 0px #343a40;
+    padding: 20px;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    background: #F2F2F2;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    position: relative;
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+header a {
+    text-decoration: none;
+    color: gray;
+    font-size: 24px;
+    /* font-family: "Brush Script MT", cursive; */
+}
+
+
+/* nav */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+
+/* end nav */
+
+
+/* main */
+
+main {
+    margin-top: 20px;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
+
+.slogan-org{
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 48px;
+    /* font-family: "Brush Script MT", cursive; */
+}
+
+
+/* parallax */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make the image fully responsive */
+.parallax_org img {
+    width: 100%;
+    height: 100%;
+}
+
+.parallax_org {
+  /* The image used */
+  background-image: url("Organization/YoniShirts.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* end parallax */
+
+
+.container_gray {
+    background: #F2F2F2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+
+/* gallery grid */
+
+.container_3_columns {
+    background: #343a40;
+    /* top right bottom left */
+    margin: 20px 0px 20px 0px;
+    border: 2px #343a40;
+    padding: 0px 12px 0px 12px;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#col-text_left {
+    padding: 20px;
+}
+
+#col-text_right {
+    padding: 20px;
+}
+
+#col-img {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url('Organization/LEBlueprint.jpg');
+}
+
+.col img {
+    width: 100%;
+    height: 100%;
+}
+
+/* https://www.w3schools.com/howto/howto_css_three_columns.asp */
+
+/* Create three equal columns that floats next to each other */
+.col {
+    float: left;
+    width: 33.33%;
+    margin: auto;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col {
+        width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    font-size: 10px;
+  }
+}
+
+/* end gallery grid */
+
+
+.container_scroll_bg-dark {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    max-height: 300px;
+    overflow: auto;
+    border: 2px #343a40;
+    border-style: solid;
+    border-collapse: separate;
+}
+
+
+/* carousel */
+
+#rotate1, #rotate2, #rotate3 {
+    transform:rotate(90deg);
+}
+
+.carousel-item img {
+    width: 900px;
+    height: 600px;
+}
+
+/* Responsive layout*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .carousel-item img {
+        width: 100%;
+        height: 200px;
+  }
+}
+
+.carousel {
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+/* Slideshow container */
+
+.carousel {
+    /*max-width: 1155px;*/
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.slide1, .slide2, .slide3, .slide4, .slide5, .slide6, .slide7, .slide8 {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: static;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: gray;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.2s linear;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* end carousel */
+
+
+/* form submit */
+
+.form-row {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+}
+
+#radio {
+    justify-content: center;
+    align-content: space-around;
+    align-items: center;
+}
+
+.img-round {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+/* Responsive layout*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .img-round {
+        width: 75px;
+        height: 75px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .img-round {
+        width: 75px;
+        height: 75px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .img-round {
+        width: 150px;
+        height: 150px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .img-round {
+        width: 175px;
+        height: 175px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .img-round {
+        width: 200px;
+        height: 200px;
+  }
+}
+
+/* HIDE RADIO */
+[type=radio] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+  outline: 2px solid gray;
+}
+
+#radio {
+    align-items: center;
+}
+
+/* end form submit */
+
+
+/* container with 2 columns */
+
+.container_2_columns {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.left_column_of2 img, .right_column_of2 img {
+    max-width: 100%;
+    max-height: 100%;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+.left_column_of2 {
+    max-height: 250px;
+    overflow: hidden;
+    float: left;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.right_column_of2 {
+    max-height: 250px;
+    overflow: hidden;
+    float: right;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .left_column_of2, .right_column_of2 {
+        width: 100%;
+        height: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .left_column_of2, .right_column_of2 {
+        width: 100%;
+        height: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .left_column_of2, .right_column_of2 {
+        width: 100%;
+        height: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .left_column_of2, .right_column_of2 {
+        width: 100%;
+        height: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .left_column_of2, .right_column_of2 {
+        width: 100%;
+        height: 100%;
+  }
+}
+
+/* end container with 2 columns */
+
+
+.CRM {
+    background: #F2F2F2;
+    padding-top: 20px;
+    width: auto;
+}
+
+
+/* popup */
+
+.popup {
+    width: 40%;
+    margin: 0 auto;
+    background: #F2F2F2;
+    padding: 35px;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.button {
+    background: white;
+    font-size: 1em;
+    padding: 10px;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.button:hover {
+    background: gray;
+    color: white;
+    text-decoration: none;
+}
+
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #343a40;
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    padding:10px;
+    width: 80%;
+    position: relative;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: gray;
+}
+.popup .close {
+    position: static;
+    top: 2px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}
+.popup .close:hover {
+    color: gray;
+}
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+    .box{
+        width: 70%;
+    }
+    .popup{
+        width: 70%;
+    }
+}
+
+/* end popup */
+/* end main */
+
+
+/* footer */
+
+.action {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    background: #343a40;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:link {
+    text-decoration: none;
+}
+
+.menu li a:visited {
+    text-decoration: none;
+ }
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+/* end footer */
+
+
+
+/* LOGIN_ORG, SIGNUP_ORG */
+
+textarea,
+input[type="text"]{
+  border: 1px solid lightgray;
+}
+
+/* end LOGIN_ORG, SIGNUP_ORG */
+
+
+
+
+/* CALENDAR_ORG */
+
+.header_month {
+    text-align: center;
+    color: #343a40;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.count_peach {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 25px 0;
+    background: #FFDAB9;
+    width: 100%;
+    height: 100%;
+}
+
+.count_gray {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 25px 0;
+    background: #F2F2F2;
+    width: 100%;
+    height: 100%;
+}
+
+/* end CALENDAR_ORG */
