@@ -19,4 +19,4 @@ def index():
     server.starttls()
     server.login("lguecia@gmail.com", os.getenv("PASSWORD"))
     server.sendmail("lguecia@gmail.com", email, message)
-    return render_template("bookingconfirmation_org.html")
+    return render_template("bookingconfirmation.html")
