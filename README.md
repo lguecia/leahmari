@@ -3,4 +3,4 @@
 
 # Images In ReadMes
 
-![](leahmari/images/Boie.jpg)
+![](images/Boie.jpg)
