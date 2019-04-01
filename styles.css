@@ -368,7 +368,7 @@ img {
 .container_2_columns {
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -387,7 +387,6 @@ img {
 
 .left_column_of2 {
     max-height: 250px;
-    padding: 20px;
     overflow: hidden;
     float: left;
     flex-wrap: wrap;
@@ -396,7 +395,6 @@ img {
 
 .right_column_of2 {
     max-height: 250px;
-    padding: 20px;
     overflow: hidden;
     float: right;
     flex-wrap: wrap;
