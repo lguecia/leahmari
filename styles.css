@@ -217,7 +217,7 @@ img {
 @media only screen and (max-width: 600px) {
     .carousel-item img {
         width: 100%;
-        min-height: 200px;
+        height: 300px;
   }
 }
 
@@ -246,7 +246,7 @@ img {
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding: 16px;
+    padding: 10px; /* 16 px */
     color: gray;
     font-weight: bold;
     font-size: 18px;
