@@ -87,7 +87,7 @@ img {
 
 .parallax_org {
   /* The image used */
-  background-image: url("/leahmarie.com/YoniShirts.jpg");
+  background-image: url("leahmarie.com/YoniShirts.jpg");
 
   /* Set a specific height */
   min-height: 500px;
@@ -139,7 +139,7 @@ img {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    /* background-image: url('/leahmarie.com/LEBlueprint.jpg'); */
+    background-image: url('leahmarie.com/LEBlueprint.jpg');
 }
 
 .col img {
