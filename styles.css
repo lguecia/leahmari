@@ -247,7 +247,7 @@ img {
     top: 50%;
     width: auto;
     margin-top: -22px;
-    padding: 10px; /* 16 px */
+    padding: 0px; /* 16 px */
     color: gray;
     font-weight: bold;
     font-size: 18px;
