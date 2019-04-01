@@ -196,9 +196,9 @@ img {
 
 /* carousel */
 
-#rotate1, #rotate2, #rotate3 {
+/* #rotate1, #rotate2, #rotate3 {
     transform:rotate(90deg);
-}
+} */
 
 .carousel-item img {
     width: 900px;
