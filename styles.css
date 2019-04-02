@@ -449,6 +449,7 @@ img {
     font-weight: bold;
     font-size: 20px;
     white-space: normal;
+    word-wrap: break-word;
 }
 
 /* end container with 2 columns */
