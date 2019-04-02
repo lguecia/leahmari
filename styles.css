@@ -621,3 +621,38 @@ input[type="text"]{
 }
 
 /* end CALENDAR_ORG */
+
+
+/* PRICING */
+
+#logo {
+    width: 20%;
+    height: 20%;
+}
+
+.img {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+}
+
+.img img {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    max-height: 350px;
+}
+
+.col-sm-3, .col-sm-4 {
+    background: #F2F2F2;
+    margin-top: 20px;
+    padding: 20px 0 0 0;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+/* end PRICING */
