@@ -73,11 +73,11 @@ main {
 
 /* parallax */
 
-img {
+/* img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* Make the image fully responsive */
 .parallax_org img {
