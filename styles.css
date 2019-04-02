@@ -653,7 +653,7 @@ input[type="text"]{
     max-height: 350px;
 }
 
-.col-sm-3, .col-sm-4 {
+.price {
     background: #F2F2F2;
     margin-top: 20px;
     padding: 20px 0 0 0;
