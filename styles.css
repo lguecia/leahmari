@@ -661,6 +661,7 @@ ul {
 /* BLOG */
 
 .blog-section {
+    padding: 20px;
     overflow: hidden;
     background-size: cover;
     background-position: center;
