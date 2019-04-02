@@ -147,7 +147,7 @@ main {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url('images/LEBlueprint.jpg');
+    /* background-image: url('images/LEBlueprint.jpg'); */
 }
 
 .col img {
