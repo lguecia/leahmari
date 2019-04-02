@@ -159,6 +159,7 @@
                             <li data-target="#myCarousel" data-slide-to="11"></li>
                             <li data-target="#myCarousel" data-slide-to="12"></li>
                             <li data-target="#myCarousel" data-slide-to="13"></li>
+                            <li data-target="#myCarousel" data-slide-to="14"></li>				
                         </ul>
 
                         <!-- The slideshow -->
@@ -186,6 +187,9 @@
                             </div>
                             <div class="carousel-item">
                                 <img class="d-block w-50" src="LESuitsEdit.JPG" alt="Bathing Suits">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-50" src="LKFL.jpg" alt="Bathroom">
                             </div>
                             <div class="carousel-item" id="rotate1">
                                 <img class="d-block w-50" src="images/Ross300.jpg" alt="His Closet">
@@ -254,38 +258,62 @@
                         <div class="form-row">
                             <label class="col-form-label col-md-4" for="name">Name</label>
                             <div class="form-group col-md-8">
-                                <input name="name" type="text" class="form-control" id="name" placeholder="name">
+                                <input name="name" type="text" class="form-control" id="name" placeholder="name" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <label class="col-form-label col-md-4" for="email">Email</label>
                             <div class="form-group col-md-8">
-                                <input name="email" type="email" class="form-control" id="email" placeholder="email@domain.com">
+                                <input name="email" type="email" class="form-control" id="email" placeholder="email@domain.com" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <label class="col-form-label col-md-4" for="phone">Phone number</label>
                             <div class="form-group col-md-8">
-                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="212-456-7890">
+                                <input name="phone" type="tel" class="form-control" id="phone" placeholder="212-456-7890" required>
                             </div>
                         </div>
-
-                        <!--<div class="form-row">
-                            <label class="col-form-label col-md-2" for="comments">Additional comments</label>
-                            <div class="form-group col-md-4">
-                                <textarea class="form-control" id="comments" rows="3" placeholder="Additional comments"></textarea>
+                        <div class="form-row">
+                            <label class="col-form-label col-md-4" for="calendar">Calendar</label>
+                            <div class="form-group col-md-8">
+                                <input autoform class="form-control" name="date" id="date" type="date" required>
                             </div>
-                            add Calendly api
-                            <label class="col-form-label col-md-2" for="calendar">Calendar</label>
-                            <div class="form-group col-md-4">
-                                <textarea class="form-control" id="calendar" rows="3" placeholder="Calendar sign up coming soon"></textarea>
+                            <label class="col-form-label col-md-4" for="comments">Additional comments</label>
+                            <div class="form-group col-md-8">
+                                <textarea class="form-control" id="comments" rows="1" placeholder="Additional comments"></textarea>
                             </div>
-                        </div>-->
+                        </div>
 
                         <!-- onclick send email and show success page (bookingconfirmation_org.html) -->
                         <input class="button" onclick="window.location.href='/bookingconfirmation_org.html'" type="button" value="Book"/>
                     </form>
                 </div>
+		 
+                <script>
+                    document.querySelector('form').onsubmit = function() {
+                        if (!document.querySelector('radio').value) {
+                            alert('Please select what you would like organized');
+                            return false;
+                        }
+                        else if (!document.querySelector('#name').value) {
+                            alert('Please provide your name');
+                            return false;
+                        }
+                        else if (!document.querySelector('#email').value) {
+                            alert('Please provide your email');
+                            return false;
+                        }
+                        else if (!document.querySelector('#phone').value) {
+                            alert('Please provide your phone number');
+                            return false;
+                        }
+                        else if (!document.querySelector('#date').value) {
+                            alert('Please select an estimated date for service');
+                            return false;
+                        }
+                        return true;
+                    };
+                </script>
 
                 <div id=product_spotlight>
                     <h4>PRODUCT SPOTLIGHT</h4>
