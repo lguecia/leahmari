@@ -443,6 +443,13 @@ img {
   }
 }
 
+#blog {
+    background: #343a40;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+
 /* end container with 2 columns */
 
 
