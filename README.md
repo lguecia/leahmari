@@ -54,3 +54,7 @@
 ![](images/ShelfBlurEdit.JPG)
 
 ![](images/YoniFoldedEdit.JPG)
+
+![](images/Logo.png)
+
+![](images/LEShirtsNewRotate.jpeg)
