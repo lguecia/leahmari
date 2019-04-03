@@ -719,10 +719,28 @@ ul {
     font-weight: bold;
 }
 
-/* unvisited, visited, mouse over, selected */
-a:link, a:visited, a:hover, a:active {
+/* unvisited */
+.articles a:link {
     text-decoration: underline;
-    color: #f2f2f2;
+    color: gray;
+}
+
+/* visited */
+.articles a:visited {
+    text-decoration: underline;
+    color: gray;
+}
+
+/* mouse over */
+.articles a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+/* selected */
+.articles a:active {
+    text-decoration: underline;
+    color: gray;
 }
 
 /* end BLOG */
