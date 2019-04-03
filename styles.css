@@ -712,6 +712,7 @@ ul {
     display: inline-block;
     text-decoration: underline;
     font-size: 14px;
+    font-weight: bold;
 }
 
 /* unvisited, visited, mouse over, selected */
