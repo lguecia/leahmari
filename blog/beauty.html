@@ -59,10 +59,81 @@
 
             <main>
 
-                <h1>COMING SOON!</h1>
-                <p>We're exploring all of the organization products out there to bring you the very best</p>
-                <input class="button" onclick="window.location.href='/blog.html'" type="button" value="Back to Blog"/>
+                <div class="blog-section-header" id="beauty-section">
+                    <img src="images/BeautyBlog.jpeg" alt="BEAUTY">
+                    <div class="centered-label" id="beauty-blog"><h1>BEAUTY</h1></div>
+                </div> 
+                <p>We are covering every day beauty to bathroom storage to traveling with makeup and toiletries. We are continuously exploring organization products and minimizing tricks to help you reduce clutter and look your very best. Check out the blog posts in the dropdown below to see products and tips:</p>
+                <label class="dropdown-label" for="states">Products and Tips:</label>
+                <div class="article-dropdown">
+                    <select name="article-select" id="beauty-select">
+                        <option disabled selected value="">Select an article</option>
+                        <!-- type next option value here -->
+                        <!-- <option value="">abc</option> -->
+                        <option value="dop-kits">Dop Kits</option>
+                        <option value="paper-goods-storage">Paper Goods Storage</option>
+                    </select>
+                </div>
 
+                <script>
+                    $(function() {
+                        $('#beauty-select').change(function(){
+                            $('.articles').hide();
+                            $('#' + $(this).val()).show();
+                        });
+                    });
+                </script>
+
+                <br>
+
+                <div class="output" id="article-container">
+                
+                <!-- ARTICLE: type next article here -->
+                    <!-- <div id="">
+                        <h6>TITLE</h6>
+                        <p></p>
+                    </div> -->
+
+                <!-- ARTICLE: Dop Kits -->
+                <div class="articles" id="dop-kits">
+                        <h6>Dop Kits</h6>
+                        <p>It's no secret, I love to travel. But traveling can be exhausting if you can't find your things! If you start to organize yourself, travel prep, traveling, and unpacking can be much less stressful. Packing cubes are everything, and this includes the beauty specific packing cube, dop kits.</p>
+                        <p>A few of my personal care favorites to tote along:</p>
+                        <ul>
+                            <li><a href="https://www.target.com/p/ogx-nourishing-coconut-milk-shampoo-trial-size-3-fl-oz/-/A-15408619?utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=beauty&utm_content=dopkit">Organix travel size shampoo</a> | I have a keratin treatment in my hair, so I always take a sulfate-free shampoo with me. All conditioners are sulfate-free, so I leave this behind to save space and unecessary clutter when I'm looking for an item.</li>
+                            <li>Travel tooth brush and toothpaste | I am very dedicated to my electric toothbrush, but just at home. In case I'm not staying at a hotel with dental kits, I bring along a portable pair.</li>
+                                <ul>
+                                    <li>An alternative item I've been wanting to try out: <a href="https://www.getquip.com/products/copper-metal-electric-toothbrush-set?gclid=Cj0KCQjws5HlBRDIARIsAOomqA3KwM5L56DB9kBJU5xA0e2Hg3MXL4goxxOyHcW2uGtAbbBnr60U2_kaAon4EALw_wcB?utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=beauty&utm_content=dopkit">quip</a></li>
+                                </ul>
+                            <li>Comb | Yep, a comb instead of a hair brush. Combs are allegedly better for hair health, and they're smaller - win/win!</li>
+                            <li>Sample size foundaton | If you are the lucky recipient of a leak-free sample container, hold on to it and fill it with your favorite foundation for travel. My favorite: <a href="https://www.sephora.com/product/double-wear-stay-in-place-makeup-P378284?utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=beauty&utm_content=dopkit">Estee Lauder double wear</a></li>
+                        </ul>
+                        <img src="">
+                        <p>If you're going on a shorter trip, merge your beauty and personal care supply filled dop kit with intimates like socks.</p>
+                        <p>And most importantly, always keep your essentials packed for your next trip. These are items that you use every single trip, no matter what, and do not use at home. It's up to you what you include!</p>
+                    </div> <br>
+
+                <!-- ARTICLE: Paper Goods Storage -->
+                    <div class="articles" id="paper-goods-storage">
+                        <h6>Paper Goods Storage</h6>
+                        <p>I'm going to make this short and sweet. Unless you're on another level of minimalism and go to the store for a single roll of toilet paper or paper towels every time you run out, you're going to want to read this. Chances are, when you bring home packs of toilet paper and paper towels, you keep it in the plastic. Like dry cleaning should be taken out of its plastic, so should your paper products:</p>
+                        <ul>
+                            <li>It looks better</li>
+                            <li>Having individual rolls makes it possible to stack and store custom to your area</li>
+                            <li>There's no hassle when you're taking product out of storage</li>
+                        </ul>
+                        <img src="">
+                        <p>There is no need to go out and buy a basket or container for this storage hack. This kind of defeats the ease of use you gain when you remove the plastic packaging. Plus, homes come with plenty of storage for items like this. These storage locations keep your goods hidden, yet accessible:</p>
+                        <ul>
+                            <li>Laundry room</li>
+                            <li>Kitchen cabinet or pantry</li>
+                            <li>Under the bathroom sink</li>
+                        </ul>
+                        <p>Happy wiping!</p>
+                    </div>
+
+                    <input class="button" onclick="window.location.href='/blog.html'" type="button" value="Back to Blog"/>
+                </div>
             </main>
 
             <footer>
