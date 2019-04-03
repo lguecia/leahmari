@@ -709,7 +709,7 @@ ul {
 }
 
 .articles a {
-    display: block;
+    display: inline-block;
     text-decoration: underline;
     font-size: 14px;
 }
