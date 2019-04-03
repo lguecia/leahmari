@@ -714,4 +714,10 @@ ul {
     font-size: 14px;
 }
 
+/* unvisited, visited, mouse over, selected */
+a:link, a:visited, a:hover, a:active {
+    text-decoration: underline;
+    color: #f2f2f2;
+}
+
 /* end BLOG */
