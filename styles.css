@@ -708,6 +708,10 @@ ul {
     width: 100%
 }
 
+.articles {
+    text-align: left;
+}
+
 .articles a {
     display: inline-block;
     text-decoration: underline;
