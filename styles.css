@@ -674,7 +674,7 @@ ul {
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    object-fit: contain;
+    object-fit: cover;
     height: 250px;
 }
 
@@ -697,7 +697,6 @@ ul {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    height: 250px;
 }
 
 .centered-label {
