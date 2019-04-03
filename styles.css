@@ -699,4 +699,17 @@ ul {
     transform: translate(-50%, -50%);
 }
 
+.blog-section-header {
+    padding: 20px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    width: 100%
+}
+
+.articles a {
+    font-size: 14px;
+}
+
 /* end BLOG */
