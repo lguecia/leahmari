@@ -699,6 +699,10 @@ ul {
     width: 100%;
 }
 
+.blog-section img {
+    height: 250px;
+}
+
 .centered-label {
     position: absolute;
     top: 50%;
