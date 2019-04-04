@@ -68,3 +68,9 @@
 ![](images/OfficeBlog.jpeg)
 
 ![](images/TravelBlog.jpg)
+
+![](images/HomeHeading.png)
+
+![](images/OfficeHeading.png)
+
+![](images/TravelHeading.png)
