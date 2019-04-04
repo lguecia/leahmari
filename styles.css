@@ -279,8 +279,8 @@ img {
 
 #radio {
     justify-content: center;
-    align-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
 .img-round {
@@ -290,20 +290,25 @@ img {
     position: relative;
 }
 
+/* center radio images on mobile */
+.book-radio {
+    flex-direction: column;
+}
+
 /* Responsive layout*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .img-round {
-        width: 75px;
-        height: 75px;
+        width: 100px;
+        height: 100px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .img-round {
-        width: 75px;
-        height: 75px;
+        width: 100px;
+        height: 100px;
   }
 }
 
