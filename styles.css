@@ -147,6 +147,11 @@ img {
     padding: 20px;
 }
 
+.standard-ul {
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
 #col-img {
     margin: 0px;
     padding: 0px;
@@ -674,9 +679,9 @@ input[type="text"]{
     padding: 20px 0 0 0;
 }
 
-ul {
+.inside-ul {
     list-style-type: circle;
-    list-style-position: outside;
+    list-style-position: inside;
 }
 
 /* end PRICING */
