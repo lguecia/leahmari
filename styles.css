@@ -596,6 +596,10 @@ img {
     text-decoration: underline;
 }
 
+.fa-envelope, .fa-instagram {
+   color: white;
+}
+
 /* end footer */
 
 
