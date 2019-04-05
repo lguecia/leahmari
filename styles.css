@@ -672,7 +672,7 @@ input[type="text"]{
 
 ul {
     list-style-type: circle;
-    list-style-position: inside;
+    list-style-position: outside;
 }
 
 /* end PRICING */
