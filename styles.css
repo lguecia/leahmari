@@ -101,14 +101,14 @@ img {
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
-  .parallax {
+  .parallax_org {
     background-attachment: scroll;
   }
 }
 
 /* Turn off parallax scrolling for smartphones (portrait and landscape) */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .parallax {
+  .parallax_org {
     background-attachment: scroll;
   }
 }
