@@ -67,10 +67,20 @@
                     <h1>simply keeping things neat.</h1>
                 </div>
 
-                <div class="parallax_org">
-                    <!-- <a href="login_org.html"><img src="https://i2.wp.com/saritaandgail.com/wp-content/uploads/2018/10/Nate-Berkus-Manhattan-Penthouse-Closet-Window.jpg?ssl=1" title="see your calendar"/></a> -->
-                </div>
-
+                <div class="parallax_org" data-parallax="scroll" data-image-src="images/YoniShirts.jpg"></div>
+		    
+                <script>
+                    $(document).ready(function() {
+                        $(window).resize(function () {
+                            if($(window).width() < 767) {
+                                $(".parallax_org").attr("data-image-src", "");
+                            } else {
+                                $(".parallax_org").attr("data-image-src", "images/YoniShirts.jpg");
+                            }
+                        });
+                    });
+                </script>
+		    
                 <div class="container_gray" id=about_us>
                     <h4>WHAT IS THE LEAH MARI METHOD?</h4>
                     <!-- insert demo video -->
