@@ -182,6 +182,14 @@ img {
     overflow: hidden;
 }
 
+.col p {
+    font-size: 14px;
+}
+
+.col li {
+    font-size: 12px;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -193,12 +201,6 @@ img {
 @media screen and (max-width: 600px) {
     .col {
         width: 100%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .col {
-    font-size: 10px;
   }
 }
 
