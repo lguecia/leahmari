@@ -156,7 +156,7 @@ img {
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .standard-ul {
-        padding: 5px;
+        padding: 3px;
     }
 
 #col-img {
