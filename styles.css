@@ -434,7 +434,10 @@ img {
     .left_column_of2, .right_column_of2 {
         width: 100%;
         height: 100%;
-  }
+    }
+    .left_column_of2 img, .right_column_of2 img {
+        height: 250px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
