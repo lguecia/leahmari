@@ -182,14 +182,6 @@ img {
     overflow: hidden;
 }
 
-.col p {
-    font-size: 14px;
-}
-
-.col li {
-    font-size: 13px;
-}
-
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -202,6 +194,15 @@ img {
     .col {
         width: 100%;
   }
+}
+
+@media screen and (max-width: 600px) {
+    .col p {
+        font-size: 13px;
+    }
+    .col li {
+        font-size: 10px;
+    }
 }
 
 /* end gallery grid */
