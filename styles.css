@@ -720,6 +720,7 @@ input[type="text"]{
 
 .blog-section-header {
     width: 100%
+    height: 250px;
 }
 
 #travel-section, #beauty-section, #closets-section, #kitchen-section, #office-section, #decor-section {
@@ -732,13 +733,44 @@ input[type="text"]{
 .blog-section img, .blog-section-header img {
     margin: 0px;
     padding: 0px;
-    width: 100%;
-    height: 250px;
 }
 
-/* .blog-section img {
-    height: 250px;
-} */
+.blog-section-header img {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Responsive images */
+/* Smartphones (portrait and landscape) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #closets-section img, #kitchen-section img {
+        height: 250px;
+    }
+    #office-section img {
+        height: 100%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-device-width : 480px) and (max-width: 600px) {
+    .blog-section img, .blog-section-header img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .blog-section img, .blog-section-header img {
+        width: 100%;
+    }
+    #travel-section img, #closets-section img, #kitchen-section img, #office-section img {
+        height: 100%;
+    }
+}
+
+/* end responsive images */ 
 
 .centered-label {
     position: absolute;
