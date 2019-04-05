@@ -403,6 +403,7 @@ img {
 }
 
 .left_column_of2 {
+    padding-bottom: 20px; 
     max-height: 250px;
     overflow: hidden;
     float: left;
@@ -411,6 +412,7 @@ img {
 }
 
 .right_column_of2 {
+    padding-bottom: 20px; 
     max-height: 250px;
     overflow: hidden;
     float: right;
