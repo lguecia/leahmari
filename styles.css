@@ -751,6 +751,9 @@ input[type="text"]{
     #beauty-section img, #office-section img {
         height: 100%;
     }
+    #decor-section img {
+        width: 100%
+    }
 }
 
 /* Extra small devices (phones, 600px and down) */
