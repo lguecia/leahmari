@@ -747,7 +747,7 @@ input[type="text"]{
     #closets-section img, #kitchen-section img {
         height: 250px;
     }
-    #office-section img {
+    #beauty-section img, #office-section img {
         height: 100%;
     }
 }
