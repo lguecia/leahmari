@@ -765,7 +765,7 @@ input[type="text"]{
     .blog-section img, .blog-section-header img {
         width: 100%;
     }
-    #travel-section img, #closets-section img, #kitchen-section img, #office-section img {
+    #beauty-section img, #travel-section img, #closets-section img, #kitchen-section img, #office-section img {
         height: 100%;
     }
 }
