@@ -751,6 +751,9 @@ input[type="text"]{
     #closets-section img, #kitchen-section img {
         height: 250px;
     }
+    #decor-section img {
+        width: 100%;
+    }
     #beauty-header img, #office-header img {
         height: 250px;
     }
