@@ -745,14 +745,17 @@ input[type="text"]{
 /* Responsive images */
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    #closets-section img, #kitchen-section img {
-        height: 250px;
-    }
     #beauty-section img, #office-section img {
         height: 100%;
     }
-    #decor-section img {
-        width: 100%;
+    #closets-section img, #kitchen-section img {
+        height: 250px;
+    }
+    #beauty-header img, #office-header img {
+        height: 250px;
+    }
+    #decor-header img {
+        width: 375px;
     }
 }
 
