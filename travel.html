@@ -28,7 +28,7 @@
         <!-- circle image -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <!-- Google Maps API -->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABGwciKNn1ALw4DEzE4rtQNNizkIQx3tg&libraries=places"></script>
+        <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABGwciKNn1ALw4DEzE4rtQNNizkIQx3tg&libraries=places"></script> -->
     </head>
 
     <body>
@@ -36,7 +36,7 @@
             <header class="header">
 
                 <nav class="navbar bg-dark navbar-dark">
-                    <a class="navbar-brand" href="index.html">LEAH MARI METHOD</a>
+                    <a class="navbar-brand" href="index.html">LEAH MARI</a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -74,35 +74,35 @@
                     <!-- <form action="/pack" method="POST"-->
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-3">
-                                    <label class="col-form-label" for="location">Vacation Destination</label>
+                                <div class="col-auto">
+                                    <label class="col-form-label" for="location">Location</label>
                                 </div>
-                                <div class="form-group col-auto">
+                                <div class="form-group col-sm-6">
                                     <label class="col-form-label" id="location" for="location">Vacation Destination</label>
                                 </div>
                             </div>
                         </div>
                         
                         <!-- autocomplete city lookup (to gather location based data) -->
-                        <script>
+                        <!-- <script>
                             var input = document.getElementById('location');
                             var options = {
                                 types: ['(cities)']
                             };
                             
                             autocomplete = new google.maps.places.Autocomplete(input, options);
-                        </script>
+                        </script> -->
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-3">
-                                    <label class="col-form-label" for="arrival-date">Arrival Date</label>
+                                <div class="col-sm-auto">
+                                    <label class="col-form-label" for="arrival-date">Arrival</label>
                                 </div>
-                                <div class="form-group col-auto">
+                                <div class="form-group col-sm-6">
                                     <input autoform class="form-control" name="arrival-date" id="arrival-date" type="date" required>
                                 </div>
                                 <div class="form-group col-auto">
-                                    <select class="form-control col-auto" name="day-or-night" id="float" required>
+                                    <select class="form-control col-sm-2" name="day-or-night" id="float" required>
                                         <option value="day">Day</option>
                                         <option value="night">Night</option>
                                     </select>
@@ -112,13 +112,13 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-3">
-                                    <label class="col-form-label" for="departure-date">Departure Date</label>
+                                <div class="col-auto">
+                                    <label class="col-form-label" for="departure-date">Departure</label>
                                 </div>
-                                <div class="form-group col-auto">
+                                <div class="form-group col-sm-6">
                                     <input autoform class="form-control" name="departure-date" id="departure-date" type="date" required>
                                 </div>
-                                <div class="form-group col-auto">
+                                <div class="form-group col-sm-2">
                                     <select class="form-control col-auto" name="day-or-night" id="float" required>
                                         <option value="day">Day</option>
                                         <option value="night">Night</option>
