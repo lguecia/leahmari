@@ -74,3 +74,9 @@
 ![](images/OfficeHeading.png)
 
 ![](images/TravelHeading.png)
+
+![](images/HomeOffice1.jpg)
+
+![](images/HomeOffice2.jpg)
+
+![](images/HomeOffice3.jpg)
