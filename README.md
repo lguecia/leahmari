@@ -80,3 +80,7 @@
 ![](images/HomeOffice2.jpg)
 
 ![](images/HomeOffice3.jpg)
+
+![](images/FeltHangers.jpg)
+
+![](images/FormalHangers.jpg)
