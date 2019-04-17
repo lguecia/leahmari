@@ -822,6 +822,14 @@ input[type="text"]{
     color: gray;
 }
 
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+}
+
 /* 3 images */
 .img3 {
     margin: 0px;
