@@ -38,7 +38,7 @@ header a {
 
 /* nav */
 
-. navbar-nav ul {
+. navbar-nav ul, .bottom-nav-ul {
     list-style-type: none;
     margin: 0;
     padding: 20;
@@ -372,9 +372,9 @@ img {
   outline: 2px solid gray;
 }
 
-#radio {
+/* #radio {
     align-items: center;
-}
+} */
 
 /* end form submit */
 
