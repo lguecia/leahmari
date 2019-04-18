@@ -227,7 +227,7 @@ img {
 } */
 
 .carousel-item img {
-    width: 900px;
+    width: 50%;
     height: 600px;
 }
 
@@ -317,16 +317,16 @@ img {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .img-round {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .img-round {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
   }
 }
 
@@ -429,6 +429,15 @@ img {
     float: right;
     flex-wrap: wrap;
     text-align: center;
+}
+
+/* Stack images on top of text for mobile */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .col-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other*/
