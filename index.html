@@ -251,21 +251,21 @@
                         <div class="form-row">
                             <!-- <label class="col-form-label col-md-12" for="Book">Select what needs organizing</label> -->
                             <div class="form-group col-md-12" id="radio">
-                                <div class="form-check form-check-inline col-md-3">
+                                <div class="form-check form-check-inline col-md-3 book-radio" id="home-radio">
                                     <label class="form-check-label" for="home-label">
-                                        <input name="Book" class="form-check-input" type="radio" id="home-label" value="home">
+                                        <input name="Book" class="form-check-input radio-label" type="radio" id="home-label" value="home">
                                         <img src="images/HomeHeading.png" alt="Home" class="img-round" width="200" height="200">
                                     </label>
                                 </div>
-                                <div class="form-check form-check-inline col-md-3">
+                                <div class="form-check form-check-inline col-md-3 book-radio" id="office-radio">
                                     <label class="form-check-label" for="office-label">
-                                        <input name="Book" class="form-check-input" type="radio" id="office-label" value="office">
+                                        <input name="Book" class="form-check-input radio-label" type="radio" id="office-label" value="office">
                                         <img src="images/OfficeHeading.png" alt="Office" class="img-round" width="200" height="200">
                                     </label>
                                 </div>
-                                <div class="form-check form-check-inline col-md-3">
+                                <div class="form-check form-check-inline col-md-3 book-radio" id="travel-radio">
                                     <label class="form-check-label" for="travel-label">
-                                        <input name="Book" class="form-check-input" type="radio" id="travel-label" value="travel">
+                                        <input name="Book" class="form-check-input radio-label" type="radio" id="travel-label" value="travel">
                                         <img src="images/TravelHeading.png" alt="Travel" class="img-round" width="200" height="200">
                                     </label>
                                 </div>
@@ -334,12 +334,14 @@
                     };
                 </script> -->
 
-                <div id=product_spotlight>
+                <div id="container product_spotlight">
                     <h4>PRODUCT SPOTLIGHT</h4>
                     <!-- PAID PARTNERSHIP OPPORTUNITY -->
                     <div class="container_2_columns">
                         <div class="left_column_of2 col-md-6">
-                            <img src="images/Boie.jpg" alt="Body Scrubber">
+			    <div class="img_column_of2">
+                            	<img src="images/Boie.jpg" alt="Body Scrubber">
+			    </div>
                         </div>
                         <div class="right_column_of2 col-md-6">
                             <h4>BOIE USA Body Scrubber</h4>
@@ -354,12 +356,16 @@
                             <input class="button" onclick="window.location.href='https://apartmenttherapy.com/trader-joes-succulents-best-gift-idea-262559?utm_source=LeahMari&utm_medium=referral&utm_campaign=productrecommendation&utm_term=all&utm_content=position2'" type="button" value="Read More"/>
                         </div>
                         <div class="right_column_of2 col-md-6">
-                            <img src="images/Succulents.jpg" alt="Succulents">
+			    <div class="img_column_of2">
+\                            	<img src="images/Succulents.jpg" alt="Succulents">
+			    </div>
                         </div>
                     </div>
                     <div class="container_2_columns col-md-12">
                         <div class="left_column_of2 col-md-6">
-                            <img src="images/PackingCubes.jpg" alt="Packing Cubes">
+			    <div class="img_column_of2">
+				    <img src="images/PackingCubes.jpg" alt="Packing Cubes">
+                            </div>
                         </div>
                         <div class="right_column_of2 col-md-6">
                             <h4>French Toast 3pc Packing Cube Set - Large</h4>
@@ -368,7 +374,7 @@
                         </div>
                     </div>
                     <input class="button" id="blog" onclick="window.location.href='/blog.html'" type="button" value="MORE PRODUCT RECOMMENDATIONS + TIPS"/>
-			<p> </p>
+		    <p> </p>
                 </div>
 
 <!-- PRODUCT RECOMMENDATIONS OVERFLOW
