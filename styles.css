@@ -434,7 +434,7 @@ img {
 /* Stack images on top of text for mobile */
 /* Extra small devices (phones, 600px and down) */
 /* iPhone X horizontal (812px) */
-@media only screen and (max-width: 812px) {
+@media only screen and (min-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio : 3) {
     .col-reverse {
         display: flex;
         flex-direction: column-reverse;
