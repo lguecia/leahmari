@@ -128,15 +128,21 @@ img {
 
 .container_3_columns {
     background: #343a40;
-    /* top right bottom left */
-    margin: 20px 0px 20px 0px;
     border: 2px #343a40;
+    /* top right bottom left */
     padding: 0px 12px 0px 12px;
     color: white;
     align-content: center;
     text-align: center;
     font-weight: normal;
     font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
 }
 
 #col-text_left, #col-text_right {
@@ -148,13 +154,6 @@ img {
     list-style-position: outside;
     text-align: left;
     padding-left: 70px;
-}
-
-/* Smartphones (portrait and landscape) */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .standard-ul {
-        padding-left: 5px;
-    }
 }
 
 #col-img {
@@ -183,26 +182,48 @@ img {
 }
 
 /* Clear floats after the columns */
-.row:after {
+.container_3_columns:after {
     content: "";
     display: table;
     clear: both;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
-    .col {
+    .container_3_columns {
+        display: block;
+        float: none;
         width: 100%;
   }
 }
 
-@media screen and (max-width: 600px) {
-    .col p {
-        font-size: 13px;
-    }
-    .col li {
-        font-size: 10px;
-    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container_3_columns {
+        width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container_3_columns {
+        width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container_3_columns {
+        width: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container_3_columns {
+        width: 100%;
+  }
 }
 
 /* end gallery grid */
