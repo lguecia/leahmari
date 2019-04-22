@@ -84,3 +84,5 @@
 ![](images/FeltHangers.jpg)
 
 ![](images/FormalHangers.jpg)
+
+![](images/HairTools.jpg)
