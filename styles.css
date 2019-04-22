@@ -921,4 +921,8 @@ input[type="text"]{
 }
 /* end 3 images */
 
+.ul-no-indent {
+    padding: 15px;
+}
+
 /* end BLOG */
