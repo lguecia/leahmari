@@ -248,6 +248,10 @@ img {
     color: pink;
 }
 
+.pink_font ul {
+    padding-left: 0px;
+}
+
 .pink_font p {
     font-family: "Suranna", sans-serif;
     font-weight: 400;
