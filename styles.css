@@ -679,6 +679,20 @@ input[type="text"]{
     color: gray;
 }
 
+
+/* article container */
+
+.img-wrap {
+    height: 300px;
+}
+
+.img-wrap img {
+    object-fit: cover;
+}
+
+/* end article container */
+
+
 .img1 {
     display: block;
     margin-left: auto;
