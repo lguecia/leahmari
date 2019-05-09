@@ -218,6 +218,13 @@ img {
     padding-left: 70px;
 }
 
+.container_white_fill {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    background: white;
+}
+
 .container_scroll_bg-dark {
     margin-top: 20px;
     margin-bottom: 20px;
