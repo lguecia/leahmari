@@ -87,8 +87,8 @@
 
 ![](images/HairTools.jpg)
 
-![](images/tf-1_Layout.jpg)
+![](images/TF1Layout.jpg)
 
-![](images/tf-1_Edit.jpg)
+![](images/TF1Edit.jpg)
 
-![](images/tf-1_Pack.jpg)
+![](images/TF1Pack.jpg)
