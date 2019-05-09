@@ -40,6 +40,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- for parallax -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!-- Add fas icon library -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     </head>
 
     <body>
@@ -85,6 +87,7 @@
                         <option disabled selected value="">Select an article</option>
                         <!-- type next option value here -->
                         <!-- <option value="article-id">Next Option Value</option> -->
+                        <option value="tf-1">Travel Feature: 2 Weeks In Italy</option>
                         <!-- <option value="wrinkles">How To Prevent Travel Wrinkles</option> -->
                         <option value="hair-tools">Traveling With Hair Tools</option>
                         <option value="airport-style">Airport Style</option>
@@ -108,15 +111,104 @@
                 </div>
 
                 <div class="output" id="article-container">
-                
+
+
+<!-- NEW LAYOUT (from SomethingNavy.com)-->
+
+<!-- <div class="post">
+    <div class="img-wrap zoom">
+    ::before
+        <a href="">
+            <img class="featured" src="" alt="Italy">
+        </a>
+    </div>
+    <div class="content">
+        <h6>
+            <a href="">PACKING FEATURE</a>
+        </h6>
+        <h4>
+            <a href="">2 Weeks In Italy</a>
+        </h4>
+    </div> 
+</div>-->
+               
+    
                 <!-- ARTICLE: type next article here -->
                     <!-- <div class="articles container_gray" id="">
                         <h4>TITLE</h4><br>
                         <p></p>
                     </div> -->
+
+                <!-- ARTICLE: Travel Feature: 2 Weeks In Italy -->
+                    <div class="articles container_scroll_bg-dark" id="tf-1">
+                        <h4>Travel Feature: 2 Weeks In Italy</h4><br>
+                        <h5>Here's how we stacked up:</h5>
+                        <div class="container container_3_columns">
+                            <div class="row">
+                                <div class="container_columns col-md-4">
+                                    <div class="top_row_of2">
+                                        <div class="img_row_of2">
+                                            <img src="/images/TF1Layout.jpg" alt="Packing Layout">
+                                        </div>
+                                    </div>
+                                    <div class="bottom_row_of2">
+                                        <p></p>
+                                        <h6>The Layout</h6>
+                                    </div>
+                                </div>
+                                <div class="container_columns col-md-4">
+                                    <div class="top_row_of2">
+                                        <div class="img_row_of2">
+                                            <img src="/images/TF1Edit.jpg" alt="Packing Edit">
+                                        </div>
+                                    </div>
+                                    <div class="bottom_row_of2">
+                                        <p></p>
+                                        <h6>The Edit</h6>
+                                    </div>
+                                </div>
+                                <div class="container_columns col-md-4">
+                                    <div class="top_row_of2">
+                                        <div class="img_row_of2">
+                                            <img src="/images/TF1Pack.jpg" alt="Packing">
+                                        </div>
+                                    </div>
+                                    <div class="bottom_row_of2">
+                                        <p></p>
+                                        <h6>The Pack</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+                        <h5>Here's how we got there:</h5>
+                        <br>
+                        <h6>PREP</h6>
+                        <ol>
+                            <li>General itinerary requested for day of packing</li>
+                            <li>Client opted to take out and pile items she wanted to pack 3 days prior</li>
+                        </ol>
+                        <br>
+                        <h6>PACK</h6>
+                        <ol>
+                            <li>Together, we went through the itinerary and planned outfits for general activities (i.e. I might shop, we are going to a fancy dinner one of these two nights in this city)</li>
+                            <li>In a clear space, outfits (including shoes and accessories) were placed by day</li>
+                            <li>Once outfits were optimized for minimal packing and finalized, they were folded neatly</li>
+                            <li>Items were packed in the carry on by day, with earlier days on top</li>
+                            <li>Valuables were packed in the personal bag in case the carry on was checked at the gate</li>
+                        </ol>
+                        <br>
+                        <h6>PRODUCT</h6>
+                        <ul>
+                            <li>All packing products were client owned. Travel cubes and additional dust bags for shoes would be recommended for future travel.</li>
+                        </ul>
+                        <br>
+                        <p><b>TOTAL TIME:</b> 1 hour!</p>
+                    </div>
                 
                 <!-- ARTICLE: How To Prevent Travel Wrinkle -->
-                    <!-- <div class="articles container_gray" id="wrinkles">
+                    <!-- <div class="articles container_scroll_bg-dark" id="wrinkles">
                         <h4>How To Prevent Travel Wrinkle</h4><br>
                         <p></p>
                     </div> -->
@@ -229,7 +321,36 @@
                         <p>And most importantly, always keep your essentials packed for your next trip. These are items that you use every single trip, no matter what, and do not use at home. It's up to you what you include!</p>
                     </div>
 
-                    <input class="button" onclick="window.location.href='/blog.html'" type="button" value="Back to Blog"/>
+                    <div class="container">
+                        <br>
+                        <div>
+                            <h6><b>Explore The Blog By Category</b></h6>
+                        </div>
+                        <br><br>
+                        <div class="row blog-nav">
+                            <a href="/blog/travelblog.html" class="fas fa-suitcase-rolling fa-2x">
+                                <p>Travel</p>
+                            </a>
+                            <a href="/blog/beauty.html" class="fas fa-bath fa-2x">
+                                <p>Beauty</p>
+                            </a>
+                            <a href="/blog/closets.html" class="fas fa-tshirt fa-2x">
+                                <p>Closets</p>
+                            </a>
+                            <a href="/blog/kitchen.html" class="fas fa-blender fa-2x">
+                                <p>Kitchen</p>
+                            </a>
+                            <a href="/blog/office.html" class="fas fa-chair fa-2x">
+                                <p>Office</p>
+                            </a>
+                            <a href="/blog/decor.html" class="fas fa-couch fa-2x">
+                                <p>Decor</p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- <br><br> -->
+
+                    <!-- <input class="button" onclick="window.location.href='/blog.html'" type="button" value="Back to Blog"/> -->
                 </div>
 
             </main>
@@ -240,7 +361,7 @@
                         <li><a href="/blog.html">Blog</a></li>
                         <li><a href="mailto:lguecia@gmail.com?subject=Contact Leah Mari">Contact us</a></li>
                         <a href="mailto:lguecia@gmail.com?subject=Hello" class="fa fa-envelope"></a>
-                        <a href="https://www.instagram.com/schmeeismee/?hl=en" class="fa fa-instagram"></a>
+                        <a href="https://www.instagram.com/schmeeismee/?hl=en" class="fab fa-instagram"></a>
                         <li><small><br>Copyright © 2019 Leah Mari - All Rights Reserved.</small></li>
                     </ul>
             </footer>
