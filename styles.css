@@ -65,11 +65,18 @@ main {
     font-size: 14px;
 }
 
-.slogan-org{
-    justify-content: space-between;
-    font-weight: bold;
-    font-size: 48px;
-    /* font-family: "Brush Script MT", cursive; */
+#slogan-org{
+    position: absolute;
+    top: 25%;
+    right: 20px;
+    -webkit-transform: translateY(-25%);
+    -ms-transform: translateY(-25%);
+    transform: translateY(-25%);
+    color: rgba(0,0,0,.9);
+}
+
+.navbar {
+    margin-bottom: 0 !important;
 }
 
 
