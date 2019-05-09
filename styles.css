@@ -224,9 +224,27 @@ img {
     padding: 20px 0;
     max-height: 400px;
     overflow: auto;
-    border: 20px white;
-    border-style: solid;
+    /* border: 20px white;
+    border-style: solid; */
+    background: white;
     border-collapse: separate;
+}
+
+.pink_font {
+    color: pink;
+}
+
+.pink_font p {
+    font-family: "Suranna", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: pink;
+}
+
+#services img {
+    width: 80%;
+    max-height: 300px;
 }
 
 
