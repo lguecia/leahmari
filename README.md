@@ -94,3 +94,5 @@
 ![](images/TF1Pack.jpg)
 
 ![](images/FoldedBottoms.jpg)
+
+![](images/HairToolsProduct.jpg)
