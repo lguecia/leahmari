@@ -95,4 +95,4 @@
 
 ![](images/FoldedBottoms.jpg)
 
-![](images/HairToolsProduct.jpg)
+![](images/HairToolsProduct.JPG)
