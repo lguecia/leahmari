@@ -96,3 +96,7 @@
 ![](images/FoldedBottoms.jpg)
 
 ![](images/HairToolsProduct.JPG)
+
+![](images/Mascara.JPG)
+
+![](images/PaperGoods.JPG)
