@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134838245-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-134838245-1');
+        </script>
+
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NC84SN3');</script>
+        <!-- End Google Tag Manager -->
+
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="/styles.css" rel="stylesheet"> -->
+        <link href="/styles.css" rel="stylesheet">
+        <title>LEAH MARI</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+        <!-- for parallax -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!-- Add fas icon library -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC84SN3"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div class="wrapper">
+            <header class="header">
+
+                <nav class="navbar navbar-light white">
+                    <a class="navbar-brand" href="/index.html">LEAH MARI</a>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="collapsibleNavbar" style="">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#about_us">the method</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#product_spotlight">tips + tools</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/blog.html">blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#testimonials">testimonials</a></li>
+                            <!-- make password protected -->
+                            <!-- <li class="nav-item"><a class="nav-link" href="login_org.html">my profile</a></li> -->
+                            <!-- <li class="nav-item"><a class="nav-link" href="/travel.html">packing tool</a></li> -->
+                        </ul>
+                    </div>
+                </nav>
+
+            </header>
+
+            <main>
+
+                <div class="blog-section-header" id="travel-header">
+                    <!-- <img src="file:///Users/leahguecia/Desktop/Organization/images/TravelBlog.jpg" alt="TRAVEL"> -->
+                    <img src="/images/TravelBlog.jpg" alt="TRAVEL">
+                    <div class="centered-label" id="travel-blog"><h1>TRAVEL</h1></div>
+                </div><br>
+                <p>I love to travel! And I don't even mind packing for it. I'll share with you why on this page.</p>
+                <label class="dropdown-label" for="states"><h6>Products and Tips:</h6></label>
+                <div class="article-dropdown">
+                    <select name="article-select" id="travel-select">
+                        <option disabled selected value="">Select an article</option>
+                        <!-- type next option value here -->
+                        <!-- <option value="article-id">Next Option Value</option> -->
+                        <option value="tf-1">Travel Feature: 2 Weeks In Italy</option>
+                        <option value="wrinkles">How To Prevent Travel Wrinkles</option>
+                        <option value="hair-tools">Traveling With Hair Tools</option>
+                        <option value="airport-style">Airport Style</option>
+                        <option value="dop-kits">Dop Kits</option>
+                    </select>
+                </div>
+
+                <script>
+                    $(function() {
+                        $('#travel-select').change(function(){
+                            $('.articles').hide();
+                            $('#' + $(this).val()).show();
+                        });
+                    });
+                </script>
+
+                <br><input class="button" onclick="window.location.href='https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODQ3MzA5NDE4MzU3NDg5/?utm_source=ig_story_highlights_share&igshid=zky1n2c3pn1k'" type="button" value="See Packing Tips + Tricks on Instagram"/> 
+
+                <br><br><div>
+                    <p><i>Have a specific question on travel organization? <a href="mailto:lguecia@gmail.com?subject=Travel Organization Question">Let me know</a> - I'd be happy to answer it!</i></p>
+                </div>
+
+
+<!-- NEW LAYOUT (from SomethingNavy.com)-->
+
+<!-- Row (2 articles) -->
+<div class="container container_3_columns">
+    <div class="row">
+        <div class="post container_columns col-md-8">
+            <div class="img-wrap zoom">
+                <a href="#tf-1">
+                    <img class="featured" src="/images/TF1Layout.jpg" alt="Italy">
+                </a>
+            </div>
+            <div class="content">
+                <h6>
+                    <a href="#tf-1">PACKING FEATURE</a>
+                </h6>
+                <h4>
+                    <a href="#tf-1">2 Weeks In Italy</a>
+                </h4>
+            </div>
+        </div>
+
+        <div class="post container_columns col-md-4">
+            <div class="img-wrap zoom">
+                <a href="#wrinkles">
+                    <img class="featured" src="/images/Travel.jpg" alt="Travel Wrinkles">
+                </a>
+            </div>
+            <div class="content">
+                <h6>
+                    <a href="#wrinkles">TRAVEL</a>
+                </h6>
+                <h4>
+                    <!-- <a href="#wrinkles">Wrinkle Prevention</a> -->
+                    <a href="#wrinkles">Preventing Wrinkles</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Row (3 articles) -->
+<div class="container container_3_columns">
+    <div class="row">
+        <div class="post container_columns col-md-4">
+            <div class="img-wrap zoom">
+                <a href="#hair-tools">
+                    <img class="featured" src="/images/HairToolsProduct.jpg" alt="Packing Hair Tools">
+                </a>
+            </div>
+            <div class="content">
+                <h6>
+                    <a href="#hair-tools">TRAVEL</a>
+                </h6>
+                <h4>
+                    <a href="#hair-tools">Hair Tools</a>
+                </h4>
+            </div>
+        </div>
+    
+        <div class="post container_columns col-md-4">
+            <div class="img-wrap zoom">
+                <a href="#airport-style">
+                    <img class="featured" src="/images/TravelBlog.jpg" alt="Airport Style">
+                </a>
+            </div>
+            <div class="content">
+                <h6>
+                    <a href="#airport-style">TRAVEL</a>
+                </h6>
+                <h4>
+                    <a href="#airport-style">Airport Style</a>
+                </h4>
+            </div>
+        </div>
+    
+        <div class="post container_columns col-md-4">
+            <div class="img-wrap zoom">
+                <a href="#dop-kits">
+                    <img class="featured" src="/images/PackingCubes.jpg" alt="Dop Kits">
+                </a>
+            </div>
+            <div class="content">
+                <h6>
+                    <a href="#dop-kits">TRAVEL</a>
+                </h6>
+                <h4>
+                    <a href="#dop-kits">Dop Kits</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+                <div class="output" id="article-container">
+
+                <!-- ARTICLE: type next article here -->
+                    <!-- <div class="articles container_gray" id="">
+                        <h4>TITLE</h4><br>
+                        <p></p>
+                    </div> -->
+
+                <!-- ARTICLE: Travel Feature: 2 Weeks In Italy -->
+                <!-- <script>
+                    history.pushState(null, null, 'italy');
+                </script> -->
+                    <div class="articles container_scroll_bg-dark" id="tf-1">
+                        <h4>Travel Feature: 2 Weeks In Italy</h4><br>
+                        <h5>Here's how we stacked up:</h5>
+                        <div class="container container_3_columns">
+                            <div class="row">
+                                <div class="container_columns col-md-4">
+                                    <div class="top_row_of2">
+                                        <div class="img_row_of2">
+                                            <img src="/images/TF1Layout.jpg" alt="Packing Layout">
+                                        </div>
+                                    </div>
+                                    <div class="bottom_row_of2">
+                                        <p></p>
+                                        <h6>The Layout</h6>
+                                    </div>
+                                </div>
+                                <div class="container_columns col-md-4">
+                                    <div class="top_row_of2">
+                                        <div class="img_row_of2">
+                                            <img src="/images/TF1Edit.jpg" alt="Packing Edit">
+                                        </div>
+                                    </div>
+                                    <div class="bottom_row_of2">
+                                        <p></p>
+                                        <h6>The Edit</h6>
+                                    </div>
+                                </div>
+                                <div class="container_columns col-md-4">
+                                    <div class="top_row_of2">
+                                        <div class="img_row_of2">
+                                            <img src="/images/TF1Pack.jpg" alt="Packing">
+                                        </div>
+                                    </div>
+                                    <div class="bottom_row_of2">
+                                        <p></p>
+                                        <h6>The Pack</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+
+                        <h5>Here's how we got there:</h5>
+                        <br>
+                        <h6>PREP</h6>
+                        <ol>
+                            <li>General itinerary requested for day of packing</li>
+                            <li>Client opted to take out and pile items she wanted to pack 3 days prior</li>
+                        </ol>
+                        <br>
+                        <h6>PACK</h6>
+                        <ol>
+                            <li>Together, we went through the itinerary and planned outfits for general activities (i.e. I might shop, we are going to a fancy dinner one of these two nights in this city)</li>
+                            <li>In a clear space, outfits (including shoes and accessories) were placed by day</li>
+                            <li>Once outfits were optimized for minimal packing and finalized, they were folded neatly</li>
+                            <li>Items were packed in the carry on by day, with earlier days on top</li>
+                            <li>Valuables were packed in the personal bag in case the carry on was checked at the gate</li>
+                        </ol>
+                        <br>
+                        <h6>PRODUCT</h6>
+                        <ul>
+                            <li>All packing products were client owned. Travel cubes and additional dust bags for shoes would be recommended for future travel.</li>
+                        </ul>
+                        <br>
+                        <p><b>TOTAL TIME:</b> 1 hour!</p>
+                    </div>
+                
+                <!-- ARTICLE: How To Prevent Travel Wrinkles -->
+                    <div class="articles container_scroll_bg-dark" id="wrinkles">
+                        <h4>How To Prevent Travel Wrinkles</h4><br>
+                        <p>Have you ever heard of putting tissue paper between your clothes to prevent them from wrinkling in your suitcase? I've heard this really works...but I won't be trying it. Here are 3 easy and lightweight ways to tackle wrinkles:</p>
+                        <ol>
+                            <li><a href="https://www.bedbathandbeyond.com/store/product/joy-mangano-my-little-steamer-go-mini-reg-hand-steamer/3277448?keyword=my-little-steamer-go-mini&utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=travel&utm_content=wrinkles">My Little Steamer Go Mini®</a>
+                                <p>Die hard steamer fan? Try this mini version. For the best deal, get it from Bed Bath & Beyond with a 20% off coupon.
+                                    <br><i>Best For: formal events</i>
+                                </p>
+                            </li>
+                            <li><b>Any hair straightener</b>
+                                <p>Already packing a hair straightener? Forget the steamer, use this.
+                                    <br><i>Best For: tight packs</i>
+                                </p>
+                            </li>
+                            <li><a href="https://itunes.apple.com/us/app/facetune2-fun-selfie-editor/id1149994032?mt=8&utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=travel&utm_content=wrinkles">Facetune</a>
+                                <p>This app is notorious for being able to make you look like the supermodel version of yourself. Take it easy and lightly use the smooth/smoother tool to swipe out clothing wrinkles visible in your photos.
+                                    <br><i>Best For: the digital savvy</i>
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+
+                <!-- ARTICLE: Traveling With Hair Tools-->
+                <!-- <script>
+                    history.pushState(null, null, 'hairtools');
+                </script> -->
+                <div class="articles container_scroll_bg-dark" id="hair-tools">
+                    <h4>Traveling With Hair Tools</h4><br>
+                    <p>By now we know I'm all about minimalism packing. Packing for your hair is no different, and I promise your Instagram photos won't suffer if you incorporate these tips and tricks:</p>
+                    <h6>Hair Dryers</h6>
+                    <p>Chances are, your staying in a hotel or airbnb that has a hair dryer (look for this in your search or call/email to ask). Keep your blow dryer that works "so much better" behind. You won't miss it when you're carrying your bags in the airport.</p>
+                    <h6>Flat Irons and Curling Irons</h6>
+                    <p>More like flat iron OR curling iron. Pick one hair style for the entirety of your trip. If you can straighten your hair with a blow dyer, go with the curling iron. If you can curl your hair with a straightener, go with the flat iron. If you don't need either, don't pack either.</p>
+                    <p>If you are packing a curling iron, choose your smallest barrel and pack with the clip face down into your clothing:</p>
+                    <img src="/images/HairTools.jpg" class="img1" alt="Packing Hair Tools">
+                    <br><h6>Packing With Friends</h6>
+                    <p>Coordinate who packs what with your travel companions. Depending on your party size and the tools you use, each person should have 0-1 hair tools.</p>
+                    <h6>Pre-Travel Hair Prep</h6>
+                    <p>If you have frizzy and/or curly hair, consider getting a hair treatment pre-trip, like keratin. Basically, anything that you know will give you the flexibility to hop out of the shower and run out the door without spending time "doing" your hair. Optimize space in your bag and optimize time spent well on your trip.</p>
+                </div>
+
+<div class="container">
+    <br>
+    <div>
+        <h6><b>Explore The Blog By Category</b></h6>
+    </div>
+    <br><br>
+    <div class="blog-nav">
+        <!-- <a href="/blog/travelblog.html" class="col-md-2 fas fa-suitcase-rolling fa-lg">
+            <p></p><p>Travel</p>
+        </a> -->
+        <a href="/blog/beauty.html" class="col-md-2 fas fa-bath fa-lg">
+            <p></p><p>Beauty</p>
+        </a>
+        <a href="/blog/closets.html" class="col-md-2 fas fa-tshirt fa-lg">
+            <p></p><p>Closet</p>
+        </a>
+        <a href="/blog/kitchen.html" class="col-md-2 fas fa-blender fa-lg">
+            <p></p><p>Kitchen</p>
+        </a>
+        <a href="/blog/office.html" class="col-md-2 fas fa-chair fa-lg">
+            <p></p><p>Office</p>
+        </a>
+        <a href="/blog/decor.html" class="col-md-2 fas fa-couch fa-lg">
+            <p></p><p>Decor</p>
+        </a>
+    </div>
+</div>
+<!-- <br><br> -->
+
+                <!-- ARTICLE: Airport Style -->
+                <!-- <script>
+                    history.pushState(null, null, 'airport');
+                </script> -->
+                <div class="articles container_scroll_bg-dark" id="airport-style">
+                    <h4>Airport Style</h4><br>
+                    <p>There are really only two things to strive for in a travel outfit: <b>comfort</b> and <b>efficiencies</b>. Lucky for us, athliesure is a thing.</p>
+                    <p>Here are a few travel outfit tips I've learned from my trips:</p>
+                    <table class="table">
+                        <head>
+                            <tr>
+                                <th>What You Probably Do</th>
+                                <th>What You Should Do</th>
+                            </tr>
+                        </head>
+                        <body>
+                            <tr>
+                                <td>Traveling from a cold to warm location: Wear a jacket to travel to and from the airport. Put this in the overhead storage even though you know it's not allowed. Lug it around on your vacation. Almost forget it at the hotel because who wants to go back to cold weather anyways.</td>
+                                <td>Layer, layer, layer: I'm not opposed to the idea of wearing what is meant to be in your suitcase. When you arrive at your destination, it's easy to maintain comfort by unlayering down to your lightest layer and wrapping your heavy layers around your waist.</td>
+                            </tr>
+                            <tr>
+                                <td>Get mistaken as "the bag lady". You have a piece of luggage (hopefully it's a carry on bag), a personal bag, more bags in your bags.</td>
+                                <td>Select MAX two bags: one day bag and one night bag to bring with you. Your personal bag should be either one of these. Bonus points if your personal bag slides on to the handles of your luggage AND fits your laptop.</td>
+                            </tr>
+                            <tr>
+                                <td>Wear one travel outfit to your destination, pack a second travel outfit to come home, and never wear any of these items in between.</td>
+                                <td>So maybe you add your hat to your travel outfit because you have no idea how to pack it, but that's not what we're getting down to here. You can wear the same travel outfit to and from the airport. Those layers we were talking about earlier - make them items you wanted to pack anyways. A sweater for the beach, a basic tee for any bottoms, sneakers for outdoor activities, etc.</td>
+                            </tr>
+                        </body>
+                    </table>
+                    <p>Even if you are one to snap a pic at the airport, just don't take one on the way back. And now I've saved you time getting ready for the airport too.</p>
+                    <br><p>Here are some travel outfit ideas:</p>
+                    <!-- <div style="overflow-x: auto;"> -->
+                    <table class="table">
+                        <head>
+                            <tr>
+                                <th>Dress It Down</th>
+                                <th>Dress It Up</th>
+                            </tr>
+                        </head>
+                        <body>
+                            <tr>
+                                <td>Layering tops is simple. You start with your tightest fitting clothes to loosest:
+                                    <ul class="ul-no-indent">
+                                    <!-- <ul class="standard-ul"> -->
+                                        <li>On top:</li>
+                                            <ul class="ul-no-indent">
+                                                <li>basic tank or tee</li>
+                                                <li>any variety of short or long sleeve shirt (basic, plaid, chambray)</li>
+                                                <li>1-2 sweaters (summer sweater, open front, etc.)</li>
+                                            </ul>
+                                        <li>Leggings layer ridiculously well on top of each other. Highly recommended if you plan to do yoga, hiking, or other outdoor activities on your trip.</li>
+                                        <li>No judgement if you throw sweatpants on top of that.</li>
+                                        <li>This outfit of course pairs best with athletic or fashion sneakers - use your itinerary to decide what you'll need most.</li>
+                                    </ul>
+                                </td>
+                                <td>For the girls who are not into the sweatpants look:
+                                    <ul class="ul-no-indent">
+                                    <!-- <ul class="standard-ul"> -->
+                                        <li>Ever notice how much space cotton maxi dresses and skirts take up? Just wear it on the plane and voila - you deserve an upgrade.</li>
+                                        <li>Layer a skirt on top similar to how you would leggings, or go straight for long sleeve or sweater layers over your dress.</li>
+                                        <li>You can definitely pull off a white fashion sneaker with this look - or save space in your carry on by wearing wedges.</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </body>
+                    </table>
+                    <!-- </div> -->
+                </div>
+
+                <!-- ARTICLE: Dop Kits -->
+                <!-- <script>
+                    history.pushState(travelblog, Leah Mari, 'https://www.leahmari.com/blog/travelblog/dopkits');
+                </script> -->
+                <div class="articles container_scroll_bg-dark" id="dop-kits">
+                        <h4>Dop Kits</h4><br>
+                        <p>It's no secret, I love to travel. But traveling can be exhausting if you can't find your things! If you start to organize yourself, travel prep, traveling, and unpacking can be much less stressful. Packing cubes are everything, and this includes the beauty specific packing cube, dop kits.</p>
+                        <p>A few of my personal care favorites to tote along:</p>
+                        <ul class="standard-ul">
+                            <li><a href="https://www.target.com/p/ogx-nourishing-coconut-milk-shampoo-trial-size-3-fl-oz/-/A-15408619?utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=travel&utm_content=dopkit">Organix travel size shampoo</a> | I have a keratin treatment in my hair, so I always take a sulfate-free shampoo with me. All conditioners are sulfate-free, so I leave this behind to save space and unecessary clutter when I'm looking for an item.</li>
+                            <li>Travel tooth brush and toothpaste | I am very dedicated to my electric toothbrush, but just at home. In case I'm not staying at a hotel with dental kits, I bring along a portable pair.</li>
+                                <ul class="standard-ul">
+                                    <li>An alternative item I've been wanting to try out: <a href="https://www.getquip.com/products/copper-metal-electric-toothbrush-set?gclid=Cj0KCQjws5HlBRDIARIsAOomqA3KwM5L56DB9kBJU5xA0e2Hg3MXL4goxxOyHcW2uGtAbbBnr60U2_kaAon4EALw_wcB?utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=travel&utm_content=dopkit">quip</a></li>
+                                </ul>
+                            <li>Comb | Yep, a comb instead of a hair brush. Combs are allegedly better for hair health, and they're smaller - win/win!</li>
+                            <li>Sample size foundaton | If you are the lucky recipient of a leak-free sample container, hold on to it and fill it with your favorite foundation for travel. My favorite: <a href="https://www.sephora.com/product/double-wear-stay-in-place-makeup-P378284?utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=travel&utm_content=dopkit">Estee Lauder double wear</a></li>
+                        </ul>
+                        <img src="">
+                        <p>If you're going on a shorter trip, merge your beauty and personal care supply filled dop kit with intimates like socks.</p>
+                        <p>And most importantly, always keep your essentials packed for your next trip. These are items that you use every single trip, no matter what, and do not use at home. It's up to you what you include!</p>
+                    </div>
+
+                    <!-- <input class="button" onclick="window.location.href='/blog.html'" type="button" value="Back to Blog"/> -->
+                </div>
+
+            </main>
+
+            <footer>
+                <div class="action">WANT MORE? CHECK US OUT</div>
+                    <ul id="menu-footer" class="menu">
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="mailto:lguecia@gmail.com?subject=Contact Leah Mari">Contact us</a></li>
+                        <a href="mailto:lguecia@gmail.com?subject=Hello" class="fa fa-envelope"></a>
+                        <a href="https://www.instagram.com/schmeeismee/?hl=en" class="fab fa-instagram"></a>
+                        <li><small><br>Copyright © 2019 Leah Mari - All Rights Reserved.</small></li>
+                    </ul>
+            </footer>
+        </div>
+    </body>
+</html>
