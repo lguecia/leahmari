@@ -152,6 +152,11 @@ img {
     overflow: hidden;
 }
 
+.img_row_of2_large {
+    height: 350px;
+    overflow: hidden;
+}
+
 .zoom:hover {
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
@@ -223,6 +228,10 @@ img {
     list-style-position: outside;
     text-align: left;
     padding-left: 70px;
+}
+
+.container {
+    padding: 50px 0px;
 }
 
 .container_white_fill {
@@ -561,6 +570,16 @@ input[type="text"]{
 
 
 /* BLOG */
+
+.great-vibes {
+    font: 400 130px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: #343a40;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+
+.article-title {
+    color: pink;
+}
 
 .blog-section, .blog-section-header {
     padding: 0px 5px 0px 5px;
