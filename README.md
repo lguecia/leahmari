@@ -150,3 +150,5 @@
 ![](images/TargetPackingCubesMedium.webp)
 
 ![](images/TargetPackingCubesLarge.webp)
+
+![](images/Diptique1.jpg)
