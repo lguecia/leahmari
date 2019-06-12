@@ -176,3 +176,17 @@
 ![](images/MaxDresser2.jpg)
 
 ![](images/MaxShoesCrop.jpg)
+
+![](images/ChiBigStarCrop.jpg)
+
+![](images/ChiBigStarFood.jpg)
+
+![](images/ChiHamptonSocial.jpg)
+
+![](images/ChiMachine.jpg)
+
+![](images/ChiParadisePark.jpg)
+
+![](images/ChiRiver.jpg)
+
+![](images/ChiSecondCity.jpg)
