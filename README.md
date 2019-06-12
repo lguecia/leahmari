@@ -185,7 +185,7 @@
 
 ![](images/ChiMachine.jpg)
 
-![](images/ChiParadisePark.jpg)
+![](images/ChiParadisePark.JPG)
 
 ![](images/ChiRiver.jpg)
 
