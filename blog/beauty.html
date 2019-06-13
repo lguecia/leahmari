@@ -53,11 +53,11 @@
                     </button>
                     <div class="navbar-collapse collapse" id="collapsibleNavbar" style="">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="/index.html#about_us">the method</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#services">services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#product_spotlight">tips + tools</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about_us">the method</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#product_spotlight">tips + tools</a></li>
                             <li class="nav-item"><a class="nav-link" href="/blog.html">blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#testimonials">testimonials</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#testimonials">testimonials</a></li>
                             <!-- make password protected -->
                             <!-- <li class="nav-item"><a class="nav-link" href="login_org.html">my profile</a></li> -->
                             <!-- <li class="nav-item"><a class="nav-link" href="/travel.html">packing tool</a></li> -->
@@ -80,11 +80,13 @@
                         <option disabled selected value="">Select an article</option>
                         <!-- type next option value here -->
                         <!-- <option value="">abc</option> -->
-                        <!-- <option value="beauty-organization">How To Organize Your Beauty Products COMING SOON</option> -->
-                        <!-- <option value="keratin">Hair Tools & Keratin Treatments COMING SOON</option> -->
+                        <option value="boie">Ditching Your Loofa</option>
+                        <!-- <option value="beauty-organization">How To Organize Your Beauty Products</option> -->
+                        <option value="paper-goods-storage">Paper Goods Storage</option>
+                        <!-- <option value="keratin">Hair Tools & Keratin Treatments</option> -->
                         <option value="mascara">Space Saving Mascara</option>
                         <option value="dop-kits">Dop Kits</option>
-                        <option value="paper-goods-storage">Paper Goods Storage</option>
+
                     </select>
                 </div>
 
@@ -102,80 +104,26 @@
                 </div>
 
 <!-- NEW LAYOUT (from SomethingNavy.com)-->
-
 <!-- Row (2 articles) -->
-<!-- <div class="container container_3_columns">
+<div class="container container_3_columns" id="home-beauty">
     <div class="row">
-        <div class="post container_columns col-md-8">
+        <div class="post container_columns col-md-6">
             <div class="img-wrap zoom">
-                <a href="#tf-1">
-                    <img class="featured" src="file:///Users/leahguecia/Desktop/Organization/images/TF1Layout.jpg" alt="Italy">
+                <a href="#boie">
+                    <img class="featured" src="/images/Boie.jpg" alt="Boie Body Scrubber">
                 </a>
             </div>
             <div class="content">
                 <h6>
-                    <a href="#tf-1">PACKING FEATURE</a>
+                    <a href="#boie">HOME</a>
                 </h6>
                 <h4>
-                    <a href="#tf-1">2 Weeks In Italy</a>
+                    <a href="#boie">Ditching Your Loofa</a>
                 </h4>
             </div>
         </div>
 
-        <div class="post container_columns col-md-4">
-            <div class="img-wrap zoom">
-                <a href="#wrinkles">
-                    <img class="featured" src="file:///Users/leahguecia/Desktop/Organization/images/Travel.jpg" alt="Travel Wrinkles">
-                </a>
-            </div>
-            <div class="content">
-                <h6>
-                    <a href="#wrinkles">TRAVEL</a>
-                </h6>
-                <h4>
-                    <a href="#wrinkles">Preventing Wrinkles</a>
-                </h4>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<!-- Row (3 articles) -->
-<div class="container container_3_columns">
-    <div class="row">
-        <div class="post container_columns col-md-4">
-            <div class="img-wrap zoom">
-                <a href="#mascara">
-                    <img class="featured" src="/images/Mascara.JPG" alt="Mascara">
-                </a>
-            </div>
-            <div class="content">
-                <h6>
-                    <a href="#mascara">TRAVEL</a>
-                </h6>
-                <h4>
-                    <a href="#mascara">Space Saving Mascara</a>
-                </h4>
-            </div>
-        </div>
-    
-        <div class="post container_columns col-md-4">
-            <div class="img-wrap zoom">
-                <a href="#dop-kits">
-                    <img class="featured" src="/images/PackingCubes.jpg" alt="Dop Kits">
-                </a>
-            </div>
-            <div class="content">
-                <h6>
-                    <a href="#dop-kits">TRAVEL</a>
-                </h6>
-                <h4>
-                    <a href="#dop-kits">Dop Kits</a>
-                </h4>
-            </div>
-        </div>
-    
-        <div class="post container_columns col-md-4">
+        <div class="post container_columns col-md-6">
             <div class="img-wrap zoom">
                 <a href="#paper-goods-storage">
                     <img class="featured" src="/images/PaperGoods.JPG" alt="Stored Paper Goods">
@@ -193,6 +141,9 @@
     </div>
 </div>
 
+<input class="button" onclick="window.location.href='#travel-beauty'" type="button" value="Skip to travel beauty"/>
+<br><br>
+
                 <div class="output" id="article-container">
                 
                 <!-- ARTICLE: type next article here -->
@@ -200,31 +151,140 @@
                     <h4>TITLE</h4><br>
                     <p></p>
                 </div> -->
+
+                <!-- ARTICLE: Boie -->
+                <div class="articles container_white_fill" id="boie">
+                    <div class="blog-section-header" id="travel-header">
+                        <img src="/images/Boie.jpg" alt="Boie Body Scrubber">
+                    </div><br><br>
+
+                    <div class="article-title">
+                        <h4><b>Ditching Your Loofa</b></h4><br>
+                    </div>
+
+                    <p>I'm just going to say it. Loofa's are gross. There's a reason my parents had me use a new washcloth every shower to wash my body. But as it always goes, we find a better way to do everything over time.</p>
+                    <p>I've been using the Boie body scrubber since March and I'm hooked. It clings to the wall (easily, and doesn't fall), it suds enough for me to know it's working, it doesn't get gross and fall apart, it's easy to hold. The list of why I love this product goes on.</p>
+                    <p>Beyond the pure product benefits, there are storage benefits! This this is 1-2 cm wide. The box it comes in is slim as well. Great for saving space in your storage and great for saving space in your shower. </p>
+                    <p>I'm a lifetime fan, and I'm determined to make you one too ;)</p>
+                </div>
                 
                  <!-- ARTICLE: How To Organize Your Beauty Products -->
-                <!-- <div class="articles container_scroll_bg-dark" id="beauty-organization">
-                    <h4>How To Organize Your Beauty Products</h4><br>
+                <!-- <div class="articles container_white_fill" id="beauty-organization">
+                    <div class="blog-section-header" id="travel-header">
+                        <img src="file:///Users/leahguecia/Desktop/Organization/images/Boie.jpg" alt="Extreme Space Saver">
+                    </div><br><br>
+
+                    <div class="article-title">
+                        <h4><b>How To Organize Your Beauty Products</b></h4><br>
+                    </div>
                     <p></p>
                 </div> -->
 
-                <!-- ARTICLE: Hair Tools & Keratin Treatments -->
-                <!-- <div class="articles container_scroll_bg-dark" id="keratin">
-                    <h4>Hair Tools & Keratin Treatments</h4><br>
-                    <p></p>
-                </div> -->
+                <!-- ARTICLE: Paper Goods Storage -->
+                <div class="articles container_white_fill" id="paper-goods-storage">
+                    <div class="blog-section-header" id="travel-header">
+                        <img src="/images/PaperGoods.JPG" alt="Paper Goods">
+                    </div><br><br>
 
-                <!-- ARTICLE: Space Saving Mascara -->
-                <div class="articles container_scroll_bg-dark" id="mascara">
-                    <h4>Space Saving Mascara</h4><br>
-                    <p>Okay, so using one mascara over another doesn't really save space in itself, HOWEVER, years ago I discovered a mascara that does not require makeup remover. IMO, the only reason for makeup remover is to remove mascara. All other makeup agrees to come off your face, it isn't a part of you afterall. But mascara, mascara stays on your lashes, runs down your face, finds its way into your eye - it's the stage 5 clinger of makeup. None of that is appealing to me, so after I met Trish McEvoy and her <a href="https://www.trishmcevoy.com/products/high-volume-tubular-mascara?utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=beauty&utm_content=mascara">high volume tubular mascara</a>, no other mascara had a chance of coming near my lashes.</p>
-                    <p>Here's how it works: you apply like normal and go about your day with no runs or re-applications. When you're ready to remove your makeup, just cup water in your hand and place your closed eye in your hand. That's it. The mascara comes off in flakes you're not upset you subjected your eyes to.</p>
-                    <p>Yes, if you're jumping into the ocean or pool, it's going to come off - water is how you remove this mascara. But at least it's going to fully come off vs. live on your face.</p>
-                    <p>So long racoon eyes and so long wasted space, time, and money on makeup remover.</p>
+                    <div class="article-title">
+                        <h4><b>Paper Goods Storage</b></h4><br>
+                    </div>
+
+                    <p>I'm going to make this short and sweet. Unless you're on another level of minimalism and go to the store for a single roll of toilet paper or paper towels every time you run out, you're going to want to read this. Chances are, when you bring home packs of toilet paper and paper towels, you keep it in the plastic. Like dry cleaning should be taken out of its plastic, so should your paper products:</p>
+                    <ul class="standard-ul">
+                        <li>It looks better</li>
+                        <li>Having individual rolls makes it possible to stack and store custom to your area</li>
+                        <li>There's no hassle when you're taking product out of storage</li>
+                    </ul>
+                    <img src="">
+                    <p>There is no need to go out and buy a basket or container for this storage hack. This kind of defeats the ease of use you gain when you remove the plastic packaging. Plus, homes come with plenty of storage for items like this. These storage locations keep your goods hidden, yet accessible:</p>
+                    <ul class="standard-ul">
+                        <li>Laundry room</li>
+                        <li>Kitchen cabinet or pantry</li>
+                        <li>Under the bathroom sink</li>
+                    </ul>
+                    <p>Happy wiping!</p>
                 </div>
 
+<!-- Row (2 articles) -->
+<div class="container container_3_columns" id="travel-beauty">
+    <div class="row">
+        <div class="post container_columns col-md-6">
+            <div class="img-wrap zoom">
+                <a href="#mascara">
+                    <img class="featured" src="/images/Mascara.JPG" alt="Mascara">
+                </a>
+            </div>
+            <div class="content">
+                <h6>
+                    <a href="#mascara">TRAVEL</a>
+                </h6>
+                <h4>
+                    <a href="#mascara">Space Saving Mascara</a>
+                </h4>
+            </div>
+        </div>
+    
+        <div class="post container_columns col-md-6">
+            <div class="img-wrap zoom">
+                <a href="#dop-kits">
+                    <img class="featured" src="/images/TF3Layout.jpg" alt="Dop Kits">
+                </a>
+            </div>
+            <div class="content">
+                <h6>
+                    <a href="#dop-kits">TRAVEL</a>
+                </h6>
+                <h4>
+                    <a href="#dop-kits">Dop Kits</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input class="button" onclick="window.location.href='#home-beauty'" type="button" value="Back to home beauty"/>
+<br><br>
+
+                <!-- ARTICLE: Hair Tools & Keratin Treatments -->
+                    <!-- <div class="articles container_white_fill" id="keratin">
+                        <div class="blog-section-header" id-"travel-header">
+                            <img src="" alt="">
+                        </div><br><br>
+
+                        <div class="article-title">
+                            <h4>Hair Tools & Keratin Treatments</h4><br>
+                        </div>
+
+                        <p></p>
+                    </div> -->
+
+                <!-- ARTICLE: Space Saving Mascara -->
+                    <div class="articles container_white_fill" id="mascara">
+                        <div class="blog-section-header" id="travel-header">
+                            <img src="/images/Mascara.JPG" alt="Trish McEvoy Mascara">
+                        </div><br><br>
+
+                        <div class="article-title">
+                            <h4><b>Space Saving Mascara</b></h4><br>
+                        </div>
+
+                        <p>Okay, so using one mascara over another doesn't really save space in itself, HOWEVER, years ago I discovered a mascara that does not require makeup remover. IMO, the only reason for makeup remover is to remove mascara. All other makeup agrees to come off your face, it isn't a part of you afterall. But mascara, mascara stays on your lashes, runs down your face, finds its way into your eye - it's the stage 5 clinger of makeup. None of that is appealing to me, so after I met Trish McEvoy and her <a href="https://www.trishmcevoy.com/products/high-volume-tubular-mascara?utm_source=LeahMari&utm_medium=referral&utm_campaign=blogpost&utm_term=beauty&utm_content=mascara">high volume tubular mascara</a>, no other mascara had a chance of coming near my lashes.</p>
+                        <p>Here's how it works: you apply like normal and go about your day with no runs or re-applications. When you're ready to remove your makeup, just cup water in your hand and place your closed eye in your hand. That's it. The mascara comes off in flakes you're not upset you subjected your eyes to.</p>
+                        <p>Yes, if you're jumping into the ocean or pool, it's going to come off - water is how you remove this mascara. But at least it's going to fully come off vs. live on your face.</p>
+                        <p>So long racoon eyes and so long wasted space, time, and money on makeup remover.</p>
+                    </div>
+
                 <!-- ARTICLE: Dop Kits -->
-                <div class="articles container_scroll_bg-dark" id="dop-kits">
-                        <h4>Dop Kits</h4><br>
+                    <div class="articles container_white_fill" id="dop-kits">
+                        <div class="blog-section-header" id="travel-header">
+                            <img src="/images/TF6Dop1.jpg" alt="Dop Kit">
+                        </div>
+
+                        <div class="article-title">
+                            <h4><b>Dop Kits</b></h4><br>
+                        </div>
+
                         <p>It's no secret, I love to travel. But traveling can be exhausting if you can't find your things! If you start to organize yourself, travel prep, traveling, and unpacking can be much less stressful. Packing cubes are everything, and this includes the beauty specific packing cube, dop kits.</p>
                         <p>A few of my personal care favorites to tote along:</p>
                         <ul class="standard-ul">
@@ -239,25 +299,6 @@
                         <img src="">
                         <p>If you're going on a shorter trip, merge your beauty and personal care supply filled dop kit with intimates like socks.</p>
                         <p>And most importantly, always keep your essentials packed for your next trip. These are items that you use every single trip, no matter what, and do not use at home. It's up to you what you include!</p>
-                    </div>
-
-                <!-- ARTICLE: Paper Goods Storage -->
-                    <div class="articles container_scroll_bg-dark" id="paper-goods-storage">
-                        <h4>Paper Goods Storage</h4><br>
-                        <p>I'm going to make this short and sweet. Unless you're on another level of minimalism and go to the store for a single roll of toilet paper or paper towels every time you run out, you're going to want to read this. Chances are, when you bring home packs of toilet paper and paper towels, you keep it in the plastic. Like dry cleaning should be taken out of its plastic, so should your paper products:</p>
-                        <ul class="standard-ul">
-                            <li>It looks better</li>
-                            <li>Having individual rolls makes it possible to stack and store custom to your area</li>
-                            <li>There's no hassle when you're taking product out of storage</li>
-                        </ul>
-                        <img src="">
-                        <p>There is no need to go out and buy a basket or container for this storage hack. This kind of defeats the ease of use you gain when you remove the plastic packaging. Plus, homes come with plenty of storage for items like this. These storage locations keep your goods hidden, yet accessible:</p>
-                        <ul class="standard-ul">
-                            <li>Laundry room</li>
-                            <li>Kitchen cabinet or pantry</li>
-                            <li>Under the bathroom sink</li>
-                        </ul>
-                        <p>Happy wiping!</p>
                     </div>
 
                     <div class="container">
