@@ -56,11 +56,11 @@
                     </button>
                     <div class="navbar-collapse collapse" id="collapsibleNavbar" style="">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="/index.html#about_us">the method</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#services">services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#product_spotlight">tips + tools</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about_us">the method</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#product_spotlight">tips + tools</a></li>
                             <li class="nav-item"><a class="nav-link" href="/blog.html">blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#testimonials">testimonials</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#testimonials">testimonials</a></li>
                             <!-- make password protected -->
                             <!-- <li class="nav-item"><a class="nav-link" href="login_org.html">my profile</a></li> -->
                             <!-- <li class="nav-item"><a class="nav-link" href="/travel.html">packing tool</a></li> -->
@@ -82,9 +82,10 @@
                         <option disabled selected value="">Select an article</option>
                             <!-- type next option value here -->
                             <!-- <option value="article-id">Next Option Value</option> -->
-                            <!-- <option value="airbnb">AirBNB vs. Hotel Packing</option> -->
+                            <option value="extreme">Extreme Ways to Save Space</option>
+                            <option value="airbnb">AirBNB vs. Hotel Packing</option>
                             <option value="never-forget">The Never Forgets</option>
-                            <!-- <option value="packing-cubes">Packing Cubes</option> -->
+                            <option value="packing-cubes">Packing Cubes</option>
                             <option value="wrinkles">How To Prevent Travel Wrinkles</option>
                             <option value="hair-tools">Traveling With Hair Tools</option>
                             <option value="airport-style">Airport Style</option>
@@ -134,10 +135,81 @@
                     <div class="output" id="article-container">
 
                     <!-- ARTICLE: type next article here -->
-                    <!-- <div class="articles container_gray" id="">
-                        <h4>TITLE</h4><br>
+                    <!-- <div class="articles container_white_fill" id="">
+                        <div class="blog-section-header" id="travel-header">
+                            <img src="/images/" alt="">
+                        </div><br><br>
+
+                        <div class="article-title">
+                            <h4><b>ARTICLE</b></h4><br>
+                        </div>
+
                         <p></p>
                     </div> -->
+
+                    <!-- ARTICLE: Extreme Ways to Save Space -->
+                    <div class="articles container_white_fill" id="extreme">
+                        <div class="blog-section-header" id="travel-header">
+                            <img src="/images/Contacts.jpg" alt="Extreme Space Saver">
+                        </div><br><br>
+
+                        <div class="article-title">
+                            <h4><b>Extreme Ways to Save Space</b></h4><br>
+                        </div>
+
+                        <p>A fun way to justify self care and love. I mean, you need it to help you travel light, right? :)</p>
+                        <br><table class="table">
+                            <thead>
+                                <th>To save space with..</th>
+                                <th>Get...</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Glasses, contacts, solution</td>
+                                    <td>Lasik</td>
+                                </tr>
+                                <tr>
+                                    <td>10-step anti-aging creams and rollers</td>
+                                    <td>Botox</td>
+                                </tr>
+                                <tr>
+                                    <td>Hair tools, anti-frizz serums</td>
+                                    <td>Keratin</td>
+                                </tr>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- ARTICLE: AirBNB vs. Hotels -->
+                    <div class="articles container_white_fill" id="airbnb">
+                        <div class="blog-section-header" id="travel-header">
+                            <img src="/images/TF5Layout.jpg" alt="AirBNB vs. Hotels">
+                        </div><br><br>
+
+                        <div class="article-title">
+                            <h4><b>AirBNB vs. Hotels</b></h4><br>
+                        </div>
+
+                        <p>There is a reason why AirBNBs are cheaper than hotels. Simply put, you don't get as much out of an AirBNB. That includes the little things you'll need to pack. Here's a list to help with packing if you're staying in an AirBNB:</p>
+                        <ul>
+                            <li>Q-tips</li>
+                            <li>Toothbrush + toothpaste</li>
+                            <li>Soap, soap, soap [This stuff can be so sketch in an AirBNB, if it's provided. And it probably won't be labeled - skip it and bring your own.]</li>
+                                <ul>
+                                    <li>Shampoo</li>
+                                    <li>Conditioner</li>
+                                    <li>Body wash</li>
+                                    <li>Face soap</li>
+                                </ul>
+                            <li>Make up remover pads</li>
+                            <li>Call house keeping for anything else? Pack it!</li>
+                        </ul>
+                        <p>Check your AirBNB listing for:</p>
+                        <ul>
+                            <li>Hair dryer</li>
+                        </ul>
+                    </div>
 
                     <!-- ARTICLE: The Never Forgets -->
                         <div class="articles container_white_fill" id="never-forget">
@@ -146,12 +218,16 @@
                                 <!-- <div class="centered-label" id="travel-blog"><h1>The Never Forgets</h1></div> -->
                             </div><br><br>
 
-                            <h4><b>The Never Forgets</b></h4><br>
+                            <div class="article-title">
+                                <h4><b>The Never Forgets</b></h4><br>
+                            </div>
+
                             <p>Most things can be purchased wherever you travel to, but here's a simple list of those unbuyables to make your packing and travel easy:</p>
                             <ul>
-                                <li>Medicine</li>
-                                <li>Phone charger</li>
-                                <li>Contacts</li>
+                                <li>Medicine [prescriptions, motion sickness, etc.]</li>
+                                <li>Contacts/glasses</li>
+                                <li>Phone + computer chargers</li>
+                                <li>Headphones that work for your phone AND the plane</li>
                             </ul>
                             <p>Your list may be a little different. The idea is to keep it consistent and easily accessible in either:</p>
                             <ul>
@@ -161,6 +237,46 @@
                             </ul>
                         </div>
                         <br>
+
+                    <!-- ARTICLE: Packing Cubes -->
+                        <div class="articles container_white_fill" id="packing-cubes">
+                            <div class="blog-section-header" id="travel-header">
+                                <img src="/images/PackingCubes.jpg" alt="Packing Cubes">
+                            </div><br><br>
+
+                            <div class="article-title">
+                                <h4><b>Packing Cubes</b></h4><br>
+                            </div>
+
+                            <p>It's pretty obvious I'm obsessed with packing cubes. Here's a few reasons why:</p>
+                            <ol>
+                                <li>I use them to separate my clothes/packed items by category. If I need one thing, I don't have to dig through everything I brought!</li>
+                                <li>They stack nicely next to each other in any bag, creating compartments in a sense</li>
+                                <li>They compress your items, saving you valuable space in your travel bags:</li>
+                            </ol>
+                            <div class="row">
+                                <div class="container_3_columns">
+                                    <div class="row">
+                                        <div class="container_columns col-md-6">
+                                            <div class="top_row_of2">
+                                                <div class="img_row_of2">
+                                                    <img src="/images/TF6CubesOpen.jpg" alt="Unzipped Cube">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container_columns col-md-6">
+                                            <div class="top_row_of2">
+                                                <div class="img_row_of2">
+                                                    <img src="/images/TF6CubesClosed.jpg" alt="Compressed Cube">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p>I have had my same set of three packing cubes for over two years and they've gone on every trip with me with no problems. HOWEVER, it is time to start exploring other brands, fabrics, colors, and sizes to find the best of the best. Stay tuned!</p>
+                        </div>
 
                     <!-- ARTICLE: How To Prevent Travel Wrinkles -->
                         <div class="articles container_white_fill" id="wrinkles">
