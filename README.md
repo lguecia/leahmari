@@ -214,3 +214,7 @@
 ![](images/TF6Dop2.jpg)
 
 ![](images/TF6Dop3.1.jpg)
+
+![](images/TF6CubesOpen.jpg)
+
+![](images/TF6CubesClosed.jpg)
