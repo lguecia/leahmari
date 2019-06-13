@@ -218,3 +218,5 @@
 ![](images/TF6CubesOpen.jpg)
 
 ![](images/TF6CubesClosed.jpg)
+
+![](images/HomeOffice4.jpg)
