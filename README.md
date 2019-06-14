@@ -220,3 +220,11 @@
 ![](images/TF6CubesClosed.jpg)
 
 ![](images/HomeOffice4.jpg)
+
+![](images/NYSummerOddFellows.jpg)
+
+![](images/NYSummerCPark1.jpg)
+
+![](images/NYSummerBrookfieldCrop.jpg)
+
+![](images/NYSummerSohoHouse.jpg)
