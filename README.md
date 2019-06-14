@@ -228,3 +228,25 @@
 ![](images/NYSummerBrookfieldCrop.jpg)
 
 ![](images/NYSummerSohoHouse.jpg)
+
+![](images/LATrees.JPG)
+
+![](images/LASafari.JPG)
+
+![](images/LAObservatory.JPG)
+
+![](images/LAStripClass.PNG)
+
+![](images/LAMalibuFarms.JPG)
+
+![](images/LAChaChaChicken.JPG)
+
+![](images/LADelilah.PNG)
+
+![](images/LACatch.jpg)
+
+![](images/LADoheny.JPG)
+
+![](images/LASixty.JPG)
+
+![](images/LALondon.JPG)
