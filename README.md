@@ -279,7 +279,7 @@
 
 ![](images/MarissaBags.jpeg)
 
-![](images/MarissaGabeTies.jepg)
+![](images/MarissaGabeTies.jpeg)
 
 ![](images/MarissaGlasses.jpg)
 
