@@ -276,3 +276,11 @@
 ![](images/CostaSalsa.JPG)
 
 ![](images/Pvolve.jpg)
+
+![](images/MarissaBags.jpeg)
+
+![](images/MarissaGabeTies.jepg)
+
+![](images/MarissaGlasses.jpg)
+
+![](images/MarissaRightClosets.jpeg)
