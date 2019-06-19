@@ -277,10 +277,10 @@
 
 ![](images/Pvolve.jpg)
 
-![](images/MarissaBags.jpeg)
+![](images/MarissaBags.jpg)
 
-![](images/MarissaGabeTies.jpeg)
+![](images/MarissaGabeTies.jpg)
 
 ![](images/MarissaGlasses.jpg)
 
-![](images/MarissaRightClosets.jpeg)
+![](images/MarissaRightClosets.jpg)
