@@ -284,3 +284,7 @@
 ![](images/MarissaGlasses.jpg)
 
 ![](images/MarissaRightClosets.jpg)
+
+![](images/AlexLizLinens1.jpg)
+
+![](images/AlexLizLinens2Crop.jpg)
