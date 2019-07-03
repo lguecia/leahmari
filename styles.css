@@ -294,6 +294,17 @@ img {
     overflow: hidden;
 }
 
+.container_2_columns_tall {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 1250px;
+    overflow: hidden;
+}
+
 .left_column_of2 img, .right_column_of2 img {
     width: 100%;
     background-size:cover;
@@ -303,6 +314,11 @@ img {
 
 .img_column_of2 {
     height: 250px;
+    overflow: hidden;
+}
+
+.img_column_of2_tall {
+    height: 500px;
     overflow: hidden;
 }
 
@@ -344,6 +360,9 @@ img {
     .left_column_of2 img, .right_column_of2 img {
         height: 250px;
     }
+    .img_column_of2_tall {
+        height: 100%;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -351,7 +370,10 @@ img {
     .left_column_of2, .right_column_of2 {
         width: 100%;
         height: 100%;
-  }
+    }
+    .img_column_of2_tall {
+        height: 100%;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
