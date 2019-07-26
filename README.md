@@ -310,3 +310,21 @@
 ![](images/TF8Cubes2.jpg)
 
 ![](images/AlexLizKitchen.jpg)
+
+![](images/KaseyTees.jpg)
+
+![](images/AlexLizFoldedBaby3.jpg)
+
+![](images/KirstenShoesFrontZoom.jpg)
+
+![](images/ChanningPantryColors.jpg)
+
+![](images/YoniClosetBefore.jpg)
+
+![](images/YoniWalkInBefore.jpg)
+
+![](images/YoniRoomBefore.jpg)
+
+![](images/YoniClosetAfter3.jpg)
+
+![](images/YoniRoomAfter.jpg)
