@@ -57,6 +57,43 @@ li a {
 /* end nav */
 
 
+/* archive-intro nav */
+
+.archive-intro a {
+    display: inline-block;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.archive-intro nav a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.archive-intro a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+.archive-intro a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.archive-intro a:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.archive-intro a:active {
+    text-decoration: underline;
+    color: gray;
+}
+
+/* end archive-intro nav */
+
+
 /* main */
 
 main {
@@ -240,6 +277,13 @@ img {
     margin-bottom: 20px;
     padding: 20px 0;
     background: white;
+}
+
+.container_line {
+    border-top: solid 3px #000;
+    margin-top: 40px;
+    padding-top: 40px;
+    margin-bottom: 0px;
 }
 
 .container_scroll_bg-dark {
@@ -622,7 +666,7 @@ img {
     text-decoration: underline;
 }
 
-.fa-envelope, .fa-instagram {
+.fa-envelope, .fa-instagram, .fa-youtube {
    color: white;
 }
 
@@ -725,6 +769,37 @@ input[type="text"]{
     background-position: center;
 }
 
+
+/* Large numbers */
+
+.large-numbers {
+    display: inline-block;
+    height: 200px;
+}
+
+.element-number {
+    padding-left: 15px;
+    font-family: "Butler", serif;
+    font-weight: 300;
+    font-size: 200px;
+    line-height: 1;
+    position: absolute;
+    color: #F5F5F5;
+}
+
+.element-text {
+    font-family: "Franklin", helvetica;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 1.2;
+    position: relative;
+    top: 110px;
+    z-index: 1;
+}
+
+/* End large numbers */
+
+
 /* Responsive images */
 /* Smartphones (portrait and landscape) */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -815,6 +890,16 @@ input[type="text"]{
 .img-wrap img {
     width: 100%;
     height: 250px;
+    object-fit: cover;
+}
+
+.img-wrap-200 {
+    height: 215px;
+}
+
+.img-wrap-200 img {
+    width: 100%;
+    height: 200px;
     object-fit: cover;
 }
 
