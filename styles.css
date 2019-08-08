@@ -185,6 +185,15 @@ img {
     background-repeat:no-repeat;
 }
 
+.bottom_row_of2 img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
 .img_row_of2 {
     height: 300px;
     overflow: hidden;
