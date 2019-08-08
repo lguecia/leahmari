@@ -346,3 +346,13 @@
 ![](images/AlexLizOliviaCloset2.jpg)
 
 ![](images/AlexLizFoldedBaby3.jpg)
+
+![](images/ChanningLinens.jpg)
+
+![](images/ChanningPantryDrawer1.jpg)
+
+![](images/ChanningPantryDrawer2.jpg)
+
+![](images/ChanningSterlingCloset.jpg)
+
+![](images/ChanningSterlingShelves.jpg)
