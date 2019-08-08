@@ -22,7 +22,9 @@
         <!-- End Google Tag Manager -->
 
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <!-- FOR WEB -->
         <!-- <link href="/styles.css" rel="stylesheet"> -->
+        <!-- FOR TESTING -->
         <link href="/styles.css" rel="stylesheet">
         <title>LEAH MARI</title>
         <meta charset="utf-8">
@@ -54,14 +56,14 @@
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse" id="collapsibleNavbar" style="">
+                    <div class="navbar-collapse collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="/index.html#about_us">the method</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#services">services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#product_spotlight">tips + tools</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about_us">the method</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#product_spotlight">tips + tools</a></li>
                             <li class="nav-item"><a class="nav-link" href="/products.html">shop product</a></li>
                             <li class="nav-item"><a class="nav-link" href="/blog.html">blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#testimonials">testimonials</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#testimonials">testimonials</a></li>
                             <!-- make password protected -->
                             <!-- <li class="nav-item"><a class="nav-link" href="login_org.html">my profile</a></li> -->
                             <!-- <li class="nav-item"><a class="nav-link" href="/travel.html">packing tool</a></li> -->
@@ -72,667 +74,177 @@
             </header>
 
             <main>
-
-                <div class="great-vibes">
-                    <h1>Packing Features</h1>
+                <br>
+                <div class="archive-intro">
+                    <h2><b>Explore</b></h2>
+                    <nav>
+                        <a href="/blog/travelblog.html">TRAVEL</a>
+                        <a href="/blog/beauty.html">BEAUTY</a>
+                        <a href="/blog/closets.html" class="active">CLOSET</a>
+                        <a href="/blog/kitchen.html">KITCHEN</a>
+                        <a href="/blog/office.html">OFFICE</a>
+                        <a href="/blog/decor.html">DECOR</a>                        
+                    </nav>
                 </div>
+                <br><br>
 
-                <!-- <label class="dropdown-label" for="states"><h6>Products and Tips:</h6></label> -->
-                <div class="article-dropdown">
-                    <select name="article-select" id="travel-select">
-                        <option disabled selected value="">Select an article</option>
-                        <!-- type next option value here -->
-                        <!-- <option value="article-id">Next Option Value</option> -->
-                        <option value="tf-8">Adventure Pack | For a Long Weekend</option>
-                        <option value="tf-7">Hawaii | For 2 Weeks</option>
-                        <option value="tf-6">Flying Standby | Chicago</option>
-                        <option value="tf-5">Long Weekend Getaway | Wine Country</option>
-                        <option value="tf-4">Palm Beach | Long Weekend for Him</option>
-                        <option value="tf-3">LA | For 1 Week</option>
-                        <option value="tf-1">Italy | For 2 Weeks</option>
-                        <option value="tf-2">Costa Rica | For 1 Week</option>
-                        <option value="tf-0">DC | For a Long Weekend</option>
-                    </select>
-                </div>
+                <div class="container">
+                <h6><b>PACKING FEATURES</b></h6><br>
 
-                <script>
-                    $(function() {
-                        $('#travel-select').change(function(){
-                            $('.articles').hide();
-                            $('#' + $(this).val()).show();
-                        });
-                    });
-                </script>
+                <div class="container_3_columns">
+                    <div class="row">
+                        <div class="container_columns col-md-3" id="tf-8">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/adventurepack">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF8Cubes2.jpg" alt="Adventure Pack">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/adventurepack">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/adventurepack">Adventure Pack</a>
+                                </h4>
+                            </div>
+                        </div>
 
-                <br><input class="button" onclick="window.location.href='https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODQ3MzA5NDE4MzU3NDg5/?utm_source=ig_story_highlights_share&igshid=zky1n2c3pn1k'" type="button" value="See Packing Tips + Tricks on Instagram"/> 
+                        <div class="container_columns col-md-3 active" id="tf-7">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/hawaii">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF7Bag.jpg" alt="Hawaii">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/hawaii">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/hawaii">Hawaii | 2 Weeks</a>
+                                </h4>
+                            </div>
+                        </div>
 
-                <!-- <br><br><div>
-                    <p><i>Have a specific question on travel organization? <a href="mailto:lguecia@gmail.com?subject=Travel Organization Question">Let me know</a> - I'd be happy to answer it!</i></p>
-                </div> -->
+                        <div class="container_columns col-md-3 active" id="tf-6">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/flyingstandby">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF6FullShoes.jpg" alt="Flying Standby">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/flyingstandby">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/flyingstandby">Flying Standby</a>
+                                </h4>
+                            </div>
+                        </div>
 
-
-<!-- TRAVEL BLOG WIDGET NAV BY ARTICLE TYPE | WHITE BLOCK -->
-
-                <div class="output" id="article-container">
-
-                    <div class="container">
-                        <!-- <div>
-                            <h6><b>Explore The Travel Blog</b></h6>
-                        </div> -->
-                        <br><br>
-                        <div class="blog-nav">
-                            <a href="/blog/travel_packingfeatures" class="col-md-2 fas fa-passport fa-lg">
-                                <p></p><p>Packing</p>
-                            </a>
-                            <a href="/blog/travel_tipsandtricks" class="col-md-2 fas fa-luggage-cart fa-lg">
-                                <p></p><p>Tricks</p>
-                            </a>
-                            <a href="/blog/travel_itineraries" class="col-md-2 fas fa-map-marked-alt fa-lg">
-                                <p></p><p>Itineraries</p>
-                            </a>
+                        <div class="container_columns col-md-3" id="tf-5">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/weekendgetaway">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF5Layout.jpg" alt="Weekend Getaway">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/weekendgetaway">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/weekendgetaway">Weekend Getaway</a>
+                                </h4>
+                            </div>
                         </div>
                     </div>
 
-
-                    <div class="output" id="article-container">
-
-                    <!-- ARTICLE: type next article here -->
-                        <!-- <div class="articles container_white_fill" id="">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/" alt="">
-                            </div><br><br>
-                                    
-                            <div class="article-title">
-                                <h4><b>ABC</b></h4><br>
-                            </div>
-                        </div> -->
-
-                    <!-- ARTICLE: Adventure Pack | For a Long Weekend -->
-                        <div class="articles container_white_fill" id="tf-8">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/TF8Bags.jpg" alt="Adventure Pack">
-                            </div><br><br>
-                                    
-                            <div class="article-title">
-                                <h4><b>Adventure Pack</b> | For a Long Weekend</h4><br>
-                            </div>
-
-                            <div class="container_2_columns_tall">
-                                <div class="left_column_of2 col-md-6">
-                                    <div class="img_column_of2_tall">
-                                        <img src="/images/TF8Cubes1.jpg" alt="Adventure Pack">
-                                    </div>
-                                </div>
-                                <div class="right_column_of2 col-md-6">
-                                    <h5>The Secret to Packing for Active Vacations</h5>
-                                    <br><p>Whether you're going on an adventure packed vacation [think hiking, sky diving], a yoga retreat, or simply planning a relaxing vacation jam packed with lounging -  you really don't need much.
-                                        
-                                        <br><br><br><b>Tips:</b>
-                                        <br><br>Mix and match athleisure basics to easily pair tops and bottoms for whatever you have planned
-                                        <br><br>Fold and pack your items so they are all visible
-                                        <br><br>Pack underwear alongside your outfit choices
-                                        <br><br>Separate active, lounge, and dining wear
-                                        
-                                        <br><br><br><b>For Her:</b>
-                                        <br><br>Make your pieces work harder - i.e. longline sports bras double as shirts and bras whatever the activity!
-                                    </p>
-                                </div>
-                            </div>
-                            <br><br>
-                        </div>
-                        <br>
-
-                    <!-- ARTICLE: type next article here -->
-                        <div class="articles container_white_fill" id="tf-7">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/TF7Fold.JPEG" alt="Hawaii">
-                            </div><br><br>
-                                    
-                            <div class="article-title">
-                                <h4><b>Hawaii</b> | For 2 Weeks</h4><br>
-                            </div>
-
-                            <p>Ever book a connecting flight to find out you can't check your bags? <b>*Learning Lesson* If you book your connecting flights separate on JetBlue, they can't merge the two itineraries and therefore cannot keep your bag checked through your final destination.</b> So you can imagine I was this traveler's first call when she found out she had to pack two weeks of clothes in a carry on.</p>
-                            <p>Or maybe you just don't want to check a bag for your longer trips. Either way, I got you covered! Here is how we packed for two weeks in a warm weather destination in just one carry on suitcase.</p>
-                            
-                            <br><br><br>
-                            <h6>FIRST WE REVIEWED THE ITINERARY</h6>
-                            <br>
-                            <table class="table">
-                                <thead>
-                                    <th>DAYS</th>
-                                    <th>NIGHTS</th>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><b>10</b></td>
-                                        <td><b>10</b></td>
-                                    </tr>
-                                    <tr>
-                                        <td>8 days of laying out<br>&rarr; [8 bathing suits & cover ups]</td>
-                                        <td>casual dinners<br>&rarr; [dresses, skirts, rompers with flats]</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1 family day<br>&rarr; [1 casual day outfit]</td>
-                                        <td>formal dinners<br>&rarr; [dresses, skirts, rompers with heels]</td>
-                                    </tr>
-                                    <tr>
-                                        <td>1 wedding prep day<br>&rarr; [1 easy on/off outfit]</td>
-                                        <td>1 wedding<br>&rarr; [1 wedding guest dress & heels]</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                            <br><br><br>
-                            <h6>NEXT WE LAID OUT THE PACK</h6>
-                            <div class="container_2_columns_tall col-reverse">
-                                <div class="left_column_of2 col-md-6">
-                                    <br>
-                                    <p>Day outfits<br><br>
-                                    Night outfits<br><br>
-                                    Accessories: sunglasses, belts, shoes, jewelry, bags<br><br>
-                                    Intimates & PJs<br><br>
-                                    Toiletries<br><br>
-                                    Makeup
-                                    </p>
-                                </div>
-                                <div class="right_column_of2 col-md-6">
-                                    <div class="img_column_of2_tall">
-                                        <img src="/images/TF7LayoutFold.jpg" alt="Packing Cubes">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br><br><br>
-                            <h6>THEN FOLDED AS WE WENT & PACKED EFFICIENTLY</h6>
-                            <br>
-
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF7Toiletries.jpg" alt="4 Packing Cubes">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF7Layer1Dog.jpg" alt="Jacket & Bottoms Layout">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF7Layer2.jpg" alt="Intimates Stacked">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF7Layer3.jpg" alt="Inside Intimates">
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><br>
-                        </div>
-                        <br>
-
-                    <!-- ARTICLE: Flying Standby: Chicago -->
-                        <div class="articles container_white_fill" id="tf-6">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/TF6FullShoes.jpg" alt="Packing Feature: Chicago">
-                            </div><br><br>
-                                    
-                            <div class="article-title">
-                                <h4><b>Flying Standby</b> | Chicago</h4><br>
-                            </div>
-
-                            <p>Maybe you're flying standby, maybe you have an extended work trip, maybe you're a total wanderlust. Fact is, sometimes trips don't have definite end dates. So how do you pack for them? Mix and match basics!</p>
-                            
-                            <br><p>Here's what I knew about my trip:</p>
-                            <p><b>Destination:</b> Chicago</p>
-                            <p><b>Estimated Duration:</b> 3-6 days</p>
-                            <p><b>Weather:</b> High: 60s, Low: 50s</p>
-
-                            <br><p>Here's what I brought:</p>
-                            <p><b>Tops:</b> 3 tank leotards, 1 short sleeve tee, 2 short sleeve crops, 1 sweater, 1 light jacket</p>
-                            <p><b>Bottoms:</b> 1 pair of jean shorts, 2 pairs of jeans, 1 nicer pant</p>
-                            <p><b>Lounge:</b> 1 activewear set, 1 pair of pjs, intimates for 7 days</p>
-                            <p><b>Shoes:</b> 1 sneaker, 1 sandal, 1 heel</p>
-
-                            <br><p>And here's how I packed:</p>
-
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF6Cubes.jpg" alt="4 Packing Cubes">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF6CubesMap.jpg" alt="Jacket & Bottoms Layout">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF6Intimates1.jpg" alt="Intimates Stacked">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF6Intimates2.jpg" alt="Inside Intimates">
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <br><p>Layered toiletries in the dop kit (*I'm on a hunt for the perfect, foldable toiletry holder):</p>
-                            <div class="row">
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF6Dop1.jpg" alt="Bottom Layer">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF6Dop2.jpg" alt="Middle Layer">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF6Dop3.1.jpg" alt="Top Layer">
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><br>
-                        </div>
-                        <br>
-
-                    <!-- ARTICLE: Weekend Getaway: Out East in Wine Country -->
-                        <div class="articles container_white_fill" id="tf-5">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/GreenportWinery6.jpg" alt="Packing Feature: Greenport">
-                            </div><br><br>
-                                    
-                            <div class="article-title">
-                                <h4><b>Weekend Getaway</b> | Out East in Wine Country</h4><br>
-                            </div>
-
-                            <!-- <div class="container"> -->
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF5Lifestyle.jpg" alt="Greenport Home">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF5Cubes2.jpg" alt="2 Packing Cubes">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF5ClothesUp2.jpg" alt="Clothes Up">
-                                    </div>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                    <div class="img_row_of2">
-                                    <img src="/images/TF5Layout.jpg" alt="Packed Bag">
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- </div> -->
-                            <br><br>
-                        </div>
-                        <br>
-
-                    <!-- ARTICLE: Packing Feature: Palm Beach for Him -->
-                        <div class="articles container_white_fill" id="tf-4">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/TF4All.jpg" alt="Packing Feature: Palm Beach">
-                                <!-- <div class="centered-label" id="travel-blog"><h1>Palm Beach For Him</h1></div> -->
-                            </div><br><br>
-                            
-                            <div class="article-title">
-                                <h4><b>Palm Beach</b> | Long Weekend for Him</h4><br>
-                            </div>
-
-                            <p>If you're the type that always thinks you need 5 pairs of emergency underwear, a bathing suit change every 4 hours, and a different pair of shoes for every single outfit, continue reading this.</p>
-                            <p>We took a notorious overpacker and converted him to an accurate packer.</p>
-                            <!-- <div class="container_3_columns"> -->
-                            <div class="container container_3_columns">
-                                <div class="row">
-                                    <div class="container_columns col-md-6">
-                                        <div class="top_row_of2">
-                                            <div class="img_row_of2">
-                                                <img src="/images/TF4Day.jpg" alt="Packing Layout">
-                                            </div>
-                                        </div>
-                                        <div class="bottom_row_of2">
-                                            <p></p>
-                                            <h6>Day</h6>
-                                        </div>
-                                    </div>
-                                    <div class="container_columns col-md-6">
-                                        <div class="top_row_of2">
-                                            <div class="img_row_of2">
-                                                <img src="/images/TF4Night.jpg" alt="Packing Edit">
-                                            </div>
-                                        </div>
-                                        <div class="bottom_row_of2">
-                                            <p></p>
-                                            <h6>Night</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-
-                        <h6>Here's how we got there:</h6>
-                        <br>
-                        <h6>PACK</h6>
-                        <ol>
-                            <li>We laid out the itinerary: hanging out in the sun and dining</li>
-                            <li>We agreed on the number of bags: 1</li>
-                            <li>Once outfits were optimized for minimal packing and finalized, they were folded neatly</li>
-                            <li>Items were packed in the garment bag, separated by day and night outfits. Blazers and button ups (on thin hangers with blazer/button up pairs married), and bottoms were placed together by outfit for ease.</li>
-                            <li>Valuables were packed in the personal bag in case the carry on was checked at the gate</li>
-                        </ol>
-                        <br>
-                        <h6>PRODUCT</h6>
-                        <ul>
-                            <li>Client owned Tumi garment bag was used. While this is a quality item, we feel that in the carry. This client is happily switching to a Hook & Albert Men's weekender/garment bag!</li>
-                        </ul>
-                        <br>
-                        <p><b>TOTAL TIME:</b> 1 hour!</p>
-                        <br><br>
-                    </div>
-                    <br>
-
-                <!-- ARTICLE: 1 Week in LA -->
-                    <div class="articles container_white_fill" id="tf-3">
-                        <div class="blog-section-header" id="travel-header">
-                            <img src="/images/VeniceBeach.jpg" alt="Packing Feature: LA">
-                        </div><br><br>
-                                
-                        <div class="article-title">
-                            <h4><b>LA</b> | For 1 Week</h4><br>
-                        </div>
-
-                        <!-- <div class="container"> -->
-                        <div class="row">
-                            <div class="container_columns col-md-3">
-                                <div class="top_row_of2">
-                                <div class="img_row_of2">
-                                <img src="/images/TF3ClothesUp.jpg" alt="Clothes Up">
-                                </div>
-                                </div>
-                            </div>
-                            <div class="container_columns col-md-3">
-                                <div class="top_row_of2">
-                                <div class="img_row_of2">
-                                <img src="/images/TF3Bags.jpg" alt="Packed Bags">
-                                </div>
-                                </div>
-                            </div>
-                            <div class="container_columns col-md-3">
-                                <div class="top_row_of2">
-                                <div class="img_row_of2">
-                                <img src="/images/TF3Layout.jpg" alt="3 Packing Cubes">
-                                </div>
-                                </div>
-                            </div>
-                            <div class="container_columns col-md-3">
-                                <div class="top_row_of2">
-                                <div class="img_row_of2">
-                                <img src="/images/TF3Bag.jpg" alt="Travel Bags">
-                                </div>
-                                </div>
+                    <div class="row">
+                        <div class="container_columns col-md-3" id="tf-4">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/floridaforhim">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF4Bag.jpg" alt="Palm Beach">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/floridaforhim">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/floridaforhim">Palm Beach | Him</a>
+                                </h4>
                             </div>
                         </div>
-                        <!-- </div> -->  
-                        <br><br>              
-                    </div>
-                    <br>
 
-                <!-- ARTICLE: Packing Feature: 2 Weeks in Italy -->
-                <!-- <script>
-                    history.pushState(null, null, 'italy');
-                </script> -->
-                    <div class="articles container_white_fill" id="tf-1">
-                        <div class="blog-section-header" id="travel-header">
-                            <img src="/images/TF1Layout.jpg" alt="Packing Feature: Italy">
-                        </div><br><br>
-                                
-                        <div class="article-title">
-                            <h4><b>Italy</b> | For 2 Weeks</h4><br>
-                        </div>
-
-                        <h6>Here's how we stacked up:</h6>
-                        <!-- <div class="container container_3_columns"> -->
-                        <div class="container_3_columns">
-                            <div class="row">
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/TF1Layout.jpg" alt="Packing Layout">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>The Layout</h6>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/TF1Edit.jpg" alt="Packing Edit">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>The Edit</h6>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/TF1Pack.jpg" alt="Packing">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>The Pack</h6>
-                                    </div>
-                                </div>
+                        <div class="container_columns col-md-3" id="tf-3">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/la">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF3ClothesUp.jpg" alt="LA">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/la">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/la">LA | 1 Week</a>
+                                </h4>
                             </div>
                         </div>
-                        <br>
 
-                        <h6>Here's how we got there:</h6>
-                        <br>
-                        <h6>PREP</h6>
-                        <ol>
-                            <li>General itinerary requested for day of packing</li>
-                            <li>Client opted to take out and pile items she wanted to pack 3 days prior</li>
-                        </ol>
-                        <br>
-                        <h6>PACK</h6>
-                        <ol>
-                            <li>Together, we went through the itinerary and planned outfits for general activities (i.e. I might shop, we are going to a fancy dinner one of these two nights in this city)</li>
-                            <li>In a clear space, outfits (including shoes and accessories) were placed by day</li>
-                            <li>Once outfits were optimized for minimal packing and finalized, they were folded neatly</li>
-                            <li>Items were packed in the carry on by day, with earlier days on top</li>
-                            <li>Valuables were packed in the personal bag in case the carry on was checked at the gate</li>
-                        </ol>
-                        <br>
-                        <h6>PRODUCT</h6>
-                        <ul>
-                            <li>All packing products were client owned. Travel cubes and additional dust bags for shoes would be recommended for future travel.</li>
-                        </ul>
-                        <br>
-                        <p><b>TOTAL TIME:</b> 1 hour!</p>
-                        <br><br>
-                    </div>
-                    <br>
-
-                    <!-- ARTICLE: 1 Week in Costa Rica -->
-                    <div class="articles container_white_fill" id="tf-2">
-                        <div class="blog-section-header" id="travel-header">
-                            <img src="/images/aerial ocean.JPG" alt="Packing Feature: Costa Rica">
-                        </div><br><br>
-                                
-                        <div class="article-title">
-                            <h4><b>Costa Rica</b> | For 1 Week</h4><br>
-                        </div>
-
-                        <!-- <div class="container"> -->
-                        <div class="row">
-                            <div class="container_columns col-md-3">
-                                <div class="top_row_of2">
-                                <div class="img_row_of2">
-                                <img src="/images/TF2Bag.jpg" alt="Travel Bags">
-                                </div>
-                                </div>
-                            </div>
-                            <div class="container_columns col-md-3">
-                                <div class="top_row_of2">
-                                <div class="img_row_of2">
-                                <img src="/images/TF2Shoes.jpg" alt="Cubes + Shoes">
-                                </div>
-                                </div>
-                            </div>
-                            <div class="container_columns col-md-3">
-                                <div class="top_row_of2">
-                                <div class="img_row_of2">
-                                <img src="/images/TF2ClothesUp.jpg" alt="2 Packing Cubes">
-                                </div>
-                                </div>
-                            </div>
-                            <div class="container_columns col-md-3">
-                                <div class="top_row_of2">
-                                <div class="img_row_of2">
-                                <img src="/images/TF2Layout.jpg" alt="Packed Bags">
-                                </div>
-                                </div>
+                        <div class="container_columns col-md-3" id="tf-1">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/italy">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF1Layout.jpg" alt="Italy">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/italy">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/italy">Italy | 2 Weeks</a>
+                                </h4>
                             </div>
                         </div>
-                        <!-- </div> -->
-                        <!-- <br><p>Details coming soon</p> -->
-                        <br><br>
-                    </div>
-                    <br>
 
-                    <!-- ARTICLE: 1 Week in DC -->
-                    <div class="articles container_white_fill" id="tf-0">
-                        <div class="blog-section-header" id="travel-header">
-                            <img src="/images/TF0Bags.JPG" alt="Packing Feature: DC">
-                        </div><br><br>
-                                
-                        <div class="article-title">
-                            <h4><b>DC</b> | For a Long Weekend</h4><br>
-                        </div>
-
-                        <p><b>Destination:</b> DC</p>
-                        <p><b>Duration:</b> 4 days</p>
-                        <p><b>Weather:</b> 20-45&deg;</p>
-
-                        <div class="container container_3_columns">
-                            <div class="row">
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/TF0Bags.JPG" alt="Packing Bags">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <p>In the Longchamp: 1 medium packing cube, 1 dop kit, 1 jacket</p>
-                                        <p>In the backpack: laptop, travel accessories, extra space</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/TF0Layout.jpg" alt="Extra Space">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <p>Proof extra space comes in handy! Purchased these Nike sneakers on a whim after seeing a similar pair on Netflix's Instant Hotel</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/TF0Cubes.jpg" alt="Packing Cubes">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <p>In the cube: 1 active outfit, 1 romper, 2 tops/sweaters, 1 pair of jeans, sleepwear</p>
-                                        <p>In the dop kit: beauty, toilitries, intimates, socks</p>
-                                    </div>
-                                </div>
+                        <div class="container_columns col-md-3" id="tf-2">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/costarica">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF2Bag.jpg" alt="Costa Rica">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/costarica">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/costarica">Costa Rica | 1 Week</a>
+                                </h4>
                             </div>
                         </div>
                     </div>
-                    <br>
 
-                    <div class="container" id="more-articles-1">
-                        <div>
-                            <h6><b>Explore The Blog By Category</b></h6>
-                        </div>
-                        <br><br>
-                        <div class="blog-nav">
-                            <!-- <a href="/blog/travelblog.html" class="col-md-2 fas fa-suitcase-rolling fa-lg">
-                                <p></p><p>Travel</p>
-                            </a> -->
-                            <a href="/blog/beauty.html" class="col-md-2 fas fa-bath fa-lg">
-                                <p></p><p>Beauty</p>
-                            </a>
-                            <a href="/blog/closets.html" class="col-md-2 fas fa-tshirt fa-lg">
-                                <p></p><p>Closet</p>
-                            </a>
-                            <a href="/blog/kitchen.html" class="col-md-2 fas fa-blender fa-lg">
-                                <p></p><p>Kitchen</p>
-                            </a>
-                            <a href="/blog/office.html" class="col-md-2 fas fa-chair fa-lg">
-                                <p></p><p>Office</p>
-                            </a>
-                            <a href="/blog/decor.html" class="col-md-2 fas fa-couch fa-lg">
-                                <p></p><p>Decor</p>
-                            </a>
+                    <div class="row">
+                        <div class="container_columns col-md-3" id="tf-0">
+                            <div class="img-wrap zoom">
+                                <a href="/blog/travelpacking/dc">
+                                    <img class="img-fluid-mx-auto d-block" src="/images/TF0Layout.jpg" alt="DC">
+                                </a>
+                            </div> 
+                            <div class="content">
+                                <h6>
+                                    <a href="/blog/travelpacking/dc">PACKING</a>
+                                </h6>
+                                <h4>
+                                    <a href="/blog/travelpacking/dc">DC | Long Weekend</a>
+                                </h4>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </main>
-
+    
             <footer>
                 <div class="action">WANT MORE? CHECK US OUT</div>
                     <ul id="menu-footer" class="menu">
@@ -740,10 +252,11 @@
                         <li><a href="mailto:lguecia@gmail.com?subject=Contact Leah Mari">Contact us</a></li>
                         <a href="mailto:lguecia@gmail.com?subject=Hello" class="fa fa-envelope"></a>
                         <a href="https://www.instagram.com/schmeeismee/?hl=en" class="fab fa-instagram"></a>
+                        <a href="https://www.youtube.com/channel/UCaJX0cyYWXxwN-WdA2PiZNQ?view_as=subscriber" class="fab fa-youtube"></a>
                         <li><small><br>Copyright © 2019 Leah Mari - All Rights Reserved.</small></li>
                     </ul>
             </footer>
-                
+
         </div>
         <!-- CJ Deep Link | Affiliate Marketing -->
         <script src="//www.anrdoezrs.net/am/9135006/include/allCj/exclude/5137678,5147629/impressions/page/am.js"></script>
