@@ -328,3 +328,21 @@
 ![](images/YoniClosetAfter3.jpg)
 
 ![](images/YoniRoomAfter.jpg)
+
+![](images/AlexLizCloset1.jpg)
+
+![](images/AlexLizCloset2.jpg)
+
+![](images/AlexCloset2.jpg)
+
+![](images/AlexLizGuestLinens.jpg)
+
+![](images/AlexLizLinens3.jpg)
+
+![](images/AlexLizOlivia1.jpg)
+
+![](images/AlexLizOlivia2.jpg)
+
+![](images/AlexLizOliviaCloset2.jpg)
+
+![](images/AlexLizFoldedBaby3.jpg)
