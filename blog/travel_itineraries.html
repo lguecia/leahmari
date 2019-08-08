@@ -22,7 +22,9 @@
         <!-- End Google Tag Manager -->
 
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <!-- FOR WEB -->
         <!-- <link href="/styles.css" rel="stylesheet"> -->
+        <!-- FOR TESTING -->
         <link href="/styles.css" rel="stylesheet">
         <title>LEAH MARI</title>
         <meta charset="utf-8">
@@ -54,14 +56,14 @@
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse" id="collapsibleNavbar" style="">
+                    <div class="navbar-collapse collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="/index.html#about_us">the method</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#services">services</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#product_spotlight">tips + tools</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about_us">the method</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#product_spotlight">tips + tools</a></li>
                             <li class="nav-item"><a class="nav-link" href="/products.html">shop product</a></li>
                             <li class="nav-item"><a class="nav-link" href="/blog.html">blog</a></li>
-                            <li class="nav-item"><a class="nav-link" href="/index.html#testimonials">testimonials</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#testimonials">testimonials</a></li>
                             <!-- make password protected -->
                             <!-- <li class="nav-item"><a class="nav-link" href="login_org.html">my profile</a></li> -->
                             <!-- <li class="nav-item"><a class="nav-link" href="/travel.html">packing tool</a></li> -->
@@ -72,971 +74,176 @@
             </header>
 
             <main>
-
-                <div class="great-vibes">
-                    <h1>Travel Itineraries</h1>
+                <br>
+                <div class="archive-intro">
+                    <h2><b>Explore</b></h2>
+                    <nav>
+                        <a href="/blog/travelblog.html" class="active">TRAVEL</a>
+                        <a href="/blog/beauty.html">BEAUTY</a>
+                        <a href="/blog/closets.html">CLOSET</a>
+                        <a href="/blog/kitchen.html">KITCHEN</a>
+                        <a href="/blog/office.html">OFFICE</a>
+                        <a href="/blog/decor.html">DECOR</a>                        
+                    </nav>
                 </div>
+                <br><br>
 
-                <!-- <label class="dropdown-label" for="states"><h6>Products and Tips:</h6></label> -->
-                <div class="article-dropdown">
-                    <select name="article-select" id="travel-select">
-                        <option disabled selected value="">Select an article</option>
-                            <!-- type next option value here -->
-                            <!-- <option value="article-id">Next Option Value</option> -->
-                            <!-- <option value="tm-tulum">The Musts: The Hamptons</option> -->
-                            <option value="tm-ny-summer">The Musts: NY Summer</option>
-                            <option value="tm-chicago">The Musts: Chicago</option>
-                            <!-- <option value="tm-tulum">The Musts: Greenport</option> -->
-                            <option value="tm-la">The Musts: LA and More</option>
-                            <option value="tm-costarica">The Musts: Costa Rica</option>
-                            <!-- <option value="tm-tulum">The Musts: Tulum</option> -->
-                            <!-- <option value="tm-tulum">The Musts: Miami</option> -->
-                            <option value="tm-france">The Musts: 2 Weeks In France</option>
-                            <!-- <option value="tm-tulum">The Musts: Lisbon</option> -->
-                            <!-- <option value="tm-seattle">The Musts: Seattle</option> -->
-                            <!-- <option value="tm-cuba">The Musts: Cuba</option> -->
-                            <!-- <option value="tm-idaho">The Musts: Idaho</option>-->
-                            <!-- <option value="tm-hongkong">The Musts: Hong Kong</option> -->
-                            <!-- <option value="tm-tulum">The Musts: Thailand</option> -->
-                            <!-- <option value="tm-bahamas">The Musts: The Bahamas</option>-->
-                            <!-- <option value="tm-tulum">The Musts: Amsterdam</option> -->
-                            <!-- <option value="tm-tulum">The Musts: Copenhagen</option> -->
-                            <!-- <option value="tm-tulum">The Musts: Aspen</option> -->
-                            <!-- <option value="tm-jamaica">The Musts: Jamaica</option> -->
-                            <!-- <option value="tm-turks">The Musts: Turks & Caicos</option> -->
-                            <!-- <option value="tm-tulum">The Musts: Israel</option> -->
-                    </select>
-                </div>
+                <div class="container"> 
+                <h6><b>TRAVEL | ITINERARIES</b></h6><br>
 
-                <script>
-                    $(function() {
-                        $('#travel-select').change(function(){
-                            $('.articles').hide();
-                            $('#' + $(this).val()).show();
-                        });
-                    });
-                </script>
+                    <div class="container_3_columns">
+                        <div class="row">
+                            <div class="container_columns col-md-4" id="tm-ny-summer">
+                                <div class="img-wrap zoom">
+                                    <a href="/blog/travelitineraries/nysummer">
+                                        <img class="img-fluid-mx-auto d-block" src="/images/NYSummerOddFellows.jpg" alt="NY Summer">
+                                    </a>
+                                </div> 
+                                <div class="content">
+                                    <h6>
+                                        <a href="/blog/travelitineraries/nysummer">THE MUSTS</a>
+                                    </h6>
+                                    <h4>
+                                        <a href="/blog/travelitineraries/nysummer">NY Summer</a>
+                                    </h4>
+                                </div>
+                            </div>
 
-                <br><input class="button" onclick="window.location.href='https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODQ3MzA5NDE4MzU3NDg5/?utm_source=ig_story_highlights_share&igshid=zky1n2c3pn1k'" type="button" value="See Packing Tips + Tricks on Instagram"/> 
+                            <div class="container_columns col-md-4" id="tm-chicago">
+                                <div class="img-wrap zoom">
+                                    <a href="/blog/travelitineraries/chicago">
+                                        <img class="img-fluid-mx-auto d-block" src="/images/ChiRiver.jpg" alt="Chicago">
+                                    </a>
+                                </div> 
+                                <div class="content">
+                                    <h6>
+                                        <a href="/blog/travelitineraries/chicago">THE MUSTS</a>
+                                    </h6>
+                                    <h4>
+                                        <a href="/blog/travelitineraries/chicago">Chicago</a>
+                                    </h4>
+                                </div>
+                            </div>
 
-                <!-- <br><br><div>
-                    <p><i>Have a specific question on travel organization? <a href="mailto:lguecia@gmail.com?subject=Travel Organization Question">Let me know</a> - I'd be happy to answer it!</i></p>
-                </div> -->
+                            <div class="container_columns col-md-4" id="tm-la">
+                                <div class="img-wrap zoom">
+                                    <a href="/blog/travelitineraries/la">
+                                        <img class="img-fluid-mx-auto d-block" src="/images/LATrees.JPG" alt="LA">
+                                    </a>
+                                </div> 
+                                <div class="content">
+                                    <h6>
+                                        <a href="/blog/travelitineraries/la">THE MUSTS</a>
+                                    </h6>
+                                    <h4>
+                                        <a href="/blog/travelitineraries/la">LA and More</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="row">
+                            <div class="container_columns col-md-4" id="tm-costa">
+                                <div class="img-wrap zoom">
+                                    <a href="/blog/travelitineraries/costarica">
+                                        <img class="img-fluid-mx-auto d-block" src="/images/aerial ocean.JPG" alt="Costa Rica">
+                                    </a>
+                                </div> 
+                                <div class="content">
+                                    <h6>
+                                        <a href="/blog/travelitineraries/costarica">THE MUSTS</a>
+                                    </h6>
+                                    <h4>
+                                        <a href="/blog/travelitineraries/costarica">See All Itineraries</a>
+                                    </h4>
+                                </div>
+                            </div>
+                    
+                            <div class="container_columns col-md-4" id="tm-france">
+                                <div class="img-wrap zoom">
+                                    <a href="/blog/travelitineraries/france">
+                                        <img class="img-fluid-mx-auto d-block" src="/images/Travel.jpg" alt="France">
+                                    </a>
+                                </div> 
+                                <div class="content">
+                                    <h6>
+                                        <a href="/blog/travelitineraries/france">THE MUSTS</a>
+                                    </h6>
+                                    <h4>
+                                        <a href="/blog/travelitineraries/france">France</a>
+                                    </h4>
+                                </div>
+                            </div>
 
-<!-- TRAVEL BLOG WIDGET NAV BY ARTICLE TYPE | WHITE BLOCK -->
+                            <div class="container_columns col-md-4" id="hair-tools">
+                                <div class="img-wrap zoom">
+                                    <a href="/blog/traveltips/hairtools">
+                                        <img class="img-fluid-mx-auto d-block" src="/images/HairToolsProduct.JPG" alt="Packing Hair Tools">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h6>
+                                        <a href="/blog/traveltips/hairtools">TRAVEL</a>
+                                    </h6>
+                                    <h4>
+                                        <a href="/blog/traveltips/hairtools">Hair Tools</a>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
 
-                <div class="output" id="article-container">
+                        <div class="row">
+                            <div class="container_columns col-md-4" id="airport-style">
+                                <div class="img-wrap zoom">
+                                    <a href="/blog/traveltips/airportstyle">
+                                        <img class="img-fluid-mx-auto d-block" src="/images/TravelBlog.jpg" alt="Airport Style">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h6>
+                                        <a href="/blog/traveltips/airportstyle">TRAVEL</a>
+                                    </h6>
+                                    <h4>
+                                        <a href="/blog/traveltips/airportstyle">Airport Style</a>
+                                    </h4>
+                                </div>
+                            </div>
 
-                    <div class="container">
-                        <!-- <div>
-                            <h6><b>Explore The Travel Blog</b></h6>
-                        </div> -->
-                        <br><br>
-                        <div class="blog-nav">
-                            <a href="/blog/travel_packingfeatures" class="col-md-2 fas fa-passport fa-lg">
-                                <p></p><p>Packing</p>
-                            </a>
-                            <a href="/blog/travel_tipsandtricks" class="col-md-2 fas fa-luggage-cart fa-lg">
-                                <p></p><p>Tricks</p>
-                            </a>
-                            <a href="/blog/travel_itineraries" class="col-md-2 fas fa-map-marked-alt fa-lg">
-                                <p></p><p>Itineraries</p>
-                            </a>
+                            <div class="container_columns col-md-4" id="dop-kits">
+                                <div class="img-wrap zoom">
+                                    <a href="/blog/traveltips/dopkits">
+                                        <img class="img-fluid-mx-auto d-block" src="/images/TF3Layout.jpg" alt="Dop Kits">
+                                    </a>
+                                </div>
+                                <div class="content">
+                                        <h6>
+                                            <a href="/blog/traveltips/dopkits">TRAVEL</a>
+                                        </h6>
+                                        <h4>
+                                            <a href="/blog/traveltips/dopkits">Dop Kits</a>
+                                        </h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-
-                    <div class="output" id="article-container">
-
-                    <!-- ARTICLE: type next article here -->
-                        <!-- <div class="articles container_white_fill" id="">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/" alt="Itinerary:">
-                            </div><br><br>
-
-                            <div class="article-title">
-                                <h4><b>The Musts: </b></h4><br>
-                            </div>
-
-                            <p></p>
-                            <br><h6>TO DO</h6>
-                            <div class="row">
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <img src="/images/" alt="">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6></h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <img src="/images/" alt="">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6></h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO EAT</h6>
-                            <br><h6>TO DRINK</h6>
-                            <br><h6>TO WEAR</h6>
-                            <br><input class="button" onclick="window.location.href='/blog/travel_packingfeatures#tf-X'" type="button" value="See the full _____ Packing Feature"/>
-                            <br><br><br>
-                        </div> -->
-
-                    <!-- ARTICLE: The Musts: NY Summer -->
-                        <div class="articles container_white_fill" id="tm-ny-summer">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/NYSummerOddFellows.jpg" alt="Itinerary: NY Summer">
-                            </div><br><br>
-
-                            <div class="article-title">
-                                <h4><b>The Musts: NY Summer</b></h4><br>
-                            </div>
-
-                            <p>The key to a good NY summer is to be outside! Here are some top outdoor spots in the city:</p>
-                            <br><h6>TO DO</h6>
-                            <div class="container_2_columns">
-                                <div class="left_column_of2 col-md-6">
-                                    <div class="img_column_of2 zoom">
-                                        <img src="/images/NYSummerCPark1.jpg" alt="Outdoor Workouts">
-                                    </div>
-                                </div>
-                                <div class="right_column_of2 col-md-6">
-                                    <h4>Get Outdoors</h4>
-                                    <p>Have a picnic at Central park
-                                    <br>Go to a movie on the lawn in Central Park
-                                    <br>Do an outdoor workout
-                                    <br>Citibike
-                                    </p>
-                                </div>
-                            </div>
-                            <br><h6>TO EAT</h6>
-                            <div class="container_2_columns col-reverse">
-                            <!-- <div class="container_2_columns col-md-12 col-reverse"> -->
-                                <div class="left_column_of2 col-md-6">
-                                    <h4>Eat Outdoors</h4>
-                                    <p>Literally any outdoor restaurant in Brookfield Place is ideal: Le District, PJ Clarke's, Seamore's, etc.</p>
-                                </div>
-                                <div class="right_column_of2 col-md-6">
-                                <!-- <div class="right_column_of2 img_column_of2 col-md-6"> -->
-                                    <div class="img_column_of2 zoom">
-                                        <img src="/images/NYSummerBrookfieldCrop.jpg" alt="Packing Cubes">
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO DRINK</h6>
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="https://p7007901.vo.llnwd.net/e1/media/wysiwyg/Pier/IMG_4864.JPG" alt="City Vineyard">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>City Vineyard</h6>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="https://static1.squarespace.com/static/53487a9ce4b0b891fcd5f38a/5483c787e4b0b436d77d91fe/567dce83c647adf832ed07e2/1451085484815/?format=1500w" alt="Grand Banks">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Grand Banks</h6>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="https://www.pier17ny.com/content/dam/hhcweb/web/pier-17/eat&drink/heineken_river_deck_PIER17.jpg/jcr:content/renditions/cq5dam.web.1920.1920.jpeg" alt="Pier 17">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Pier 17</h6>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="/images/NYSummerSohoHouse.jpg" alt="Dumbo House">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Dumbo House</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="https://images.squarespace-cdn.com/content/v1/5832fcaab8a79b98ace32d5d/1551558938276-WDDOBQ7QH7FCFXPWPVT4/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/181219_JF_Gitano_109_R.jpg?format=1000w" alt="Gitano">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Gitano</h6>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="https://cdn.vox-cdn.com/thumbor/opWEOdzl1-bw6t1gKTbZkFWMKes=/0x0:1500x1000/1470x1103/filters:focal(630x380:870x620):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/63867592/Gilligans_tables.0.jpg" alt="Gilligan's">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Gilligan's</h6>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="https://thumbor.thedailymeal.com/ocHeZLSRNKv8Kg1T05cYpxu7ObE=/870x565/https://www.thedailymeal.com/sites/default/files/story/2016/PSHRoof%201847.jpg" alt="Roof at Park South">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Roof at Park South</h6>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="https://www.refineryhotelnewyork.com/assets/images/refinery-rooftop-terrace-living-room.jpg" alt="Refinery Rooftop">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Refinery Rooftop</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO WEAR</h6>
-                            <p>Comfortable chic. You can go jeans and a basic tee or a summer dress. Sneakers are perfect for both this season.</p>
-                            <br><br>
-                        </div>
-                        <br>
-
-                    <!-- ARTICLE: The Musts: Chicago -->
-                        <div class="articles container_white_fill" id="tm-chicago">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/ChiRiver.jpg" alt="Itinerary: Chicago">
-                            </div><br><br>
-
-                            <div class="article-title">
-                                <h4><b>The Musts: Chicago</b></h4><br>
-                            </div>
-
-                            <p>Another place I've been to twice and loved more the second time around: Chicago!</p>
-                            <br><h6>TO DO</h6>
-                            <div class="row">
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/ChiRiver.jpg" alt="Chicago River">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>The River</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Conveniently situated in downtown's North River neighborhood. If you get the chance to come here on a warm summer day, I would. Better yet, go for happy hour. Even with drizzle, the outdoor cafe's were buzzing and it's a vibe.</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/ChiSecondCity.jpg" alt="Second City">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>The Second City</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>I went to "Grinning from Fear to Fear" [2 written scenes and 1 improv] and it.was.hilarious. I'd bet money on all of their other feature shows being just as amazing. And yes, this is where Vince Vaughn went in "The Breakup".</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO EAT</h6>
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="https://images.squarespace-cdn.com/content/v1/5cd2efedfd6793286fbd8050/1558111474664-V4LBMRHNAEBMHPZ6IV0E/ke17ZwdGBToddI8pDm48kAgeXJTqxnb8U5HJMczl-TF7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0scl71iiVnMuLeEyTFSXT3r2gFon11CEgZmXV4mQ1fgjngk2gVU4irZ2ruB6h5O1yA/Cabra%2Binterior%2B-%2Blong%2Bview%2B-%2BAnthony%2BTahlier.jpg?format=2500w" alt="Cabra">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Cabra</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>I had the best (only) Peruvian dinner I've ever had on top of the Hoxton Hotel, compliments of Top Chef's Stephanie Izard. Order everything, except the himachi tiradito - go tuna here.</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">                               
-                                <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/ChiHamptonSocial.jpg" alt="Hampton Social">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Hampton Social</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>The cutest brunch spot! Okay, okay - Chicago is all about "cute" places to eat. I chose this place over Somerset (better food) and I'm happy I did because it actually belongs in the Hamptons + live music.</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/ChiParadisePark.JPG" alt="Paradise Park">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Paradise Park</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>This place is pretty young, BUT, maybe thats the fun in it. Embrace the gimics like: Prosecco's with popsicles, a bathtub full of White Claw, and Instagram worthy backdrops! Neighborhood: Wicker Park</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2 coming-soon">
-                                            <img src="/images/ChiBigStarFood.jpg" alt="Big Star">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Big Star</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>SKIP</p>
-                                        <p>Do not eat here unless your starving, and even then, just order the chips. Bottomless and oddly similar to origital Fritos. Neighborhood: Wicker Park</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO DRINK</h6>
-                            <div class="row">
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/ChiBigStarCrop.jpg" alt="Big Star">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Big Star</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>The food might not be good here, but the drinks are strong. Careful with those pitchers of margarita! Neighborhood: Wicker Park</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/ChiMachine.jpg" alt="Machine">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Machine</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Correction, Machine: Engineered Dining & Drink*. So you can guess what's going on here right? Neighborhood: Wicker Park</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO WEAR</h6>
-                            <p>Layers are the name of the game here. Even in the summer, temperatures drop quickly at night.</p>
-                            <br><input class="button" onclick="window.location.href='/blog/travel_packingfeatures#tf-6'" type="button" value="See the full Chicago Packing Feature"/>
-                            <br><br><br>
-                        </div>
-                        <br>
-
-                    <!-- ARTICLE: The Musts: LA and More -->
-                        <div class="articles container_white_fill" id="tm-la">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/LATrees.JPG" alt="Itinerary: LA">
-                            </div><br><br>
-
-                            <div class="article-title">
-                                <h4><b>The Musts: LA and More</b></h4><br>
-                            </div>
-
-                            <p></p>
-                            <br><h6>TO DO</h6>
-                            <p>LA is pretty amazing - where else has beaches and mountains? There is so much to do from surfing to shopping, working on your fitness to going to wineries, hanging by the pool to scooting around on a bird, and so.much.more.</p>
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LASafari.JPG" alt="Malibi Wine Safari">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Malibu Wine Safari</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Fun and quirky! See animals, The Bachelor mansion, drink wine, plan your wedding...just don't get stung by a bee!</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LAObservatory.JPG" alt="Griffith Conservatory">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Griffith Conservatory</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>"Hike" to the Hollywood sign via 1 of 2 paths. Ask a local to take you off the path if you're feeling athletic.</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LAStripClass.PNG" alt="Strip Tease Class">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Strip Tease Class</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>The most hilarious time you'll have. You might even find you have skills! Wear shorts, it's easier to grip the poll.</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzRLWZ3wMG8bd_3peOcblmcvXiE7-hdtjfkCeKPDf31SkyLKOQ" alt="">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Dance Classes</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Continue admiring the dances you see online IRL. Head to Millenium Dance Complex or The Playground!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO EAT</h6>
-                            <p>Of course there are tons of great places to eat. Here are a few favorites in Malibu, Venice, Santa Monica, and LA:</p>
-                            <div class="row">
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LAMalibuFarms.JPG" alt="Malibu Farms">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Malibu Farms</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="https://www.noburestaurants.com/assets/Restaurant-Images/326d751944/Malibu_Landing_3__Resampled.jpg" alt="Nobu Malibu">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Nobu Malibu</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LAChaChaChicken.JPG" alt="">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Cha Cha Chicken</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="https://cdn.vox-cdn.com/thumbor/dqh_s97JmkQPtctKDyZHL6lwBnA=/0x0:2000x1312/1200x0/filters:focal(0x0:2000x1312):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/9094435/neighbor_venice_inside.jpg" alt="Neighbor">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Neighbor</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LADelilah.PNG" alt="Delilah">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Delilah</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LACatch.jpg" alt="Catch LA">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Catch LA</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO DRINK</h6>
-                            <p>Like food, drinks are plenty in LA. Some favorites:</p>
-                            <div class="row">
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="https://static1.squarespace.com/static/59126bd2e3df28b51b97c109/591fac43579fb344ace2031a/591fae3d414fb51da29b5203/1495248449944/bar.jpg?format=2500w" alt="EP & LP">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>EP & LP</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="http://www.thebungalow.com/thebungalowsm/images/photos/large/Outside-Deck-151.jpg" alt="Bungalow">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Bungalow</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LADoheny.JPG" alt="Doheny Room">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Doheny Room</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO STAY</h6>
-                            <p>SKIP the SLS. Unfortunately the cons outway the pros here for us ladies. Cons: bad lighting and mirror space, cute bathtub that overflows every time you shower. Pros: drivers accessible during the day and apples in the lobby :). My 2 favorite hotels I've stayed at are:</p>
-                            <div class="row">
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LASixty.JPG" alt="The Sixty">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>The Sixty</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <img src="/images/LALondon.JPG" alt="The London">
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>The London West Hollywood</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO WEAR</h6>
-                            <p>Dress to impress!</p>
-                            <br><input class="button" onclick="window.location.href='/blog/travel_packingfeatures#tf-3'" type="button" value="See the full LA Packing Feature"/>
-                            <br><br><br>
-                        </div>
-                        <br>
-
-                    <!-- ARTICLE: The Musts: Costa Rica -->
-                        <div class="articles container_white_fill" id="tm-costa">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/Costa2.jpg" alt="Itinerary: Costa Rica">
-                            </div><br><br>
-
-                            <div class="article-title">
-                                <h4><b>The Musts: Costa Rica</b></h4><br>
-                            </div>
-
-                            <p>I am OBSESSED with Costa Rica. I've only been twice: once to Santa Teresa to ring in the new year and once to Tamarindo for a yoga & adventure retreat with Ketanga Fitness (<a href="https://www.ketangafitness.com/?utm_source=LeahMari&utm_medium=referral&utm_campaign=themusts&utm_term=travel&utm_content=costarica">Check them out</a> - Britney is an amazing yoga instructor and Stacy an amazing planner!). Although the activities are the same both places, they have a different vibe - Santa Teresa much more remote and Tamarindo more built up. I felt safer in Tamarindo and more adventurous and free in Santa Teresa. And I highly recommend them both.</p>
-                            <p><i>*If you chose Santa Teresa, know that most places only take cash</i></p>
-                            <br><h6>TO DO</h6>
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaYoga.JPG" alt="Yoga">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Yoga</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Santa Teresa: Horizon + privates
-                                        <br>Tamarindo: Ketanga Fitness</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaSurf.jpg" alt="Surfing">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Surfing</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Santa Teresa: Privates w/ Richard
-                                        <br>Tamarindo: Iguana Surf</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaHorse.JPG" alt="Horseback Riding">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Horseback Riding</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Santa Teresa: Privates w/ Adrian
-                                        <br>Tamarindo: w/ Pablo</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaZip.JPG" alt="Zip Lining">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Zip Lining</h6><br>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Tamarindo: Canopy Pura Aventura</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaHike.JPG" alt="Montezuma">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Hiking</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Santa Teresa: Take your ATV 30 min to jump off the waterfalls of Montezuma</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaBeachST.JPG" alt="Beach">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Beach</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Venture to Playa Hermosa in Santa Teresa. But can you really go wrong with a beach?</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaATV.JPG" alt="ATV">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>ATV</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Santa Teresa: A small lot between Hotel Santa Teresa & Jobbies Longboards</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-3">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaCatamaran.JPG" alt="Catamaran">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Catamaran</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Tamarindo: Marlin del Ray
-                                        <br>Great for drones + jumping into the water</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO EAT</h6>
-                            <p>Obviously go for fish when you're in Costa Rica. It's fresh AF. PS - not every restaurant looks the same in Costa Rica, just my favorites :)</p>
-                            <div class="row">
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="https://media-cdn.tripadvisor.com/media/photo-s/0a/95/32/0e/photo0jpg.jpg" alt="Katana">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Santa Teresa: Katana</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>By far the best ambiance and food in Santa Teresa</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaRanch.jpg" alt="Ranch">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Tamarindo: Black Stallion Cafe</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Family style dinner and a nice ride up the mountain to see the stars</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-4">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="https://tamarindovida.com/photo_gallery/photos/bamboo-tamarindo6.jpg" alt="Sushi">
-                                            <!-- <img src="https://scontent.fnyc1-1.fna.fbcdn.net/v/t31.0-8/18738792_1481984375187775_3570620631332116874_o.jpg?_nc_cat=103&_nc_ht=scontent.fnyc1-1.fna&oh=76b496db8e5fb5c97b0b5860a71561aa&oe=5D83D661" alt="Sushi"> -->
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Tamarindo: Bamboo Sushi Club</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>It doesn't feel like you should be getting sushi in Costa Rica, but do it.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO DRINK</h6>
-                            <p>Every day is an appropriate day for happy hour in Costa Rica. And if you're looking to go out later, the whole town goes to the one place each night. Ask a local every day and they'll let you know!</p>
-                            <div class="row">
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaBananaBeach.JPG" alt="Happy Hour">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Santa Teresa: Banana Beach</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Sunset drinks and bonfires. Need I say more?</p>
-                                    </div>
-                                </div>
-                                <div class="container_columns col-md-6">
-                                    <div class="top_row_of2">
-                                        <div class="img_row_of2">
-                                            <img src="/images/CostaSalsa.JPG" alt="Salsa Dancing">
-                                        </div>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p></p>
-                                        <h6>Tamarindo: Crazy Monkey Bar</h6>
-                                    </div>
-                                    <div class="bottom_row_of2">
-                                        <p>Get local, or not. There's a live salsa band in one area and dj in the other.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <br><h6>TO WEAR</h6>
-                            <p>Bathing suits, workout clothes, shorts, and cotton dresses should do the trick! Definitely invest in a one piece wetsuit. Mine is from <a href="https://www.ripcurl.com/us/shop/wetsuits/?page=1&utm_source=LeahMari&utm_medium=referral&utm_campaign=themusts&utm_term=travel&utm_content=costarica">RipCurl</a>.</p>
-                            <p>ALWAYS WEAR FLATS! No one is wearing heels/wedges + it would be impossible to walk in them. </p>
-                            <br><input class="button" onclick="window.location.href='/blog/travel_packingfeatures#tf-2'" type="button" value="See the full Costa Rica Packing Feature"/>
-                            <br><br><br>
-                        </div>
-                        <br>
+            </main>
     
-                    <!-- ARTICLE: The Musts: 2 Weeks In France -->
-                        <div class="articles container_white_fill" id="tm-france">
-                            <div class="blog-section-header" id="travel-header">
-                                <img src="/images/Travel.jpg" alt="Itinerary: France">
-                                <!-- <div class="centered-label" id="travel-blog"><h1>2 Weeks In France</h1></div> -->
-                            </div><br><br>
+            <footer>
+                <div class="action">WANT MORE? CHECK US OUT</div>
+                    <ul id="menu-footer" class="menu">
+                        <li><a href="/blog.html">Blog</a></li>
+                        <li><a href="mailto:lguecia@gmail.com?subject=Contact Leah Mari">Contact us</a></li>
+                        <a href="mailto:lguecia@gmail.com?subject=Hello" class="fa fa-envelope"></a>
+                        <a href="https://www.instagram.com/schmeeismee/?hl=en" class="fab fa-instagram"></a>
+                        <a href="https://www.youtube.com/channel/UCaJX0cyYWXxwN-WdA2PiZNQ?view_as=subscriber" class="fab fa-youtube"></a>
+                        <li><small><br>Copyright © 2019 Leah Mari - All Rights Reserved.</small></li>
+                    </ul>
+            </footer>
 
-                            <div class="article-title">
-                                <h4><b>The Musts: 2 Weeks In France</b></h4><br>
-                            </div>
-
-                            <p>I've been to France two times now and have to say, I enjoyed this second time around much more. Here were the key differences:</p>
-                            <table class="table">
-                                <head>
-                                    <tr>
-                                        <th>Trip One</th>
-                                        <th>Trip Two</th>
-                                    </tr>
-                                </head>
-                                <body>
-                                    <tr>
-                                        <td>Europe trip</td>
-                                        <td>France only trip</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5 days in France</td>
-                                        <td>8 days in France</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3 locations: Copenhagen, Amsterdam, Paris</td>
-                                        <td>4 locations: Champagne, St. Tropez, Cannes, Paris</td>
-                                    </tr>
-                                    <tr>
-                                        <td>got around by Uber/subway</td>
-                                        <td>rented a car through the end of Cannes</td>
-                                    </tr>
-                                </body>
-                            </table>
-                            <br>
-                            <p>From trip two, I've put together a list of things to do, places to eat, and of course what to pack and wear in each French city:</p>
-                            <br><br>
-                            <h5>Champagne</h5>
-                            <br>
-                                <h6>TO DO</h6>
-                                <p>#1 on the list couldn't be more obvious - go to the champagne houses! One is probably enough though. The history of champagne is the history of champagne no matter what house tells you.</p>
-                                <p><b>Recommended:</b> Veuve Cliquot</p>
-                                <p><b>Skip:</b> Moet Chandon. This is where basic middle aged people who are suckers for advertising go. Yes, Moet Chandon is the most consistent selling brand, but it feels like your tour guide is a robot. We get that Moet Chandon sells and we get that Napoleon Bonaparte was your friend. Next.</p>
-                                <br><h6>TO EAT</h6>
-                                <p>Le Parc Restaurent Les Crayeres. Get the tasting menu #treatyourself</p>
-                                <br><h6>TO WEAR</h6>
-                                <p>Easily be in the same floral maxi all day. Bring a jacket for the caves of the champagne house</p>
-                            <br><br>
-                            <h5>St. Tropez</h5>
-                            <br>
-                                <h6>TO DO</h6>
-                                <p>This is a shopping and partying town! If that's not your scene, skip it.</p>
-                                <p>Not into napping? There is a cute bar on the corner of town with live music, very cheap drinks, and amazing service.</p>
-                                <br><h6>TO EAT</h6>
-                                <p>Lunch: 50/Beach Club</p>
-                                <p>Dinner: L'Opera. Be prepared to be entertained all night</p>
-                                <br><h6>TO WEAR</h6>
-                                <p>Make your outfit multi-functional if you plan to be out all day and night. I wore a bathing suit under a basic bodysuit and wrap maxi skirt. I was able to change into shorts when the skirt started dragging at night with 0 problem.</p>
-                            <br><br>
-                            <h5>Cannes</h5>
-                            <br>
-                                <h6>TO EAT</h6>
-                                <p>Lunch: Le Guerite. This restaurant is remote, which is half its charm. Take the ferry to Isle de St Margueirte (15 minutes, 15 euro round trip) and take a sketchy walk through the woods - don't worry, you're on the right path.</p>
-                                <p>Dinner: Medusa</p>
-                                <br><h6>TO DRINK</h6>
-                                <p>Nightlife: Baoli</p>
-                                <br><h6>TO WEAR</h6>
-                                <p>Day: Any beachy ensemble is perfect</p>
-                                <p>Night: Think classier beach ensemble</p>
-                            <br><br>
-                            <h5>Paris</h5>
-                            <br>
-                                <h6>TO DO</h6>
-                                <p>If you've never been, go ahead and sprinkle in the tourist attractions, just don't overdue it.</p>
-                                <p>Pro tips:
-                                    <ul>
-                                        <li>Take the train to Parc du Jardin to see the Eiffel Tower</li>
-                                        <li>See the buskers and I love you wall in Abbesses </li>
-                                    </ul>
-                                </p>
-                                <p>Looking for a tour? Food tours > walking tours. I HIGHLY recommend Secret Food Tours in Martes. And do not book dinner this night!</p>
-                                <br><h6>TO EAT</h6>
-                                <p>There are so many options in Paris. Pro tips I picked up from my amazing food tour guide: If there is a special of the day, don't eat there. The smaller the menu, the better the food.</p>
-                                <p>Looking for a bakery? Montmatre has a different water system than the rest of Paris, which makes their bread even better.  My favorite artisan bakery: Coquilecot.</p>
-                                <br><h6>TO DRINK</h6>
-                                <p>Nightlife: You can't really go wrong here, but definitely make a night of hopping around speakeasies.
-                                        <ul>
-                                            <li>Lulu White: filled with Canadian bartenders</li>
-                                            <li>Little Red Door</li>
-                                            <li>Experimental Cocktail: way better than the location that shut down in NYC</li>
-                                        </ul>
-                                    </p>
-                                <br><h6>TO WEAR</h6>
-                                <p>Shoes: a nicer flat, easy-to-walk in bootie, or fashion sneaker should do the trick</p>
-                        </div>
-                        <br>
-
-                        <div class="container" id="more-articles-1">
-                            <div>
-                                <h6><b>Explore The Blog By Category</b></h6>
-                            </div>
-                            <br><br>
-                            <div class="blog-nav">
-                                <!-- <a href="/blog/travelblog.html" class="col-md-2 fas fa-suitcase-rolling fa-lg">
-                                    <p></p><p>Travel</p>
-                                </a> -->
-                                <a href="/blog/beauty.html" class="col-md-2 fas fa-bath fa-lg">
-                                    <p></p><p>Beauty</p>
-                                </a>
-                                <a href="/blog/closets.html" class="col-md-2 fas fa-tshirt fa-lg">
-                                    <p></p><p>Closet</p>
-                                </a>
-                                <a href="/blog/kitchen.html" class="col-md-2 fas fa-blender fa-lg">
-                                    <p></p><p>Kitchen</p>
-                                </a>
-                                <a href="/blog/office.html" class="col-md-2 fas fa-chair fa-lg">
-                                    <p></p><p>Office</p>
-                                </a>
-                                <a href="/blog/decor.html" class="col-md-2 fas fa-couch fa-lg">
-                                    <p></p><p>Decor</p>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-        
-                <footer>
-                    <div class="action">WANT MORE? CHECK US OUT</div>
-                        <ul id="menu-footer" class="menu">
-                            <li><a href="/blog.html">Blog</a></li>
-                            <li><a href="mailto:lguecia@gmail.com?subject=Contact Leah Mari">Contact us</a></li>
-                            <a href="mailto:lguecia@gmail.com?subject=Hello" class="fa fa-envelope"></a>
-                            <a href="https://www.instagram.com/schmeeismee/?hl=en" class="fab fa-instagram"></a>
-                            <li><small><br>Copyright © 2019 Leah Mari - All Rights Reserved.</small></li>
-                        </ul>
-                </footer>
-        
-            </div>
-            <!-- CJ Deep Link | Affiliate Marketing -->
-            <script src="//www.anrdoezrs.net/am/9135006/include/allCj/exclude/5137678,5147629/impressions/page/am.js"></script>
-        </body>
-    </html>
+        </div>
+        <!-- CJ Deep Link | Affiliate Marketing -->
+        <script src="//www.anrdoezrs.net/am/9135006/include/allCj/exclude/5137678,5147629/impressions/page/am.js"></script>
+    </body>
+</html>
