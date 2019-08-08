@@ -806,6 +806,15 @@ input[type="text"]{
     z-index: 1;
 }
 
+.element-text-large {
+    font-family: "Butler", serif;
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 1;
+    position: relative;
+    color: #F5F5F5;
+}
+
 /* End large numbers */
 
 
