@@ -356,3 +356,21 @@
 ![](images/ChanningSterlingCloset.jpg)
 
 ![](images/ChanningSterlingShelves.jpg)
+
+![](images/KirstenShoesFront.jpg)
+
+![](images/KirstenCoatsBefore.jpg)
+
+![](images/KirstenCoatsAfter.jpg)
+
+![](images/KirstenClosetBefore.jpg)
+
+![](images/KirstenClosetAfter.jpg)
+
+![](images/KirstenDresserBefore.jpg)
+
+![](images/KirstenDresserAfter1.jpg)
+
+![](images/KirstenDresserAfter2.jpg)
+
+![](images/KirstenDresserAfter3.jpg)
