@@ -313,7 +313,7 @@ table {
 
 tbody {
     display: block;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .pink_font {
