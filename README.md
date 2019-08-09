@@ -384,3 +384,9 @@
 ![](images/TargetKidsHangers.png)
 
 ![](images/TargetShoeShelf.png)
+
+![](images/RachelKitchenBowls.jpg)
+
+![](images/RobLanaMoving.jpg)
+
+![](images/RobLanaSpices.jpg)
