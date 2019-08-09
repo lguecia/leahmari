@@ -307,6 +307,10 @@ img {
     border-collapse: separate;
 }
 
+.table {
+    overflow-x: scroll;
+}
+
 .pink_font {
     color: pink;
 }
