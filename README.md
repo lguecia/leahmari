@@ -399,6 +399,10 @@
 
 ![](images/TargetPackingCubeLarge.png)
 
+![](images/MauraEventWeekendPack.jpg)
+
+![](images/MauraEventWeekendPackEdit.jpg)
+
 ![](images/CyliaPackLayout.jpg)
 
 ![](images/CyliaBradleyPackLayout.jpg)
