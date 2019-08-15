@@ -747,7 +747,10 @@ input[type="text"]{
 }
 
 .article-title {
-    color: pink;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 .blog-section, .blog-section-header {
