@@ -428,3 +428,23 @@
 ![](images/SamPackCarryOn.jpg)
 
 ![](images/SamPackExtraSpace.jpg)
+
+![](images/RobLanaDresserBefore.jpg)
+
+![](images/RobLanaDresserPacked.jpg)
+
+![](images/RobLanaMasterBefore.jpg)
+
+![](images/RobLanaMasterForPacking.jpg)
+
+![](images/RobLanaEntryBefore.jpg)
+
+![](images/RobLanaEntryForPacking.jpg)
+
+![](images/RobLanaBathroomLabeled.jpg)
+
+![](images/RobLanaLRLabeled.jpg)
+
+![](images/RobLanaMovingLabels.JPG)
+
+![](images/RobLanaRoomsLabeled.jpg)
