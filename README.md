@@ -448,3 +448,21 @@
 ![](images/RobLanaMovingLabels.JPG)
 
 ![](images/RobLanaRoomsLabeled.jpg)
+
+![](images/RachelBilly.jpg)
+
+![](images/RachelBeauty.jpg)
+
+![](images/RachelLinens.jpg)
+
+![](images/RachelFoldedShirts.jpg)
+
+![](images/RachelHatWall.jpg)
+
+![](images/RachelCloset.jpg)
+
+![](images/RachelCoatCloset.jpg)
+
+![](images/RachelMaintenance.jpg)
+
+![](images/RachelHangers.jpg)
