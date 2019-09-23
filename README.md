@@ -466,3 +466,9 @@
 ![](images/RachelMaintenance.jpg)
 
 ![](images/RachelHangers.jpg)
+
+![](images/AlexLizCleaning.jpg)
+
+![](images/AlexLizSpices.jpg)
+
+![](images/AlexLizRefrigerator.jpg)
