@@ -496,3 +496,17 @@
 ![](images/BahamasToiletries.jpg)
 
 ![](images/BahamasBag.jpg)
+
+![](images/GreeceItalyCouplePack.jpg)
+
+![](images/GreeceItalyCouplePackStraightOn.jpg)
+
+![](images/GreeceItalyLayoutC.jpg)
+
+![](images/GreeceItalyLayoutCandS.jpg)
+
+![](images/GreeceItalyEarrings1.jpg)
+
+![](images/GreeceItalyRossPackJax.jpg)
+
+![](images/GreeceItalyLaurenPackJax.jpg)
