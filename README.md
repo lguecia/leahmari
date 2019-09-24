@@ -472,3 +472,11 @@
 ![](images/AlexLizSpices.jpg)
 
 ![](images/AlexLizRefrigerator.jpg)
+
+![](images/MarissaShoeLabels.jpg)
+
+![](images/RachelShelvesShoes.jpg)
+
+![](images/RachelShelvesShoeCloset.jpg)
+
+![](images/RachelShelvesMissy.jpg)
