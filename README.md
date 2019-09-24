@@ -480,3 +480,19 @@
 ![](images/RachelShelvesShoeCloset.jpg)
 
 ![](images/RachelShelvesMissy.jpg)
+
+![](images/BahamasCubeClothesUp.jpg)
+
+![](images/BahamasSquad.jpg)
+
+![](images/BahamasSelfie2.jpg)
+
+![](images/BahamasPreRepack.PNG)
+
+![](images/BahamasRepack.jpg)
+
+![](images/BahamasCubeBed.jpg)
+
+![](images/BahamasToiletries.jpg)
+
+![](images/BahamasBag.jpg)
