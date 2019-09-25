@@ -307,14 +307,18 @@ img {
     border-collapse: separate;
 }
 
-table {
+.table {
+    overflow-x: auto;
+}
+
+/* table {
     table-layout: fixed;
 }
 
 tbody {
     display: block;
     overflow-x: scroll;
-}
+} */
 
 .pink_font {
     color: pink;
