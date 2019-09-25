@@ -311,6 +311,10 @@ img {
     overflow-x: auto;
 }
 
+table {
+    table-layout: fixed;
+}
+
 .pink_font {
     color: pink;
 }
