@@ -510,3 +510,13 @@
 ![](images/GreeceItalyRossPackJax.jpg)
 
 ![](images/GreeceItalyLaurenPackJax.jpg)
+
+![](images/RobLanaHisBathroom.jpg)
+
+![](images/UpstateBags.jpg)
+
+![](images/UpstateCube.jpg)
+
+![](images/UpstateLemons.jpg)
+
+![](images/UpstateTable.jpg)
