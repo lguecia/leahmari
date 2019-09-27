@@ -526,3 +526,15 @@
 ![](images/IlanaGirlsWeekendSwimFloral.JPG)
 
 ![](images/MauraEventWeekendSwimBlack.JPG)
+
+![](images/DCPack3Bag.jpg)
+
+![](images/DCPack3OpenBagLabeled.JPG)
+
+![](images/DCPack3Cube.jpg)
+
+![](images/DCPack3Ziploc.jpg)
+
+![](images/DCPack3BagSelfie2.jpg)
+
+![](images/DCPack3QuickChange.jpg)
