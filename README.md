@@ -538,3 +538,13 @@
 ![](images/DCPack3BagSelfie2.jpg)
 
 ![](images/DCPack3QuickChange.jpg)
+
+![](images/RobLanaDresserLabeled.jpg)
+
+![](images/RobLanaKitchenCleaning.jpg)
+
+![](images/RobLanaKitchenBar.jpg)
+
+![](images/RobLanaKitchenCoffee.jpg)
+
+![](images/RobLanaKitchenEntertaining.jpg)
