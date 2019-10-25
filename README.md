@@ -609,3 +609,11 @@
 
 ![](images/TargetBeautyExpandableShelves.png)
 
+![](images/TargetKitchenSpices.png)
+
+![](images/TargetKitchenPanTree.png)
+
+![](images/TargetKitchenDrawerOrganizers.png)
+
+![](images/TargetKitchenUtensilHolder.png)
+
