@@ -600,3 +600,12 @@
 ![](images/CarolineJoshCraftsBefore.jpg)
 
 ![](images/CarolineJoshCraftsAfter.jpg)
+
+![](images/TargetUnderSinkShelves.png)
+
+![](images/TargetBeautyCabinerHanger.png)
+
+![](images/TargetBeautyStackedShelves.png)
+
+![](images/TargetBeautyExpandableShelves.png)
+
