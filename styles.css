@@ -194,7 +194,7 @@ img {
     background-repeat:no-repeat;
 }
 
-.img_row_of2 {
+.img_row_of2, .variable-width {
     height: 300px;
     overflow: hidden;
 }
