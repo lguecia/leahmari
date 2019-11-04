@@ -270,6 +270,20 @@ img {
 
 /* end container with 3 columns */
 
+
+/* slick carousel */
+
+.variable-width {
+    width: 1170px;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+
+/* end slick carousel */
+
+
 .standard-ul {
     list-style-type: circle;
     list-style-position: outside;
