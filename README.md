@@ -681,3 +681,27 @@
 
 ![](images/ChanningShoeWall.jpg)
 
+![](images/LainieRobFLPackAfter1.JPG)
+
+![](images/LainieRobFLPackAfter2.JPG)
+
+![](images/LainieRobFLPackBefore.JPG)
+
+![](images/LainieRobHMAll.JPG)
+
+![](images/LainieRobHMClothes.JPG)
+
+![](images/LainieRobHMGeorge.JPG)
+
+![](images/LainieRobHMLayout.JPG)
+
+![](images/LainieRobHMLeft.JPG)
+
+![](images/LainieRobHMRight.JPG)
+
+![](images/LAPackBags.JPG)
+
+![](images/LAPackCube.JPG)
+
+![](images/LAPackTopView.JPG)
+
