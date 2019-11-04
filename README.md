@@ -669,3 +669,15 @@
 
 ![](images/JaclynJoshMeasuring.jpg)
 
+![](images/ChanningBagsPlus.jpg)
+
+![](images/ChanningBagWall.jpg)
+
+![](images/ChanningCloset2.jpg)
+
+![](images/ChanningClosetFolds.jpg)
+
+![](images/ChanningClosetHangs.jpg)
+
+![](images/ChanningShoeWall.jpg)
+
