@@ -176,7 +176,7 @@ img {
     overflow: hidden;
 }
 
-.top_row_of2 img, .variable-width img {
+.top_row_of2 img {
     /* width: 100%; */
     height: 300px;
     object-fit: cover;
@@ -194,7 +194,7 @@ img {
     background-repeat:no-repeat;
 }
 
-.img_row_of2, .variable-width {
+.img_row_of2 {
     height: 300px;
     overflow: hidden;
 }
@@ -213,14 +213,14 @@ img {
 /* Responsive layout - makes the two columns stack on top of each other*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .top_row_of2 img, .variable-width img {
+    .top_row_of2 img {
         width: 100%;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .top_row_of2 img, .variable-width img {
+    .top_row_of2 img {
         width: 100%;
         height: 100%;
   }
@@ -228,7 +228,7 @@ img {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .top_row_of2 img, .variable-width img {
+    .top_row_of2 img {
         width: 100%;
         height: 100%;
   }
@@ -236,7 +236,7 @@ img {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .top_row_of2 img, .variable-width img {
+    .top_row_of2 img {
         width: 100%;
         height: 100%;
   }
@@ -244,13 +244,13 @@ img {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .top_row_of2 img, .variable-width img {
+    .top_row_of2 img {
         width: 100%;
         height: 100%;
   }
 }
 
-.top_row_of2, .variable-width {
+.top_row_of2 {
     /* padding-bottom: 20px; */
     height: 300px;
     overflow: hidden;
@@ -273,13 +273,10 @@ img {
 
 /* slick carousel */
 
-/* .variable-width {
-    width: 1170px;
-    margin: 0 auto;
+.variable-width div, .variable-width img {
+        width: auto;
+        height: 400px;
 }
-img {
-    width: 100%;
-} */
 
 /* end slick carousel */
 
