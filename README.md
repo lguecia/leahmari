@@ -740,3 +740,15 @@
 ![](images/JenSheos.JPG)
 
 ![](images/JenWorkout.JPG)
+
+![](images/LaurenRossBathroom.jpg)
+
+![](images/LaurenRossKitchenDuring.jpg)
+
+![](images/LaurenRossKitchenFull.jpg)
+
+![](images/LaurenRossKitchenOils.jpg)
+
+![](images/LaurenRossKitchenPantry.jpg)
+
+![](images/LaurenRossKitchenProduct.JPG)
