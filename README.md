@@ -718,3 +718,25 @@
 ![](images/JaimeZeveShoes1.jpg)
 
 ![](images/JaimeZeveShoes2.jpg)
+
+![](images/JenClosetAfter.JPG)
+
+![](images/JenClosetBeforeLeft.jpg)
+
+![](images/JenClosetBeforeRight.jpg)
+
+![](images/JenCubes.JPG)
+
+![](images/JenDresserAfter.jpg)
+
+![](images/JenDresserBefore.jpg)
+
+![](images/JenDresserFull.JPG)
+
+![](images/JenEntryCloset.JPG)
+
+![](images/JenEntryClosetTop.JPG)
+
+![](images/JenSheos.JPG)
+
+![](images/JenWorkout.JPG)
