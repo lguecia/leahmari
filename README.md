@@ -705,3 +705,16 @@
 
 ![](images/LAPackTopView.JPG)
 
+![](images/JaimeClosetBefore.jpg)
+
+![](images/JaimeClosetShoes.jpg)
+
+![](images/JaimeDonate.jpg)
+
+![](images/JaimeDonateBags.jpg)
+
+![](images/JaimeIkeaBefore.jpg)
+
+![](images/JaimeZeveShoes1.jpg)
+
+![](images/JaimeZeveShoes2.jpg)
