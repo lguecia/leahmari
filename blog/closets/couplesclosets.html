@@ -25,7 +25,7 @@
         <!-- FOR WEB -->
         <!-- <link href="/../../styles.css" rel="stylesheet"> -->
         <!-- FOR TESTING -->
-        <link href="../../styles.css" rel="stylesheet">
+        <link href="/../../styles.css" rel="stylesheet">
         <title>LEAH MARI</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,8 +37,19 @@
         <!-- Add fas icon library -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <!-- Slick CSS (jsDelivr CDN) -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+        <!-- Slick JS (jsDeliver CDN) -->
+        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+        <!-- Slick: jQuery-->
+        <!-- <script src="file:///Users/leahguecia/Desktop/Organization/leahmari.com%20code/slick-1.8.1/slick/jquery.min.js"></script> -->
+        <!-- Slick: Script -->
+        <!-- <script src="file:///Users/leahguecia/Desktop/Organization/leahmari.com%20code/slick-1.8.1/slick/slick.min.js"></script> -->
+        <!-- Slick: Stylesheet -->
+        <!-- <link rel="stylesheet" type="text/css" href="/../../slick-1.8.1/slick/slick.css"> -->
         <!-- Slick: Theme (optional) -->
+        <!-- <link rel="stylesheet" type="text/css" href="/../../slick-1.8.1/slick/slick-theme.css"> -->
+        <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
     </head>
 
@@ -101,6 +112,7 @@
 
                     <div><p>2 Closets, 1 Dresser, Full Edit, <b>2 DAYS</b></p></div>
 
+                    <!-- section -->
                     <div class="large-numbers">
                         <div class="large-numbers element-number">1</div>
                         <div class="element-text">closet</div>
@@ -108,10 +120,9 @@
                     <br><br><br>
 
                     <!-- <h6><b>STEP 1: DESIGN</b></h6> -->
-                    <!-- <div><p><b>After &rarr; Before</b></p></div> -->
-                    <div><p><b>After & Before</b></p></div>
+                    <div><p><b>After &rarr; Before</b></p></div>
                     
-                    <div class="variable-width">
+                    <div class="variable-width" id="closet-1">
                         <div><img src="/images/JaclynJoshHerFoldsAfter3.jpg" alt="After"></div>
                         <div><img src="/images/JaclynJoshMainCloset1.jpg" alt="After"></div>
                         <div><img src="/images/JaclynJoshHerFoldsAfter1.jpg" alt="After"></div>
@@ -127,28 +138,39 @@
                         <div><img src="/images/JaclynJoshHerFoldsBefore2.jpg" alt="Before"></div>
                         <div><img src="/images/JaclynJoshHisBefore.jpg" alt="Before"></div>
                     </div>
+                    <!-- <div class="container"></div>
+                    <br><br><br><br><br><br><br><br> -->
                     <br><br>
 
+                    <!-- section -->
                     <div class="large-numbers">
                         <div class="large-numbers element-number">2</div>
                         <div class="element-text">closet</div>
                     </div>
                     <br><br><br>
 
+                    <!-- <div><p><b>After &rarr; Before</b></p></div>
+
+                    <div class="variable-width" id="dresser">
+                        <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshEntryCloset.jpg" alt="After"></div>
+                        <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshEntryClosetBefore2.JPG" alt="Before"></div>
+                    </div>
+                    <br><br> -->
+
                     <div class="row">
                         <div class="container_columns col-md-6">
                             <div><p><b>After</b></p></div>
-                            <div class="bottom_row_of2">
-                                <div class="img_row_of2_large">
-                                    <img src="/images/JaclynJoshEntryCloset.jpg" alt="After">
+                            <div class="right_column_of2 col-md-6">
+                                <div class="img_column_of2_tall">
+                                    <img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshEntryCloset.jpg" alt="After">
                                 </div>
                             </div>
                         </div>
                         <div class="container_columns col-md-6">
                             <div><p><b>Before</b></p></div>
-                            <div class="bottom_row_of2">
-                                <div class="img_row_of2_large">
-                                    <img src="/images/JaclynJoshEntryClosetBefore2.JPG" alt="Before">
+                            <div class="right_column_of2 col-md-6">
+                                <div class="img_column_of2_tall">
+                                    <img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshEntryClosetBefore2.JPG" alt="Before">
                                 </div>
                             </div>
                         </div>
@@ -162,17 +184,19 @@
                     </div>
                     <br><br><br>
 
-                    <!-- <div><p><b>After &rarr; Before</b></p></div> -->
-                    <div><p><b>After & Before</b></p></div>
+                    <div><p><b>After &rarr; Before</b></p></div>
 
-                    <div class="variable-width">
-                        <div><img src="/images/JaclynJoshFoldsAfter3.jpg" alt="After"></div>
-                        <div><img src="/images/JaclynJoshMeasuring.jpg" alt="During"></div>
-                        <div><img src="/images/JaclynJoshFoldsAfter4.jpg" alt="After"></div>
-                        <div><img src="/images/JaclynJoshFoldsAfter2.jpg" alt="After"></div>
-                        <div><img src="/images/JaclynJoshFoldsAfter1.jpg" alt="After"></div>
-                        <div><img src="/images/JaclynJoshFoldsBefore.jpg" alt="Before"></div>
+                    <div class="variable-width" id="dresser">
+                        <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshFoldsAfter3.jpg" alt="After"></div>
+                        <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshMeasuring.jpg" alt="During"></div>
+                        <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshFoldsAfter4.jpg" alt="After"></div>
+                        <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshFoldsAfter2.jpg" alt="After"></div>
+                        <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshFoldsAfter1.jpg" alt="After"></div>
+                        <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshFoldsBefore.jpg" alt="Before"></div>
+                        <!-- <div><img src="file:///Users/leahguecia/Desktop/Organization/images/JaclynJoshFoldsAfter3.jpg" alt="After"></div> -->
                     </div>
+                    <!-- <div class="container"></div>
+                    <br><br><br><br><br><br><br><br> -->
                     <br><br>
 
                 </div>
@@ -203,7 +227,7 @@
                             <!-- Rob & Lana -->
                             <div class="post container_columns col-md-3">
                                 <div class="img-wrap-200 zoom">
-                                    <a href="/blog/closets/premoveorganization"><img class="featured" src="/images/RobLanaSpices.jpg" alt="Pre-Move Organization"></a>
+                                    <a href="/blog/closets/premoveorganization"><img class="featured" src="/images/RobLanaDresserLabeled.jpg" alt="Pre-Move Organization"></a>
                                 </div>
                                 <div class="content">
                                     <h6><a href="/blog/closets/premoveorganization">Pre-Move Organization</a></h6>
@@ -244,7 +268,7 @@
                             <!-- Channing -->
                             <div class="post container_columns col-md-3">
                                 <div class="img-wrap-200 zoom">
-                                    <a href="/blog/closets/movingstates"><img class="featured" src="/images/ChanningPantryColors.jpg" alt="Moving States"></a>
+                                    <a href="/blog/closets/movingstates"><img class="featured" src="/images/ChanningCloset2.jpg" alt="Moving States"></a>
                                 </div>
                                 <div class="content">
                                     <h6><a href="/blog/closets/movingstates">Moving States</a></h6>
@@ -326,10 +350,14 @@
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <!-- <script type="text/javascript" src="file:///Users/leahguecia/Desktop/Organization/leahmari.com%20code/slick-1.8.1/slick/slick.min.js"></script> -->
+        <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
         <script type="text/javascript">
-            $(document).ready(function(){
+            // $(document).ready(function(){
+            $(document).ready(() => {
+                // $('.variable-width').slick({
                 $('.variable-width').slick({
                     dots: true,
                     // infinite: true,
@@ -340,6 +368,9 @@
                     centerMode: true,
                     centerPadding: '60px',
                     // variableWidth: true,
+                    // cssEase: 'linear',
+                    // fade: true,
+                    // focusOnChange: true,
                     responsive: [
                         {
                             breakpoint: 1024,
@@ -356,7 +387,7 @@
                             settings: {
                                 arrows: false,
                                 slidesToShow: 2,
-                                //slidesToScroll: 2,
+                                // slidesToScroll: 2,
                                 centerMode: true,
                                 centerPadding: '40px'
                             }
@@ -366,7 +397,7 @@
                             settings: {
                                 arrows: false,
                                 slidesToShow: 1,
-                                //slidesToScroll: 1
+                                // slidesToScroll: 1,
                                 centerMode: true,
                                 centerPadding: '40px'
                             }
