@@ -40,6 +40,10 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <!-- Great Vibes Font -->
         <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+        <!-- Slick CSS (jsDelivr CDN) -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+        <!-- Slick: Theme (optional) -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
     </head>
 
     <body>
@@ -230,6 +234,65 @@
                             </div>
                         </div>
                     </div>
+
+                    <h6><b>MAINTENANCE & UPDATES</b></h6>
+                    <div class="variable-width">
+                        <div><img src="/images/LaurenRossKitchenFull.jpg" alt="Kitchen"></div>
+                        <div><img src="/images/LaurenRossKitchenProduct.JPG" alt="Product"></div>
+                        <div><img src="/images/LaurenRossKitchenOil.jpg" alt="Oils"></div>
+                        <div><img src="/images/LaurenRossKitchenDuring.jpg" alt="During"></div>
+                        <div><img src="/images/LaurenRossKitchenPantry.jpg" alt="Pantry"></div>
+                        <div><img src="/images/LaurenRossBathroom.jpg" alt="Bathroom"></div>
+                    </div>
+
+                    <div class="container container_3_columns">
+                        <div class="row">
+                            <div class="container_columns col-md-3">
+                                <div class="top_row_of2">
+                                    <div class="img_row_of2">
+                                        <img src="/images/LaurenRossKitchen" alt="Her New Closet">
+                                    </div>
+                                </div>
+                                <div class="bottom_row_of2">
+                                    <p></p>
+                                    <h6>The Closet</h6>
+                                </div>
+                            </div>
+                            <div class="container_columns col-md-3">
+                                <div class="top_row_of2">
+                                    <div class="img_row_of2">
+                                        <img src="/images/LEShirtsNew.jpg" alt="Her New Dresser - Tops">
+                                    </div>
+                                </div>
+                                <div class="bottom_row_of2">
+                                    <p></p>
+                                    <h6>The Tops</h6>
+                                </div>
+                            </div>
+                            <div class="container_columns col-md-3">
+                                <div class="top_row_of2">
+                                    <div class="img_row_of2">
+                                        <img src="/images/FoldedBottoms.jpg" alt="Her New Dresser - Bottoms">
+                                    </div>
+                                </div>
+                                <div class="bottom_row_of2">
+                                    <p></p>
+                                    <h6>The Bottoms</h6>
+                                </div>
+                            </div>
+                            <div class="container_columns col-md-3">
+                                <div class="top_row_of2">
+                                    <div class="img_row_of2">
+                                        <img src="/images/LESuitsEdit.JPG" alt="Her Seasonal Suits">
+                                    </div>
+                                </div>
+                                <div class="bottom_row_of2">
+                                    <p></p>
+                                    <h6>The Seasonal</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <br><br>
                 </div>
                 <br>
@@ -268,7 +331,7 @@
                             <!-- Channing -->
                             <div class="post container_columns col-md-3">
                                 <div class="img-wrap-200 zoom">
-                                    <a href="/blog/closets/movingstates"><img class="featured" src="/images/ChanningPantryColors.jpg" alt="Moving States"></a>
+                                    <a href="/blog/closets/movingstates"><img class="featured" src="/images/ChanningCloset2.jpg" alt="Moving States"></a>
                                 </div>
                                 <div class="content">
                                     <h6><a href="/blog/closets/movingstates">Moving States</a></h6>
@@ -309,7 +372,7 @@
                             <!-- Yoni -->
                             <div class="post container_columns col-md-3">
                                 <div class="img-wrap-200 zoom">
-                                    <a href="/blog/closets/bedroomredesign"><img class="featured" src="/images/YoniShirts.jpg" alt="HBedroom Re-design"></a>
+                                    <a href="/blog/closets/bedroomredesign"><img class="featured" src="/images/YoniShirts.jpg" alt="Bedroom Re-design"></a>
                                 </div>
                                 <div class="content">
                                     <h6><a href="/blog/closets/bedroomredesign">Bedroom Re-Design</a></h6>
@@ -336,5 +399,64 @@
         </div>
         <!-- CJ Deep Link | Affiliate Marketing -->
         <script src="//www.anrdoezrs.net/am/9135006/include/allCj/exclude/5137678,5147629/impressions/page/am.js"></script>
+
+        <!-- slick carousel -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+        <script type="text/javascript">
+            // $(document).ready(function(){
+            $(document).ready(() => {
+                // $('.variable-width').slick({
+                $('.variable-width').slick({
+                    dots: true,
+                    // infinite: true,
+                    slidesToShow: 3,
+                    // slidesToScroll: 1,
+                    // autoplay: true,
+                    // autoplaySpeed: 10000,
+                    centerMode: true,
+                    centerPadding: '60px',
+                    // variableWidth: true,
+                    // cssEase: 'linear',
+                    // fade: true,
+                    // focusOnChange: true,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 3,
+                                // slidesToScroll: 3,
+                                centerMode: true,
+                                centerPadding: '60px'
+                            }
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 2,
+                                // slidesToScroll: 2,
+                                centerMode: true,
+                                centerPadding: '40px'
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 1,
+                                // slidesToScroll: 1,
+                                centerMode: true,
+                                centerPadding: '40px'
+                            }
+                        }
+                    ]
+                });
+            });
+        </script>
     </body>
 </html>
