@@ -752,3 +752,11 @@
 ![](images/LaurenRossKitchenPantry.jpg)
 
 ![](images/LaurenRossKitchenProduct.JPG)
+
+![](images/LainieRobBathroomAfter.JPG)
+
+![](images/LainieRobBathroomBefore.JPG)
+
+![](images/LainieRobKitchenAfter.JPG)
+
+![](images/LainieRobKitchenBefore.JPG)
