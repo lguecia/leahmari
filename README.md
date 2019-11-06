@@ -797,8 +797,6 @@
 
 ![](images/MeredithZachHisDresserAfter4.JPG)
 
-![](images/MeredithZachHisDresserBefore.JPG)
-
 ![](images/MeredithZachHisHangsAfter1.JPG)
 
 ![](images/MeredithZachKitchenBefore1.JPG)
