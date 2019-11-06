@@ -760,3 +760,7 @@
 ![](images/LainieRobKitchenAfter.JPG)
 
 ![](images/LainieRobKitchenBefore.JPG)
+
+![](images/TargetSuitHangers.png)
+
+![](images/TargetGarmentRack.png)
