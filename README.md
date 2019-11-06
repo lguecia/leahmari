@@ -797,9 +797,9 @@
 
 ![](images/MeredithZachHisDresserAfter4.JPG)
 
-![](images/MeredithZachHisHangsAfter1.JPG)
+![](images/MeredithZachHisHangsAfter2.JPG)
 
-![](images/MeredithZachKitchenBefore1.JPG)
+![](images/MeredithZachKitchenBefore1.jpeg)
 
 ![](images/MeredithZachKitchenCabinet1.JPG)
 
@@ -809,7 +809,7 @@
 
 ![](images/MeredithZachKitchenEntryBar.JPG)
 
-![](images/MeredithZachKitchenEntryBefore.JPG)
+![](images/MeredithZachKitchenEntryBefore.jpeg)
 
 ![](images/MeredithZachKitchenEntryCubesBefore.JPG)
 
