@@ -870,3 +870,15 @@
 ![](images/AkbarShoesDuring.jpg)
 
 ![](images/AkbarSuitcasesBefore.jpg)
+
+![](images/SamJasonClosetsPacked.jpg)
+
+![](images/SamJasonHisClosets.jpg)
+
+![](images/SamJasonSweaterFolds.jpg)
+
+![](images/HercyClosetRight.jpg)
+
+![](images/JessCoats.jpg)
+
+![](images/JessJeans.jpg)
