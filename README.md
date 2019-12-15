@@ -932,3 +932,7 @@
 ![](images/SamJasonFoodCabinet.jpg)
 
 ![](images/SamJasonOvenDrawer.jpg)
+
+![](images/Services.png)
+
+![](images/VenusEtFleur.png)
