@@ -995,7 +995,7 @@
 
 ![](images/LizMasterCloset2Pref.jpg)
 
-![](images/LizPantss.jpg)
+![](images/LizPants.jpg)
 
 ![](images/LizCoatCloset.jpg)
 
