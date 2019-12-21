@@ -978,3 +978,27 @@
 ![](images/MarissaArubaSuitcases.JPG)
 
 ![](images/MarissaArubaWorkoutCube.JPG)
+
+![](images/LizBags.jpg)
+
+![](images/LizClosetBefore.jpg)
+
+![](images/LizClothesBox.jpg)
+
+![](images/LizFolds1.jpg)
+
+![](images/LizFolds2.jpg)
+
+![](images/LizMasterClosetHangs.jpg)
+
+![](images/LizTops.JPG)
+
+![](images/LizMasterCloset2Pref.jpg)
+
+![](images/LizPantss.jpg)
+
+![](images/LizCoatCloset.jpg)
+
+![](images/LizElfaWorkout.jpg)
+
+![](images/LizElfaLounge.jpg)
