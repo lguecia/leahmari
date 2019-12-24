@@ -1012,3 +1012,11 @@
 ![](images/KirstenSocks.JPG)
 
 ![](images/KirstenLounge1.JPG)
+
+![](images/JaimeClosetAfter.jpg)
+
+![](images/JaimeWorkoutTops.jpg)
+
+![](images/JaimeWorkoutBottoms.jpg)
+
+![](images/JaimeBillyMapped.JPG)
