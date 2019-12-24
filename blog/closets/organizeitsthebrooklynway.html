@@ -40,6 +40,10 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <!-- Great Vibes Font -->
         <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+        <!-- Slick CSS (jsDelivr CDN) -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+        <!-- Slick: Theme (optional) -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
     </head>
 
     <body>
@@ -90,6 +94,7 @@
 
                 <!-- Caroline, Josh, & G -->
                 <!-- ARTICLE: Closet Feature: Organize, It's The Brooklyn Way -->
+                <!-- Posted: 10/19? -->
                 <div class="articles container_white_fill" id="cf-2">
                     <div class="blog-section-header" id="travel-header">
                         <img src="/images/CarolineGWinterTops.jpg" alt="Organize Brooklyn">
@@ -248,7 +253,7 @@
                     <br><br><br>
                     <div class="large-numbers element-text-large">kitchen</div>
 
-                    <div class="container_3_columns">
+                    <!-- <div class="container_3_columns">
                         <div class="row">
                             <div class="container_columns col-md-3">
                                 <div class="top_row_of2">
@@ -311,10 +316,23 @@
                                 </div>
                             </div>
                         </div>
+                    </div> -->
+
+                    <div class="variable-width" id="final">
+                        <div><img src="/images/CarolineJoshCoffee.jpg" alt="Coffee"></div>
+                        <div><img src="/images/CarolineJoshMeasuring.jpg" alt="Measuring & Tupperware"></div>
+                        <div><img src="/images/CarolineJoshCups.jpg" alt="Glasses"></div>
+                        <div><img src="/images/CarolineJoshPantry.jpg" alt="Pantry"></div>
+                        <div><img src="/images/CarolineJoshPotsPans.jpg" alt="Pots & Pans"></div>
+                        <div><img src="/images/LizBags.jpg" alt="Bags"></div>
+                        <div><img src="/images/CarolineJoshPlates.jpg" alt="Plates"></div>
+                        <div><img src="/images/CarolineJoshBar.jpg" alt="Bar"></div>
+                        <div><img src="/images/CarolineJoshSpices.jpg" alt="Spices"></div>
                     </div>
 
                     <br><input class="button" onclick="window.location.href='https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDI2ODc0MjM4MjE3NDQz?igshid=1e8nuov49qmee&story_media_id=2129209062252165573'" type="button" value="More on Instagram"/> 
                     <br><br><br>
+                    <!-- <br><br><br><br><br> -->
 
                     <br><br><br>
                     <div class="large-numbers element-text-large">laundry & storage</div>
@@ -469,5 +487,72 @@
         </div>
         <!-- CJ Deep Link | Affiliate Marketing -->
         <script src="//www.anrdoezrs.net/am/9135006/include/allCj/exclude/5137678,5147629/impressions/page/am.js"></script>
+
+        <!-- slick carousel -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+        <script type="text/javascript">
+            // $(document).ready(function(){
+            $(document).ready(() => {
+                // $('.variable-width').slick({
+                $('.variable-width').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 1,
+                    centerMode: true,
+                    centerPadding: '60px',
+                    variableWidth: true,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 3,
+                                // slidesToScroll: 3,
+                                centerMode: true,
+                                centerPadding: '60px'
+                            }
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 2,
+                                // slidesToScroll: 2,
+                                centerMode: true,
+                                centerPadding: '40px'
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 1,
+                                // slidesToScroll: 1,
+                                centerMode: true,
+                                centerPadding: '40px'
+                            }
+                        }
+                    ]
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(() => {
+                $('.small-carousel').slick({
+                    dots: true,
+                    arrows: true,
+                    infinite: true,
+                    speed: 500,
+                    fade: true,
+                    cssEase: 'linear'
+                })
+            })
+        </script>
     </body>
 </html>
