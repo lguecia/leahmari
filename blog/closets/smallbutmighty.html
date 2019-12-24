@@ -36,6 +36,10 @@
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
         <!-- Add fas icon library -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <!-- Slick CSS (jsDelivr CDN) -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+        <!-- Slick: Theme (optional) -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
     </head>
 
     <body>
@@ -86,6 +90,7 @@
 
                 <!-- Jaime -->
                 <!-- ARTICLE: Closet Feature: Small, But Mighty -->
+                <!-- Posted: 10/19 -->
                 <div class="articles container_white_fill" id="small-but-mighty">
                     <div class="blog-section-header">
                         <img src="/images/JaimeZeveShoesAfter1.jpg" alt="Small, but Mighty">
@@ -104,7 +109,7 @@
 
                     <p>Some before pics, because *never forget*</p>
                     <br>
-                    <div><p><b>After coming soon</b></p></div>
+                    <!-- <div><p><b>After coming soon</b></p></div> -->
 
                     <div class="container_2_columns_tall">
                         <div class="row">
@@ -182,6 +187,21 @@
                         </div>
                     </div>
                     <br><br>
+
+                    <!-- section -->
+                    <div class="large-numbers">
+                        <div class="large-numbers element-number">clothes</div>
+                        <!-- <div class="element-text">dressers</div> -->
+                    </div>
+                    <br><br><br>
+
+                    <div class="variable-width" id="final">
+                        <div><img src="/images/JaimeClosetAfter.jpg" alt="Closet After"></div>
+                        <div><img src="/images/JaimeWorkoutTops.jpg" alt="Workout Tops"></div>
+                        <div><img src="/images/JaimeWorkoutBottoms.jpg" alt="Workout Bottoms"></div>
+                        <div><img src="/images/JaimeBillyMapped.JPG" alt="Billy After"></div>
+                    </div>
+                    <br><br><br><br><br>
 
                 </div>
                 <br>
@@ -338,5 +358,72 @@
         </div>
         <!-- CJ Deep Link | Affiliate Marketing -->
         <script src="//www.anrdoezrs.net/am/9135006/include/allCj/exclude/5137678,5147629/impressions/page/am.js"></script>
+
+        <!-- slick carousel -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+        <script type="text/javascript">
+            // $(document).ready(function(){
+            $(document).ready(() => {
+                // $('.variable-width').slick({
+                $('.variable-width').slick({
+                    dots: true,
+                    infinite: true,
+                    speed: 300,
+                    slidesToShow: 1,
+                    centerMode: true,
+                    centerPadding: '60px',
+                    variableWidth: true,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 3,
+                                // slidesToScroll: 3,
+                                centerMode: true,
+                                centerPadding: '60px'
+                            }
+                        },
+                        {
+                            breakpoint: 600,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 2,
+                                // slidesToScroll: 2,
+                                centerMode: true,
+                                centerPadding: '40px'
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                slidesToShow: 1,
+                                // slidesToScroll: 1,
+                                centerMode: true,
+                                centerPadding: '40px'
+                            }
+                        }
+                    ]
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(() => {
+                $('.small-carousel').slick({
+                    dots: true,
+                    arrows: true,
+                    infinite: true,
+                    speed: 500,
+                    fade: true,
+                    cssEase: 'linear'
+                })
+            })
+        </script>
     </body>
 </html>
