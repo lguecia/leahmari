@@ -1002,3 +1002,13 @@
 ![](images/LizElfaWorkout.jpg)
 
 ![](images/LizElfaLounge.jpg)
+
+![](images/KirstenTops.JPG)
+
+![](images/KirstenPants.JPG)
+
+![](images/KirstenSweaters.JPG)
+
+![](images/KirstenSocks.JPG)
+
+![](images/KirstenLounge1.JPG)
