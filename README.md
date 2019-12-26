@@ -1020,3 +1020,23 @@
 ![](images/JaimeWorkoutBottoms.jpg)
 
 ![](images/JaimeBillyMapped.JPG)
+
+![](images/BeisBottom1.JPG)
+
+![](images/BeisBottom2.JPG)
+
+![](images/BeisBottom3.JPG)
+
+![](images/BeisBottom4.jpg)
+
+![](images/BeisMain1.JPG)
+
+![](images/BeisMain2.JPG)
+
+![](images/BeisMain3.JPG)
+
+![](images/BeisMain4.jpg)
+
+![](images/BeisMain5.JPG)
+
+![](images/BeisMain6.jpg)
