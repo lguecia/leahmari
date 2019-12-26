@@ -1008,6 +1008,30 @@ input[type="text"]{
     color: rgba(0,0,0,.9);
 }
 
+/* unvisited */
+.content-underline a:link {
+    text-decoration: underline;
+    color: rgba(0,0,0,.9);
+}
+
+/* visited */
+.content-underline a:visited {
+    text-decoration: underline;
+    color: rgba(0,0,0,.9);
+}
+
+/* mouse over */
+.content-underline a:hover {
+    text-decoration: underline;
+    color: rgba(0,0,0,.9);
+}
+
+/* selected */
+.content-underline a:active {
+    text-decoration: underline;
+    color: rgba(0,0,0,.9);
+}
+
 /* end article container */
 
 
