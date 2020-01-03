@@ -1076,3 +1076,5 @@
 ![](images/JessRightClosetAfter.JPG)
 
 ![](images/JessRightClosetBefore.JPG)
+
+![](images/DailyHarvest.jpg)
