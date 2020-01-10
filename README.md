@@ -1078,3 +1078,5 @@
 ![](images/JessRightClosetBefore.JPG)
 
 ![](images/DailyHarvest.jpg)
+
+![](images/MieleWasher.jpg)
