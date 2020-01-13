@@ -1081,4 +1081,4 @@
 
 ![](images/MieleWasher.jpg)
 
-![](images/LeahMariServices.pdf)
+![](images/LeahMariServices.png)
