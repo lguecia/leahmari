@@ -109,7 +109,8 @@ main {
     -webkit-transform: translateY(-35%);
     -ms-transform: translateY(-35%);
     transform: translateY(-35%);
-    color: rgba(0,0,0,.9);
+    /* color: rgba(0,0,0,.9); */
+    color: white;
 }
 
 .navbar {
