@@ -133,7 +133,8 @@ img {
 
 .parallax_org {
   /* The image used */
-  background-image: url("images/YoniShirts.jpg");
+  /* background-image: url("images/YoniShirts.jpg"); */
+  background-image: url("images/ChanningShoeWall.jpg");
 
   /* Set a specific height */
   min-height: 500px;
