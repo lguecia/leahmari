@@ -100,13 +100,37 @@
                     <br><input class="button" onclick="window.location.href='https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDM3NTQ3MDYyMTA5MDIw/?utm_source=ig_story_highlights_share&igshid=k26yl3gr8h2u'" type="button" value="See Home Highlights on Instagram"/> 
                     <br><br><br>
                 </div>
+                <br>
+                <br>
 
-                <div class="container"> 
+                <label class="dropdown-label" for="states"><h6>Search within home features:</h6></label>
+                <div class="article-dropdown">
+                    <select name="article-select" id="closets-select">
+                        <option disabled selected value="">Select</option> -->
+                        <option value="closets">See all</option>
+                        <option value="move">Home moves</option>
+                        <option value="kids">Kids closets</option>
+                        <option value="bathroom">Bathrooms</option>
+                        <option value="kitchen">Kitchens</option>
+                    </select>
+                </div>
+
+                <script>
+                    $(function() {
+                        $('#closets-select').change(function(){
+                            $('.post').hide();
+                            $('.' + $(this).val()).show();
+                        });
+                    });
+                </script>
+                <br><br>
+
+                <div class="container" id="homeFeatures"> 
                     <h6><b>HOME FEATURES</b></h6><br>
                     <div class="container_3_columns">
                         <div class="row">
                             <!-- Liz -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 move closets" id="Liz">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/3hourcloset">
                                         <img class="featured" src="/images/LizMasterClosetHangs.jpg" alt="3 Hour Closet">
@@ -123,7 +147,7 @@
                             </div>
 
                             <!-- Jess -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Jess">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/12yearsofedits">
                                         <img class="featured" src="/images/JessJeans.jpg" alt="12 Years of Edits">
@@ -144,7 +168,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Daniella -->
-                            <!-- <div class="post container_columns col-md-4">
+                            <!-- <div class="post container_columns col-md-4 kitchen" id="Daniella">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/floridaapartment">
                                         <img class="featured" src="/images/LainieRob.JPG" alt="Florida Apartment">
@@ -165,7 +189,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Hercy -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 move kids bathroom kitchen closets" id="Hercy">
                                 <div class="img-wrap zoom">
                                     <!-- <a href="/blog/closets/NYtoFL"> -->
                                         <img class="featured coming-soon" src="/images/HercyClosetRight.jpg" alt="NY to FL">
@@ -188,7 +212,7 @@
                     <div class="container_3_columns">
                         <div class="row">
                             <!-- Sam and Jason -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 move bathroom kitchen closets" id="SamJason">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/movingonup">
                                         <img class="featured" src="/images/SamJasonClosetsPacked.jpg" alt="Moving On Up">
@@ -209,7 +233,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Akbar -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Akbar">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/fauxclosetbuild">
                                         <img class="featured" src="/images/AkbarDresserHoodies.jpg" alt="Faux Closet Build">
@@ -230,7 +254,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Lainie and Rob -->
-                            <!-- <div class="post container_columns col-md-4">
+                            <!-- <div class="post container_columns col-md-4 bathroom kitchen" id="LainieRob">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/santamonicaapartment">
                                         <img class="featured" src="/images/LainieRob.JPG" alt="Santa Monica Apartment">
@@ -251,7 +275,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Meredith & Zach -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 bathroom kitchen" id="MeredithZach">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/railroadapartment">
                                         <img class="featured" src="/images/MeredithZachShoes.JPG" alt="Railroad Apartment">
@@ -272,7 +296,7 @@
                     <div class="container_3_columns">
                         <div class="row">
                             <!-- Jen -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Jen">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/1girl3closets">
                                         <img class="featured" src="/images/JenClosetAfter.JPG" alt="1 Girl, 3 Closets">
@@ -293,7 +317,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Jaime -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Jaime">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/smallbutmighty">
                                         <img class="featured" src="/images/JaimeDonate.jpg" alt="Small, but Mighty">
@@ -314,7 +338,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Jaclyn & Josh -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="JaclynJosh">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/couplesclosets">
                                         <img class="featured" src="/images/JaclynJoshMainCloset2.jpg" alt="Couples Closets">
@@ -335,7 +359,7 @@
                     <div class="container_3_columns">
                         <div class="row">
                             <!-- Caroline, Josh, & G -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 move kids bathroom kitchen closets" id="CarolineJosh">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/organizeitsthebrooklynway">
                                         <img class="featured" src="/images/CarolineGClosetAfter.jpg" alt="Organize Brooklyn">
@@ -356,7 +380,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Rachel -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 move bathroom kitchen closets" id="Rachel">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/apartmentupgrade">
                                         <img class="featured" src="/images/RachelBeauty.jpg" alt="Apartment Upgrade">
@@ -377,7 +401,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Rob & Lana -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 move kitchen bathroom closets" id="RobLana">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/premoveorganization">
                                         <img class="featured" src="/images/RobLanaDresserLabeled.jpg" alt="Pre-Move Organization">
@@ -398,7 +422,7 @@
                     <div class="container_3_columns">
                         <div class="row">
                             <!-- Kasey -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Kasey">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/nycstudio">
                                         <img class="featured" src="/images/KaseyTees.jpg" alt="NYC Studio">
@@ -419,7 +443,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Alex & Liz -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 move kids kitchen closets" id="AlexLiz">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/upsizing">
                                         <img class="featured" src="/images/AlexLizFoldedBaby3.jpg" alt="Large Home">
@@ -440,7 +464,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Kirsten -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Kirsten">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/findingspace">
                                         <img class="featured" src="/images/KirstenShoesFrontZoom.jpg" alt="Finding Space">
@@ -461,7 +485,7 @@
                     <div class="container_3_columns">
                         <div class="row">
                             <!-- Channing -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 kids kitchen closets" id="Channing">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/movingstates">
                                         <img class="featured" src="/images/ChanningCloset2.jpg" alt="Moving States">
@@ -482,7 +506,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Marissa & Gabe -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Marissa">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/fashionambitionist">
                                         <img class="featured" src="/images/MarissaWorkJacketsCloset.jpg" alt="@fashionambitionist">
@@ -503,7 +527,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Mine -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 kitchen closets" id="Me">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/stayingorganized">
                                         <img class="featured" src="/images/LeahTops1.jpg" alt="Self Care">
@@ -524,7 +548,7 @@
                     <div class="container_3_columns">
                         <div class="row">
                             <!-- Max -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Max">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/his1br">
                                         <img class="featured" src="/images/MaxClosetSweaters.jpg" alt="1BR: His">
@@ -545,7 +569,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Lauren & Ross -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 move bathroom kitchen closets" id="LaurenRoss">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/firsttimeowners">
                                         <img class="featured" src="/images/RossShoesNew.jpg" alt="Home Owners">
@@ -566,7 +590,7 @@
                     <div class="container_3_columns">
                         <div class="row"> -->
                             <!-- Yoni -->
-                            <div class="post container_columns col-md-4">
+                            <div class="post container_columns col-md-4 closets" id="Yoni">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/closets/bedroomredesign">
                                         <img class="featured" src="/images/YoniShirts.jpg" alt="Bedroom Re-design">
