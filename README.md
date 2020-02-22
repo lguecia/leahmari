@@ -621,7 +621,7 @@
 
 ![](images/JaclynJoshEntryCloset.jpg)
 
-![](images/JaclynJoshEntryClosetBefore.jpg)
+![](images/JaclynJoshEntryClosetBefore.JPG)
 
 ![](images/JaclynJoshEntryClosetBefore2.JPG)
 
@@ -629,7 +629,7 @@
 
 ![](images/JaclynJoshFoldsAfter2.jpg)
 
-![](images/JaclynJoshFoldsAfter3.jpg)
+![](images/JaclynJoshFoldsAfter3.JPG)
 
 ![](images/JaclynJoshFoldsAfter4.jpg)
 
@@ -653,7 +653,7 @@
 
 ![](images/JaclynJoshHisDrawer.jpg)
 
-![](images/JaclynJoshHisJewelry.jpg)
+![](images/JaclynJoshHisJewelry.JPG)
 
 ![](images/JaclynJoshHisOpenFolds1.jpg)
 
@@ -661,11 +661,11 @@
 
 ![](images/JaclynJoshMainCloset1.jpg)
 
-![](images/JaclynJoshMainCloset2.jpg)
+![](images/JaclynJoshMainCloset2.JPG)
 
-![](images/JaclynJoshMainClosetHers.jpg)
+![](images/JaclynJoshMainClosetHers.JPG)
 
-![](images/JaclynJoshMainClosetHis.jpg)
+![](images/JaclynJoshMainClosetHis.JPG)
 
 ![](images/JaclynJoshMeasuring.jpg)
 
