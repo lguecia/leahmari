@@ -515,6 +515,8 @@
 
 ![](images/RobLanaHisBathroom.jpg)
 
+![](images/RobLanaHerBathroom.JPG)
+
 ![](images/UpstateBags.jpg)
 
 ![](images/UpstateCube.jpg)
@@ -547,7 +549,7 @@
 
 ![](images/RobLanaKitchenBar.jpg)
 
-![](images/RobLanaKitchenCoffee.jpg)
+![](images/RobLanaKitchenCoffee.JPG)
 
 ![](images/RobLanaKitchenEntertaining.jpg)
 
@@ -981,7 +983,7 @@
 
 ![](images/MarissaArubaWorkoutCube.JPG)
 
-![](images/LizBags.jpg)
+![](images/LizBags.JPG)
 
 ![](images/LizClosetBefore.jpg)
 
@@ -991,19 +993,19 @@
 
 ![](images/LizFolds2.jpg)
 
-![](images/LizMasterClosetHangs.jpg)
+![](images/LizMasterClosetHangs.JPG)
 
 ![](images/LizTops.JPG)
 
-![](images/LizMasterCloset2Pref.jpg)
+![](images/LizMasterCloset2Pref.JPG)
 
 ![](images/LizPants.jpg)
 
 ![](images/LizCoatCloset.jpg)
 
-![](images/LizElfaWorkout.jpg)
+![](images/LizElfaWorkout.JPG)
 
-![](images/LizElfaLounge.jpg)
+![](images/LizElfaLounge.JPG)
 
 ![](images/KirstenTops.JPG)
 
