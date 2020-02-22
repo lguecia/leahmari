@@ -309,6 +309,8 @@
 
 ![](images/TF8Cubes2.jpg)
 
+![](images/TF8Cubes2.JPG)
+
 ![](images/AlexLizKitchen.jpg)
 
 ![](images/KaseyTees.jpg)
