@@ -837,7 +837,7 @@
 
 ![](images/MeredithZachSuitsLinens.JPG)
 
-![](images/MeredithZachTVConsole.JPG)
+![](images/MeredithZachTVConsole.jpg)
 
 ![](images/MeredithZachTVConsoleBefore.JPG)
 
