@@ -865,6 +865,8 @@
 
 ![](images/AkbarDresserTops.jpg)
 
+![](images/AkbarDresserTopsOrg2.JPG)
+
 ![](images/AkbarEntryBefore.jpg)
 
 ![](images/AkbarEntryCloset.jpg)
@@ -874,6 +876,8 @@
 ![](images/AkbarShoesDuring.jpg)
 
 ![](images/AkbarSuitcasesBefore.jpg)
+
+![](images/AkbarTowels.JPG)
 
 ![](images/SamJasonClosetsPacked.jpg)
 
