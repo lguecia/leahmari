@@ -1084,3 +1084,21 @@
 ![](images/LeahMariServices.png)
 
 ![](images/AmazonGreenery.png)
+
+![](images/AlexSki.JPG)
+
+![](images/LindsayMeInCloset.JPG)
+
+![](images/Staging338W15Blue.JPG)
+
+![](images/Staging338W15Red.JPG)
+
+![](images/Staging338W15BlackWhite.JPG)
+
+![](images/MarniCompleteCloset.JPG)
+
+![](images/MarniPants.JPG)
+
+![](images/MarissaParkCityLayout.JPG)
+
+![](images/MarissaMilanPack.JPG)
