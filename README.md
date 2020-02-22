@@ -1005,7 +1005,7 @@
 
 ![](images/LizPants.jpg)
 
-![](images/LizCoatCloset.jpg)
+![](images/LizCoatCloset.JPG)
 
 ![](images/LizElfaWorkout.JPG)
 
