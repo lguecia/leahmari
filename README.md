@@ -505,7 +505,7 @@
 
 ![](images/GreeceItalyLayoutC.jpg)
 
-![](images/GreeceItalyLayoutCandS.jpg)
+![](images/GreeceItalyLayoutCandS.JPG)
 
 ![](images/GreeceItalyEarrings1.jpg)
 
