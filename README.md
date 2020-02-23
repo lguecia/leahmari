@@ -509,6 +509,8 @@
 
 ![](images/GreeceItalyEarrings1.jpg)
 
+![](images/GreeceItalyEarrings2.JPG)
+
 ![](images/GreeceItalyRossPackJax.jpg)
 
 ![](images/GreeceItalyLaurenPackJax.jpg)
