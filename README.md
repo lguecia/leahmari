@@ -87,11 +87,11 @@
 
 ![](images/HairTools.jpg)
 
-![](images/TF1Layout.jpg)
+![](images/TF1Layout.JPG)
 
-![](images/TF1Edit.jpg)
+![](images/TF1Edit.JPG)
 
-![](images/TF1Pack.jpg)
+![](images/TF1Pack.JPG)
 
 ![](images/FoldedBottoms.jpg)
 
@@ -503,7 +503,7 @@
 
 ![](images/GreeceItalyCouplePackStraightOn.jpg)
 
-![](images/GreeceItalyLayoutC.jpg)
+![](images/GreeceItalyLayoutC.JPG)
 
 ![](images/GreeceItalyLayoutCandS.JPG)
 
