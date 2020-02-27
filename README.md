@@ -1139,9 +1139,9 @@
 
 ![](images/Staging338W15OXOStraightOn.JPG)
 
-![](images/Staging338W15OXOTurntable1.JPG)
+![](images/Staging338W15OXOTurntable1.jpg)
 
-![](images/Staging338W15OXOTurntable2.JPG)
+![](images/Staging338W15OXOTurntable2.jpg)
 
 ![](images/Staging338W15Yellow.JPG)
 
