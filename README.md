@@ -1146,3 +1146,6 @@
 ![](images/Staging338W15Yellow.JPG)
 
 ![](images/Staging338W15Green2.JPG)
+
+![](images/MiniSteamer.png)
+
