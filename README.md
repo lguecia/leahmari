@@ -1161,7 +1161,7 @@
 
 ![](images/BeisTulumMockPack.JPG)
 
-![](images/BKOvernight1.JPEG)
+![](images/BKOvernight1.jpg)
 
 ![](images/BKOvernight2.JPEG)
 
@@ -1171,9 +1171,9 @@
 
 ![](images/GramSelterPackSummer2020.jpeg)
 
-![](images/JenSelterLAPackFeb2021.JPEG)
+![](images/JenSelterLAPackFeb2021.jpeg)
 
-![](images/JenSelterLAPackNov2020.jpeg)
+![](images/JenSelterLAPackNov2020.jpg)
 
 ![](images/WMAAMiamiPack.JPG)
 
