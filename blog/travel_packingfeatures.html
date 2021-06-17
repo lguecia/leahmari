@@ -102,34 +102,34 @@
                     <br><input class="button" onclick="window.location.href='https://www.instagram.com/s/aGlnaGxpZ2h0OjE3ODQ3MzA5NDE4MzU3NDg5/?utm_source=ig_story_highlights_share&igshid=zky1n2c3pn1k'" type="button" value="See Packing Highlights on Instagram"/>
                     <br><br><br>
                 </div>
+                
+                <label class="dropdown-label" for="states"><h6>Search travel packs:</h6></label>
+                <div class="article-dropdown">
+                    <select name="article-select" id="packs-select">
+                        <option disabled selected value="">Select</option> -->
+                        <option value="packs">All</option>
+                        <option value="backpack">Backpack</option>
+                        <option value="mini">Mini Weekender</option>
+                        <option value="garment">Garment Bag</option>
+                        <option value="carryon">Carry On Roller</option>
+                        <option value="checked">Checked Bag</option>
+                    </select>
+                </div>
+
+                <script>
+                    $(function() {
+                        $('#packs-select').change(function(){
+                            $('.post').hide();
+                            $('.' + $(this).val()).show();
+                        });
+                    });
+                </script>
+                <br>
 
                 <div class="container">
                     <h6><b>PACKING FEATURES</b></h6><br>
                         <div class="container_3_columns">
                             <div class="row">
-
-                            <label class="dropdown-label" for="states"><h6>Search travel packs:</h6></label>
-                            <div class="article-dropdown">
-                                <select name="article-select" id="closets-select">
-                                    <option disabled selected value="">Select</option> -->
-                                    <option value="packs">All</option>
-                                    <option value="backpack">Backpack</option>
-                                    <option value="mini">Mini Weekender</option>
-                                    <option value="garment">Garment Bag</option>
-                                    <option value="carryon">Carry On Roller</option>
-                                    <option value="checked">Checked Bag</option>
-                                </select>
-                            </div>
-
-                            <script>
-                                $(function() {
-                                    $('#packs-select').change(function(){
-                                        $('.post').hide();
-                                        $('.' + $(this).val()).show();
-                                    });
-                                });
-                            </script>
-                            <br>
 
                             <!-- Cancun Honeymoon -->
                             <!-- <div class="container_columns col-md-4">
