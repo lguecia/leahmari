@@ -108,6 +108,29 @@
                         <div class="container_3_columns">
                             <div class="row">
 
+                            <label class="dropdown-label" for="states"><h6>Search travel packs:</h6></label>
+                            <div class="article-dropdown">
+                                <select name="article-select" id="closets-select">
+                                    <option disabled selected value="">Select</option> -->
+                                    <option value="packs">All</option>
+                                    <option value="backpack">Backpack</option>
+                                    <option value="mini">Mini Weekender</option>
+                                    <option value="garment">Garment Bag</option>
+                                    <option value="carryon">Carry On Roller</option>
+                                    <option value="checked">Checked Bag</option>
+                                </select>
+                            </div>
+
+                            <script>
+                                $(function() {
+                                    $('#packs-select').change(function(){
+                                        $('.post').hide();
+                                        $('.' + $(this).val()).show();
+                                    });
+                                });
+                            </script>
+                            <br>
+
                             <!-- Cancun Honeymoon -->
                             <!-- <div class="container_columns col-md-4">
                                 <div class="img-wrap zoom">
@@ -122,7 +145,7 @@
                             </div> -->
 
                             <!-- Miami 4-7 Days -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs mini">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6974181324135435526?lang=en&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/MIA4to7.JPG" alt="4-7 days in Miami">
@@ -135,7 +158,7 @@
                             </div>
 
                             <!-- NYC May -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6958593916799028485?lang=en&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/BeisNYCMockPack2.JPG" alt="NYC in May">
@@ -148,7 +171,7 @@
                             </div>
 
                             <!-- Tulum -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6955980282658999558?source=h5_m&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/BeisTulumMockPack.JPG" alt="Tulum">
@@ -161,7 +184,7 @@
                             </div>
 
                             <!-- Brooklyn Overnight -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6948187785643789573?source=h5_m&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/BKOvernight.jpg" alt="Overnight">
@@ -174,7 +197,7 @@
                             </div>
 
                             <!-- Toiletries -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6943337900889148677?source=h5_m&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/Blingo.jpeg" alt="Toiletries">
@@ -187,7 +210,7 @@
                             </div>
 
                             <!-- Puerto Rico -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6938583575528770822?source=h5_m&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/BeisPRMockPack.JPG" alt="Puerto Rico">
@@ -200,7 +223,7 @@
                             </div>
 
                             <!-- @JenSelter | LA 2 -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/">
                                         <img class="img-fluid-mx-auto d-block" src="/images/JenSelterLAPackFeb2021.jpg" alt="@jenselter">
@@ -213,7 +236,7 @@
                             </div>
 
                             <!-- One Week Pandemic Pack -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6921841439643061509?source=h5_m&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/BeisPandemicPack.JPG" alt="Pandemic Week">
@@ -226,7 +249,7 @@
                             </div>
 
                             <!-- @WeMetAtAcme | Miami -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6917735938823146758?source=h5_m&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/WMAAMiamiPack.JPG" alt="@WeMetAtAcme">
@@ -239,7 +262,7 @@
                             </div>
 
                             <!-- First Mock Pack-->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6904716838559567109?source=h5_m&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/BeisBackpackMockPack.JPG" alt="First Mock Pack">
@@ -252,7 +275,7 @@
                             </div>
 
                             <!-- @JenSelter | LA 1 -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.instagram.com/p/CHb2pvlpXMA/?utm_source=ig_web_copy_link">
                                         <img class="img-fluid-mx-auto d-block" src="/images/JenSelterLAPackNov2020.jpeg" alt="@jenselter">
@@ -265,7 +288,7 @@
                             </div>
 
                             <!-- DC | Pandemic Week With Family -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs mini">
                                 <div class="img-wrap zoom">
                                     <a href="https://www.tiktok.com/@leahmariorganization/video/6855695732599508230?source=h5_m&is_copy_url=0&is_from_webapp=v1&sender_device=pc&sender_web_id=6948084406116943366">
                                         <img class="img-fluid-mx-auto d-block" src="/images/DCPandemicWeek.jpeg" alt="Pandemic Family Week">
@@ -278,7 +301,7 @@
                             </div>
 
                             <!-- @JenSelter | First Pack Summer 2020 -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <!-- <a href="/blog/travelpacking/"> -->
                                         <img class="img-fluid-mx-auto d-block coming-soon" src="/images/GramSelterPackSummer2020.jpeg" alt="@jenselter">
@@ -306,7 +329,7 @@
                             </div> -->
 
                             <!-- Marissa | Milan -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <!-- <a href="/blog/travelpacking/milanfashionweek"> -->
                                         <img class="img-fluid-mx-auto d-block coming-soon" src="/images/MarissaMilanPack.JPG" alt="Milan">
@@ -321,7 +344,7 @@
                             </div>
 
                             <!-- Marissa | Park City -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/parkcitybitch">
                                         <img class="img-fluid-mx-auto d-block" src="/images/MarissaParkCityLayout.JPG" alt="Park City">
@@ -352,7 +375,7 @@
                             </div> -->
 
                             <!-- Marissa | Aruba -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/fashionambitionisttakesaruba">
                                         <img class="img-fluid-mx-auto d-block" src="/images/MarissaArubaPackedHat.jpg" alt="@fashionambitionist">
@@ -370,7 +393,7 @@
                             </div>
 
                             <!-- Beis | Miami -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs mini">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/beis">
                                         <img class="img-fluid-mx-auto d-block" src="/images/BeisBottom3.JPG" alt="Beis">
@@ -387,7 +410,7 @@
                             </div>
 
                             <!-- Rob | Dubai & Africa -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/dubaiandafrica">
                                         <img class="img-fluid-mx-auto d-block" src="/images/LainieRobHMClothes.JPG" alt="Dubai and Africa">
@@ -407,7 +430,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs carryon">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/floridaforher">
                                         <img class="img-fluid-mx-auto d-block" src="/images/LainieRobFLPackAfter2.JPG" alt="Florida for Her">
@@ -435,7 +458,7 @@
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
 
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack mini">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/westcoastwon">
                                         <img class="img-fluid-mx-auto d-block" src="/images/LAPackTopView.JPG" alt="West Coast Won">
@@ -455,7 +478,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/dcweekend">
                                         <img class="img-fluid-mx-auto d-block" src="/images/DCPack3Ziploc.jpg" alt="DC Weekend">
@@ -475,7 +498,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs mini">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/bahamasbach">
                                         <img class="img-fluid-mx-auto d-block" src="/images/BahamasCubeClothesUp.jpg" alt="Bahamas Bach">
@@ -491,7 +514,7 @@
                                 </div>
                             </div>
 
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs carryon">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/greecetoitaly">
                                         <img class="img-fluid-mx-auto d-block" src="/images/GreeceItalyLayoutCandS.JPG" alt="Greece to Italy">
@@ -511,7 +534,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs carryon">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/romanceinparis">
                                         <img class="img-fluid-mx-auto d-block" src="/images/SamJasonCarryOnsZoom.jpg" alt="Romance In Paris">
@@ -531,7 +554,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/weekendupstate">
                                         <img class="img-fluid-mx-auto d-block" src="/images/UpstateBags.jpg" alt="WeekendUpstate">
@@ -547,7 +570,7 @@
                                 </div>
                             </div>
 
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs checked">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/mommyandmepack">
                                         <img class="img-fluid-mx-auto d-block" src="/images/CyliaBradleyPackMap.JPG" alt="Mommy and Me">
@@ -567,7 +590,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs backpack">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/specialeventweekend">
                                         <img class="img-fluid-mx-auto d-block" src="/images/MauraEventWeekendPack.jpg" alt="Special Event Pack">
@@ -587,7 +610,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4">
+                            <div class="container_columns col-md-4 packs mini">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/girlsweekend">
                                         <img class="img-fluid-mx-auto d-block" src="/images/IlanaGirlsWeekendPack3.JPG" alt="Girls Weekend Pack">
@@ -603,7 +626,7 @@
                                 </div>
                             </div>
 
-                            <div class="container_columns col-md-4" id="tf-8">
+                            <div class="container_columns col-md-4 packs mini" id="tf-8">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/adventurepack">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF8Cubes2.JPG" alt="Adventure Pack">
@@ -623,7 +646,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4" id="tf-7">
+                            <div class="container_columns col-md-4 packs carryon" id="tf-7">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/hawaii">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF7Bag.jpg" alt="Hawaii">
@@ -643,7 +666,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4" id="tf-6">
+                            <div class="container_columns col-md-4 packs backpack mini" id="tf-6">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/flyingstandby">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF6FullShoes.jpg" alt="Flying Standby">
@@ -659,7 +682,7 @@
                                 </div>
                             </div>
 
-                            <div class="container_columns col-md-4" id="tf-5">
+                            <div class="container_columns col-md-4 packs mini" id="tf-5">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/weekendgetaway">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF5Layout.jpg" alt="Weekend Getaway">
@@ -679,7 +702,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4" id="tf-4">
+                            <div class="container_columns col-md-4 packs garment" id="tf-4">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/floridaforhim">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF4Bag.jpg" alt="Palm Beach">
@@ -699,7 +722,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4" id="tf-3">
+                            <div class="container_columns col-md-4 packs backpack mini" id="tf-3">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/la">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF3ClothesUp.jpg" alt="LA">
@@ -715,7 +738,7 @@
                                 </div>
                             </div>
 
-                            <div class="container_columns col-md-4" id="tf-1">
+                            <div class="container_columns col-md-4 packs carryon" id="tf-1">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/italy">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF1Layout.JPG" alt="Italy">
@@ -735,7 +758,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4" id="tf-2">
+                            <div class="container_columns col-md-4 packs mini" id="tf-2">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/costarica">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF2Bag.jpg" alt="Costa Rica">
@@ -755,7 +778,7 @@
 
                     <div class="container_3_columns">
                         <div class="row"> -->
-                            <div class="container_columns col-md-4" id="tf-0">
+                            <div class="container_columns col-md-4 packs backpack mini" id="tf-0">
                                 <div class="img-wrap zoom">
                                     <a href="/blog/travelpacking/dc">
                                         <img class="img-fluid-mx-auto d-block" src="/images/TF0Layout.jpg" alt="DC">
