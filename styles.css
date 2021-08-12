@@ -727,7 +727,8 @@ table {
 
 .square-button {
     font-size: 2em;
-    padding: 50px;
+    padding: 25px;
+    border-radius: 0px/0px;
 }
 
 /* end main */
