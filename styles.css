@@ -1008,18 +1008,12 @@ input[type="text"]{
     grid-template-rows: 3fr 1fr;
     grid-template-columns: 100%;
     grid-row-gap: 20px;
-    /* grid-template-areas:
-        "image"
-        "content" */
+    justify-content: space-around;
+    align-content: center;
+    height: 350px;
+    justify-items: center;
+    align-items: center;
 }
-
-/* .grid-item-1 {
-    grid-area: image;
-}
-
-.grid-item-2 {
-    grid-area: content;
-} */
 
 .grid-top {
     grid-column: 1/-1;
