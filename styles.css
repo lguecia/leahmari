@@ -1024,6 +1024,16 @@ input[type="text"]{
     object-fit: cover;
 }
 
+.img-contain-100 {
+    height: 100px;
+}
+
+.img-contain-100 img {
+    width: 70%;
+    height: 85px;
+    object-fit: contain;
+}
+
 .content a {
     display: inline-block;
     text-decoration: none;
