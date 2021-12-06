@@ -1030,7 +1030,7 @@ input[type="text"]{
 
 .img-contain-100 img {
     width: 95%;
-    height: 95%;
+    height: 95px;
     object-fit: contain;
 }
 
