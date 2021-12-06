@@ -1033,6 +1033,10 @@ input[type="text"]{
     object-fit: contain;
 }
 
+.content {
+    display: grid;
+}
+
 .content a {
     display: inline-block;
     width: 100%;
