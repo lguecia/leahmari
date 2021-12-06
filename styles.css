@@ -1005,7 +1005,7 @@ input[type="text"]{
 
 .container_grid {
     display: grid;
-    grid-template-rows: 75% 25%;
+    grid-template-rows: 265px 90px;
     grid-template-columns: 100%;
 }
 
