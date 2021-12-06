@@ -1014,6 +1014,15 @@ input[type="text"]{
     object-fit: cover;
 }
 
+.img-wrap-features {
+    height: 265px;
+}
+
+.img-wrap-features img {
+    width: 100%;
+    object-fit: cover;
+}
+
 .img-wrap-200 {
     height: 215px;
 }
