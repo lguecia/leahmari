@@ -1012,10 +1012,9 @@ input[type="text"]{
     /* display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center; */
+    align-items: center;
     max-height: 600x;
-    overflow: hidden;
-}
+    overflow: hidden; */
 }
 
 .grid-top {
