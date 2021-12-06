@@ -1003,6 +1003,30 @@ input[type="text"]{
 
 /* article container */
 
+.container_grid {
+    display: grid;
+    grid-template-rows: 75% 25%;
+    grid-template-columns: 100%;
+}
+
+.grid-top {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+/* .grid-top img {
+    object-fit: cover;
+} */
+
+.grid-bottom-quarter {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;    
+}
+
 .img-wrap {
     height: 265px;
 }
