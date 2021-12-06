@@ -45,6 +45,25 @@
         <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
         <!-- Setmore Calendar -->
         <script id="setmore_script" type="text/javascript" src="https://my.setmore.com/webapp/js/src/others/setmore_iframe.js"></script><a id="Setmore_button_iframe" style="float:none; position: fixed; right: -2px; top: 25%; display: block; z-index: 20000" href="https://my.setmore.com/bookingpage/cb63cf06-23a0-4fd0-885a-2ef596eb077d"><img border="none" src="https://my.setmore.com/webapp/images/bookappt/Setmore-Book-Now.png" alt="Book an appointment with Leah Mari using SetMore" /></a>
+        
+        <!-- For dropdown -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                $("select").change(function(){
+                    $(this).find("option:selected").each(function(){
+                        var optionValue = $(this).attr("value");
+                        if(optionValue){
+                            $(".packs").not("." + optionValue).hide();
+                            $("." + optionValue).show();
+                        } else{
+                            $(".packs").show();
+                        }
+                    });
+                }).change();
+            });
+        </script>
     </head>
 
     <body>
@@ -107,7 +126,7 @@
                 <label class="dropdown-label" for="states"><h6>What bag do you want to see a pack in?</h6></label>
                 <div class="article-dropdown">
                     <select name="article-select" id="packs-select">
-                        <option disabled selected value="">Select Packing Bag</option> -->
+                        <option disabled selected value="">Select Packing Bag</option>
                         <option value="packs">All</option>
                         <option value="backpack">Backpack</option>
                         <option value="weekender">Weekender</option>
@@ -119,13 +138,10 @@
                     </select>
                 </div>
 
-                <script>
-                    function getSelectBag(){
-                        document.getElementById("packs-select").value;
-                        alert(getSelectBag);
-                    }
-                    getSelectBag();
-                </script>
+                <h6>What bag do you want to see a pack in?</h6>
+                <div>
+
+                </div>
 
                 <!-- <script>
                     $(function() {
