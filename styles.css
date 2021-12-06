@@ -1007,6 +1007,15 @@ input[type="text"]{
     display: grid;
     grid-template-rows: 265px 90px;
     grid-template-columns: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; */
+    max-height: 600x;
+    overflow: hidden;
+}
 }
 
 .grid-top {
