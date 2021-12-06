@@ -1014,11 +1014,14 @@ input[type="text"]{
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 2;
+    height: 265px;
 }
 
-/* .grid-top img {
+.grid-top img {
+    width: 100%;
+    height: 250px;
     object-fit: cover;
-} */
+}
 
 .grid-bottom-quarter {
     grid-column-start: 1;
