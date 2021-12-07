@@ -1003,36 +1003,6 @@ input[type="text"]{
 
 /* article container */
 
-.container_grid {
-    display: grid;
-    grid-template-rows: 3fr 1fr;
-    grid-template-columns: 100%;
-    grid-row-gap: 20px;
-    justify-content: space-around;
-    align-content: center;
-    height: 350px;
-    justify-items: center;
-    align-items: center;
-}
-
-.grid-top {
-    grid-column: 1/-1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}
-
-/* .grid-top img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-} */
-
-.grid-bottom-quarter {
-    grid-column: 1/-1;
-    grid-row-start: 2;
-    grid-row-end: 3;    
-}
-
 .img-wrap {
     height: 265px;
 }
