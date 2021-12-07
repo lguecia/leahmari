@@ -1008,7 +1008,8 @@ input[type="text"]{
 }
 
 .img-wrap img {
-    max-width: 350px;
+    width: 200%;
+    max-width: 500px;
     height: 250px;
     object-fit: cover;
 }
