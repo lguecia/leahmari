@@ -1004,11 +1004,12 @@ input[type="text"]{
 /* article container */
 
 .img-wrap {
+    width: 100%;
     height: 265px;
 }
 
 .img-wrap img {
-    width: 500px;
+    width: 100%;
     height: 250px;
     object-fit: cover;
 }
